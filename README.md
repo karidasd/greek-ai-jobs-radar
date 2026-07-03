@@ -10,7 +10,7 @@
   ![Data Analysis](https://img.shields.io/badge/NLP-Regex_Extraction-000000?style=for-the-badge&logoColor=00e5ff)
   ![GitHub Actions](https://img.shields.io/badge/Automated-Cron_Raids-000000?style=for-the-badge&logo=github-actions&logoColor=00e5ff)
 
-  🔗 **[ENTER THE RADAR HERE](https://karidasd.github.io/ai-salary-geo-radar/)**
+  🔗 **[ENTER THE RADAR HERE](https://karidasd.github.io/greek-ai-jobs-radar/)**
 </div>
 
 ---
