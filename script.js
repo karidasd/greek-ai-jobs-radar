@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
     try {
-        const response = await fetch('data/skills.json');
+        // Append a timestamp to bypass aggressive browser caching
+        const response = await fetch('data/skills.json?v=' + new Date().getTime());
         const data = await response.json();
         
         renderStats(data);
