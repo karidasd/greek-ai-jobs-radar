@@ -309,8 +309,11 @@ def analyze_jobs(jobs, previous_percentages):
         unicorn_job['is_unicorn'] = True
         
     valid_jobs_list.sort(key=lambda x: x['_score'], reverse=True)
+    
+    # FILTER: Only show jobs from Greece in the final Job Board
+    greek_jobs = [j for j in valid_jobs_list if j['region'] == 'Greece']
 
-    return categories_output, valid_jobs_list[:100], avg_salaries, avg_salaries_net
+    return categories_output, greek_jobs[:100], avg_salaries, avg_salaries_net
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
