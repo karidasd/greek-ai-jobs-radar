@@ -1,0 +1,1950 @@
+{
+    "last_updated": "2026-07-04 02:14",
+    "total_jobs_analyzed": 393,
+    "avg_salaries_eur": {
+        "Greece": 120340,
+        "Europe & UK": 66216,
+        "North America": 138956,
+        "Worldwide": 95909
+    },
+    "categories": {
+        "Programming Languages": [
+            {
+                "skill": "SQL",
+                "count": 90,
+                "percentage": 22.9,
+                "trend": -3.8
+            },
+            {
+                "skill": "Python",
+                "count": 88,
+                "percentage": 22.4,
+                "trend": -4.3
+            },
+            {
+                "skill": "Java",
+                "count": 32,
+                "percentage": 8.1,
+                "trend": -1.9
+            },
+            {
+                "skill": "R",
+                "count": 11,
+                "percentage": 2.8,
+                "trend": -0.4
+            },
+            {
+                "skill": "C++",
+                "count": 10,
+                "percentage": 2.5,
+                "trend": -0.4
+            }
+        ],
+        "AI & Machine Learning": [
+            {
+                "skill": "RAG",
+                "count": 246,
+                "percentage": 62.6,
+                "trend": -0.7
+            },
+            {
+                "skill": "LLM",
+                "count": 66,
+                "percentage": 16.8,
+                "trend": -0.2
+            },
+            {
+                "skill": "PyTorch",
+                "count": 11,
+                "percentage": 2.8,
+                "trend": -0.7
+            },
+            {
+                "skill": "TensorFlow",
+                "count": 9,
+                "percentage": 2.3,
+                "trend": -0.6
+            },
+            {
+                "skill": "Scikit-Learn",
+                "count": 9,
+                "percentage": 2.3,
+                "trend": -0.6
+            },
+            {
+                "skill": "LangChain",
+                "count": 6,
+                "percentage": 1.5,
+                "trend": -0.1
+            },
+            {
+                "skill": "Hugging Face",
+                "count": 5,
+                "percentage": 1.3,
+                "trend": -0.3
+            },
+            {
+                "skill": "Pandas",
+                "count": 3,
+                "percentage": 0.8,
+                "trend": -0.2
+            },
+            {
+                "skill": "NumPy",
+                "count": 3,
+                "percentage": 0.8,
+                "trend": -0.2
+            }
+        ],
+        "Cloud & MLOps": [
+            {
+                "skill": "Git",
+                "count": 165,
+                "percentage": 42.0,
+                "trend": -2.1
+            },
+            {
+                "skill": "AWS",
+                "count": 93,
+                "percentage": 23.7,
+                "trend": -3.0
+            },
+            {
+                "skill": "Azure",
+                "count": 38,
+                "percentage": 9.7,
+                "trend": -1.9
+            },
+            {
+                "skill": "GCP",
+                "count": 29,
+                "percentage": 7.4,
+                "trend": -1.0
+            },
+            {
+                "skill": "Kubernetes",
+                "count": 28,
+                "percentage": 7.1,
+                "trend": 0.0
+            },
+            {
+                "skill": "Spark",
+                "count": 28,
+                "percentage": 7.1,
+                "trend": -1.9
+            },
+            {
+                "skill": "Docker",
+                "count": 21,
+                "percentage": 5.3,
+                "trend": -0.8
+            },
+            {
+                "skill": "Snowflake",
+                "count": 20,
+                "percentage": 5.1,
+                "trend": -0.7
+            },
+            {
+                "skill": "Tableau",
+                "count": 18,
+                "percentage": 4.6,
+                "trend": -0.9
+            },
+            {
+                "skill": "Airflow",
+                "count": 17,
+                "percentage": 4.3,
+                "trend": -0.8
+            },
+            {
+                "skill": "Power BI",
+                "count": 15,
+                "percentage": 3.8,
+                "trend": -0.4
+            }
+        ]
+    },
+    "latest_jobs": [
+        {
+            "title": "Director, Delivery (EMEA)",
+            "company": "Testlio",
+            "url": "https://jobicy.com/jobs/148107-director-delivery-emea",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "$500K",
+            "salary_eur": 460000,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": true,
+            "_score": 182
+        },
+        {
+            "title": "Principal Software Architect",
+            "company": "Testlio",
+            "url": "https://jobicy.com/jobs/147700-principal-software-architect",
+            "region": "Worldwide",
+            "location_raw": "EMEA",
+            "salary_raw": "$500K",
+            "salary_eur": 460000,
+            "skills": [
+                "SQL",
+                "LLM",
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 162
+        },
+        {
+            "title": "Senior Sales Engineer, Enterprise - German Speaking",
+            "company": "Fivetran",
+            "url": "https://jobicy.com/jobs/148110-senior-sales-engineer-enterprise-german-speaking",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "GCP",
+                "Azure",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 150
+        },
+        {
+            "title": "Senior Support Operations Manager",
+            "company": "Cloudbeds",
+            "url": "https://jobicy.com/jobs/148052-senior-support-operations-manager",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "$140,000",
+            "salary_eur": 128800,
+            "skills": [
+                "SQL",
+                "RAG",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 134
+        },
+        {
+            "title": "Tech Lead Full-Stack Rails Engineer",
+            "company": "Mitre Media",
+            "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+            "region": "North America",
+            "location_raw": "USA, Canada, USA timezones",
+            "salary_raw": "$160,000",
+            "salary_eur": 147200,
+            "skills": [
+                "SQL",
+                "LLM",
+                "RAG",
+                "LangChain",
+                "Hugging Face",
+                "Docker",
+                "Kubernetes",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 128
+        },
+        {
+            "title": "Lead Machine Learning Engineer",
+            "company": "Thoughtworks",
+            "url": "https://jobicy.com/jobs/145916-lead-machine-learning-engineer",
+            "region": "North America",
+            "location_raw": "Canada",
+            "salary_raw": "$156,000",
+            "salary_eur": 143520,
+            "skills": [
+                "Python",
+                "PyTorch",
+                "TensorFlow",
+                "RAG",
+                "Scikit-Learn",
+                "AWS",
+                "GCP",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 128
+        },
+        {
+            "title": "Staff Machine Learning Engineer",
+            "company": "Headspace",
+            "url": "https://jobicy.com/jobs/143131-staff-machine-learning-engineer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$200,000",
+            "salary_eur": 184000,
+            "skills": [
+                "Python",
+                "PyTorch",
+                "TensorFlow",
+                "LLM",
+                "RAG",
+                "Scikit-Learn",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 126
+        },
+        {
+            "title": "Senior Customer Engineer",
+            "company": "Builder.io",
+            "url": "https://jobicy.com/jobs/148317-senior-customer-engineer",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "€120,000",
+            "salary_eur": 120000,
+            "skills": [
+                "LLM",
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 124
+        },
+        {
+            "title": "Staff Product Engineer",
+            "company": "LawnStarter",
+            "url": "https://jobicy.com/jobs/147510-staff-product-engineer",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "$80,000",
+            "salary_eur": 73600,
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 124
+        },
+        {
+            "title": "Senior Manager, Customer Experience Strategy",
+            "company": "Samsara",
+            "url": "https://jobicy.com/jobs/143591-senior-manager-customer-experience-strategy",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "$126,000",
+            "salary_eur": 115920,
+            "skills": [
+                "LLM",
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 122
+        },
+        {
+            "title": "Machine Learning Engineer",
+            "company": "Twilio",
+            "url": "https://jobicy.com/jobs/142522-machine-learning-engineer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "GCP",
+                "Azure",
+                "Airflow",
+                "Spark",
+                "Git",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 120
+        },
+        {
+            "title": "Applied Data Scientist / Machine Learning Engineer (Decision Intelligence)",
+            "company": "WorkWave",
+            "url": "https://jobicy.com/jobs/147495-applied-data-scientist-machine-learning-engineer-decision-intelligence",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "PyTorch",
+                "TensorFlow",
+                "LLM",
+                "RAG",
+                "Scikit-Learn",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Airflow",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 120
+        },
+        {
+            "title": "Staff Cloud Security Engineer",
+            "company": "Temporal Technologies",
+            "url": "https://jobicy.com/jobs/145309-staff-cloud-security-engineer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$225,000",
+            "salary_eur": 207000,
+            "skills": [
+                "Python",
+                "RAG",
+                "AWS",
+                "Kubernetes",
+                "GCP",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 120
+        },
+        {
+            "title": "Senior AI Data Engineer",
+            "company": "Scorpion",
+            "url": "https://jobicy.com/jobs/145319-senior-ai-data-engineer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$155,000",
+            "salary_eur": 142600,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "Azure",
+                "Airflow",
+                "Spark",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 118
+        },
+        {
+            "title": "Research Scientist II",
+            "company": "Pindrop",
+            "url": "https://jobicy.com/jobs/147988-research-scientist-ii",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$160,000",
+            "salary_eur": 147200,
+            "skills": [
+                "Python",
+                "C++",
+                "PyTorch",
+                "TensorFlow",
+                "LLM",
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 118
+        },
+        {
+            "title": "Assistant Director, Data Engineering",
+            "company": "University of Colorado",
+            "url": "https://jobicy.com/jobs/146609-assistant-director-data-engineering",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$148,000",
+            "salary_eur": 136160,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "RAG",
+                "AWS",
+                "Snowflake",
+                "Tableau"
+            ],
+            "is_unicorn": false,
+            "_score": 116
+        },
+        {
+            "title": "Sr Systems Engineer - Federal/DOD (Remote: DC/MD/VA)",
+            "company": "Veeam Software",
+            "url": "https://jobicy.com/jobs/142566-sr-systems-engineer-federal-dod-remote-dc-md-va",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$202,000",
+            "salary_eur": 185840,
+            "skills": [
+                "SQL",
+                "RAG",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 116
+        },
+        {
+            "title": "Senior Data Platform Engineer",
+            "company": "1Password",
+            "url": "https://jobicy.com/jobs/144689-senior-data-platform-engineer",
+            "region": "North America",
+            "location_raw": "Canada,  USA",
+            "salary_raw": "$152,000",
+            "salary_eur": 139840,
+            "skills": [
+                "Python",
+                "Java",
+                "RAG",
+                "AWS",
+                "GCP",
+                "Git",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 116
+        },
+        {
+            "title": "Principal Mobile Engineer, Android",
+            "company": "Upstart",
+            "url": "https://jobicy.com/jobs/147607-principal-mobile-engineer-android",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$230,000",
+            "salary_eur": 211600,
+            "skills": [
+                "Java",
+                "LLM",
+                "RAG",
+                "Spark",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 112
+        },
+        {
+            "title": "Sr. Machine Learning Solutions Architect",
+            "company": "phData",
+            "url": "https://jobicy.com/jobs/146291-sr-machine-learning-solutions-architect",
+            "region": "Worldwide",
+            "location_raw": "LATAM",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "TensorFlow",
+                "RAG",
+                "Scikit-Learn",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Spark",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 110
+        },
+        {
+            "title": "Senior Site Reliability Engineer",
+            "company": "Remote",
+            "url": "https://jobicy.com/jobs/148108-senior-site-reliability-engineer",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 110
+        },
+        {
+            "title": "Technical Product Manager - AI Compute Platform",
+            "company": "Nebius",
+            "url": "https://jobicy.com/jobs/147407-technical-product-manager-ai-compute-platform",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "LLM",
+                "RAG",
+                "AWS",
+                "Kubernetes",
+                "GCP",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 110
+        },
+        {
+            "title": "Senior Software Engineer, Storage",
+            "company": "Reddit",
+            "url": "https://jobicy.com/jobs/148143-senior-software-engineer-storage",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$217,000",
+            "salary_eur": 199640,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "C++",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 108
+        },
+        {
+            "title": "Senior Data Scientist",
+            "company": "Clover Health",
+            "url": "https://jobicy.com/jobs/142519-senior-data-scientist-3",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$230,000",
+            "salary_eur": 211600,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 102
+        },
+        {
+            "title": "Lifecycle Specialist, Time and Attendance - EMEA",
+            "company": "Remote",
+            "url": "https://jobicy.com/jobs/142101-lifecycle-specialist-time-and-attendance-emea",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "$67,000",
+            "salary_eur": 61640,
+            "skills": [
+                "RAG",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 102
+        },
+        {
+            "title": "Lifecycle Specialist: Time & Attendance",
+            "company": "Remote",
+            "url": "https://jobicy.com/jobs/147423-lifecycle-specialist-time-attendance",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "$67,000",
+            "salary_eur": 61640,
+            "skills": [
+                "RAG",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 102
+        },
+        {
+            "title": "Senior Machine Learning Scientist (USA Remote)",
+            "company": "Turnitin, LLC",
+            "url": "https://jobicy.com/jobs/144814-senior-machine-learning-scientist-usa-remote-2",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "PyTorch",
+                "LLM",
+                "RAG",
+                "Hugging Face",
+                "Scikit-Learn",
+                "AWS",
+                "Docker",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
+            "title": "Senior Data Engineer",
+            "company": "phData",
+            "url": "https://jobicy.com/jobs/146263-senior-data-engineer-11",
+            "region": "Worldwide",
+            "location_raw": "LATAM",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "RAG",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Airflow",
+                "Spark",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
+            "title": "MTS Cloud Test",
+            "company": "Aviatrix",
+            "url": "https://jobicy.com/jobs/145145-mts-cloud-test",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "Java",
+                "C++",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "GCP",
+                "Azure",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
+            "title": "Senior Software Engineer - AI Applications",
+            "company": "Veeva Systems",
+            "url": "https://jobicy.com/jobs/142770-senior-software-engineer-ai-applications",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$110,000",
+            "salary_eur": 101200,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "LLM",
+                "RAG",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
+            "title": "Account Manager, EMEA",
+            "company": "Customer.io",
+            "url": "https://jobicy.com/jobs/143762-account-manager-emea-2",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "$115,000",
+            "salary_eur": 105800,
+            "skills": [
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 100
+        },
+        {
+            "title": "Senior Security Engineer, GRC Automation",
+            "company": "1Password",
+            "url": "https://jobicy.com/jobs/144932-senior-security-engineer-grc-automation",
+            "region": "North America",
+            "location_raw": "Canada,  USA",
+            "salary_raw": "$153,000",
+            "salary_eur": 140760,
+            "skills": [
+                "Python",
+                "LLM",
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 98
+        },
+        {
+            "title": "Cybersecurity Systems Engineer",
+            "company": "ManTech",
+            "url": "https://jobicy.com/jobs/143283-cybersecurity-systems-engineer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$263,000",
+            "salary_eur": 241960,
+            "skills": [
+                "RAG",
+                "AWS",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 98
+        },
+        {
+            "title": "Senior Manager, IT Platform Engineering - FIXED TERM",
+            "company": "ŌURA",
+            "url": "https://jobicy.com/jobs/148338-senior-manager-it-platform-engineering-fixed-term",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$198,000",
+            "salary_eur": 182160,
+            "skills": [
+                "RAG",
+                "AWS",
+                "GCP",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 96
+        },
+        {
+            "title": "Engineering Manager, Internal Developer Platform",
+            "company": "Chainguard",
+            "url": "https://jobicy.com/jobs/148144-engineering-manager-internal-developer-platform",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$205,000",
+            "salary_eur": 188600,
+            "skills": [
+                "Kubernetes",
+                "Spark",
+                "Git",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 96
+        },
+        {
+            "title": "Marine Supervisor Operations, Europe (ERM & Amadeus)",
+            "company": "BCD Travel",
+            "url": "https://jobicy.com/jobs/147646-marine-supervisor-operations-europe-erm-amadeus",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "38,000 EUR",
+            "salary_eur": 38000,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 96
+        },
+        {
+            "title": "Supervisor Customer Support Team",
+            "company": "BCD Travel",
+            "url": "https://jobicy.com/jobs/147645-supervisor-customer-support-team",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "38,000 EUR",
+            "salary_eur": 38000,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 96
+        },
+        {
+            "title": "Software Engineer - Unity",
+            "company": "Lingraphica",
+            "url": "https://jobicy.com/jobs/148197-software-engineer-unity",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$84,000",
+            "salary_eur": 77280,
+            "skills": [
+                "Python",
+                "SQL",
+                "LLM",
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 94
+        },
+        {
+            "title": "Machine Learning Engineering Manager - Ads Engagement Modeling",
+            "company": "Reddit",
+            "url": "https://jobicy.com/jobs/146556-machine-learning-engineering-manager-ads-engagement-modeling",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$230,000",
+            "salary_eur": 211600,
+            "skills": [
+                "PyTorch",
+                "TensorFlow",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 92
+        },
+        {
+            "title": "Senior Data Scientist",
+            "company": "Lemon.io",
+            "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2090982",
+            "region": "Europe & UK",
+            "location_raw": "Americas, Europe, Asia, Oceania",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "Java",
+                "C++",
+                "LLM",
+                "Pandas",
+                "NumPy",
+                "AWS",
+                "GCP",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Military Advisor- Sentiment Analysis (Part Time/Remote) (Mission Assurance 4)- 29181",
+            "company": "HII",
+            "url": "https://jobicy.com/jobs/148375-military-advisor-sentiment-analysis-part-time-remote-mission-assurance-4-29181",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "R",
+                "AWS",
+                "Azure",
+                "Spark",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "AI/ML Engineering",
+            "company": "Cint",
+            "url": "https://jobicy.com/jobs/144709-ai-ml-engineering",
+            "region": "Worldwide",
+            "location_raw": "Czechia",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "LLM",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Data Engineer, Engineering & Operations",
+            "company": "NBCUniversal",
+            "url": "https://jobicy.com/jobs/148199-data-engineer-engineering-operations",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$115,000",
+            "salary_eur": 105800,
+            "skills": [
+                "Python",
+                "SQL",
+                "Airflow",
+                "Spark",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "AI Engineer",
+            "company": "Miro",
+            "url": "https://jobicy.com/jobs/147647-ai-engineer-5",
+            "region": "Europe & UK",
+            "location_raw": "Denmark,  Europe,  UK",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "PyTorch",
+                "TensorFlow",
+                "LLM",
+                "RAG",
+                "LangChain",
+                "Hugging Face",
+                "AWS",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Finance Manager",
+            "company": "Autodesk",
+            "url": "https://jobicy.com/jobs/144968-finance-manager",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "RAG",
+                "Snowflake",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Technical Support Engineer, Tavily",
+            "company": "Nebius",
+            "url": "https://jobicy.com/jobs/147081-technical-support-engineer-tavily",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "LLM",
+                "RAG",
+                "LangChain"
+            ],
+            "is_unicorn": false,
+            "_score": 90
+        },
+        {
+            "title": "Sr. Data & AI Engineer",
+            "company": "ECS",
+            "url": "https://jobicy.com/jobs/146252-sr-data-ai-engineer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$160,000",
+            "salary_eur": 147200,
+            "skills": [
+                "RAG",
+                "AWS",
+                "Azure",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 88
+        },
+        {
+            "title": "Principal Analyst, Data Integration",
+            "company": "H1",
+            "url": "https://jobicy.com/jobs/147852-principal-analyst-data-integration",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$145,000",
+            "salary_eur": 133400,
+            "skills": [
+                "SQL",
+                "R",
+                "RAG",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 86
+        },
+        {
+            "title": "Staff Software Developer",
+            "company": "Cision",
+            "url": "https://jobicy.com/jobs/145140-staff-software-developer",
+            "region": "North America",
+            "location_raw": "Canada",
+            "salary_raw": "$143,000",
+            "salary_eur": 131560,
+            "skills": [
+                "SQL",
+                "LLM",
+                "Spark",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 86
+        },
+        {
+            "title": "Senior Data Scientist",
+            "company": "Customer.io",
+            "url": "https://jobicy.com/jobs/144856-senior-data-scientist-4",
+            "region": "North America",
+            "location_raw": "LATAM,  Canada,  USA",
+            "salary_raw": "$140,000",
+            "salary_eur": 128800,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 84
+        },
+        {
+            "title": "Senior AI Software Engineer, Python",
+            "company": "Scorpion",
+            "url": "https://jobicy.com/jobs/147602-senior-ai-software-engineer-python",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$135,000",
+            "salary_eur": 124200,
+            "skills": [
+                "Python",
+                "SQL",
+                "LLM",
+                "Azure"
+            ],
+            "is_unicorn": false,
+            "_score": 84
+        },
+        {
+            "title": "Business Intelligence Lead, Performance Marketing",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146932-business-intelligence-lead-performance-marketing",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$120,000",
+            "salary_eur": 110400,
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 82
+        },
+        {
+            "title": "Lead Analytics Manager",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146931-lead-analytics-manager",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$120,000",
+            "salary_eur": 110400,
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 82
+        },
+        {
+            "title": "Lead BI Developer",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146930-lead-bi-developer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$120,000",
+            "salary_eur": 110400,
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 82
+        },
+        {
+            "title": "Lead BI Manager",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146929-lead-bi-manager",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$120,000",
+            "salary_eur": 110400,
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 82
+        },
+        {
+            "title": "Lead Data Analyst, Marketing",
+            "company": "Launch Potato",
+            "url": "https://jobicy.com/jobs/146928-lead-data-analyst-marketing-2",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$120,000",
+            "salary_eur": 110400,
+            "skills": [
+                "SQL",
+                "Git",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 82
+        },
+        {
+            "title": "Director, Marketing Analytics",
+            "company": "Chime",
+            "url": "https://jobicy.com/jobs/145557-director-marketing-analytics",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$15K",
+            "salary_eur": 13800,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "AWS",
+                "Tableau",
+                "Power BI"
+            ],
+            "is_unicorn": false,
+            "_score": 82
+        },
+        {
+            "title": "Senior Product Scientist (Marketing Intelligence)",
+            "company": "Headspace",
+            "url": "https://jobicy.com/jobs/145143-senior-product-scientist-marketing-intelligence",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$170,000",
+            "salary_eur": 156400,
+            "skills": [
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Senior Data Scientist - Real Estate",
+            "company": "Truelogic",
+            "url": "https://jobicy.com/jobs/146302-senior-data-scientist-real-estate",
+            "region": "Worldwide",
+            "location_raw": "LATAM",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "LLM",
+                "RAG",
+                "Scikit-Learn",
+                "Pandas",
+                "Spark",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "AI Expert",
+            "company": "ECS",
+            "url": "https://jobicy.com/jobs/145639-ai-expert",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "Java",
+                "PyTorch",
+                "TensorFlow",
+                "LLM",
+                "RAG",
+                "Scikit-Learn",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Workflow Developer & Tester",
+            "company": "Webbing",
+            "url": "https://jobicy.com/jobs/143728-workflow-developer-tester",
+            "region": "Worldwide",
+            "location_raw": "Serbia",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Software Engineer (.NET) (f/m/d)",
+            "company": "Apaleo",
+            "url": "https://jobicy.com/jobs/145054-software-engineer-net-f-m-d",
+            "region": "Europe & UK",
+            "location_raw": "Germany",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "LLM",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Spark",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Software Developer II",
+            "company": "Cision",
+            "url": "https://jobicy.com/jobs/145141-software-developer-ii",
+            "region": "North America",
+            "location_raw": "Canada",
+            "salary_raw": "$110,000",
+            "salary_eur": 101200,
+            "skills": [
+                "SQL",
+                "LLM",
+                "Spark",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Senior Cloud AI Software Developer",
+            "company": "TELUS",
+            "url": "https://jobicy.com/jobs/143127-senior-cloud-ai-software-developer",
+            "region": "North America",
+            "location_raw": "Canada",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "Java",
+                "LLM",
+                "RAG",
+                "Kubernetes",
+                "GCP",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Director, Customer Success",
+            "company": "EDB",
+            "url": "https://jobicy.com/jobs/142474-director-customer-success-3",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 80
+        },
+        {
+            "title": "Senior Data Analyst, Business Intelligence",
+            "company": "StackAdapt",
+            "url": "https://jobicy.com/jobs/147881-senior-data-analyst-business-intelligence",
+            "region": "North America",
+            "location_raw": "Canada,  USA",
+            "salary_raw": "$100,000",
+            "salary_eur": 92000,
+            "skills": [
+                "SQL",
+                "LLM",
+                "RAG",
+                "Tableau"
+            ],
+            "is_unicorn": false,
+            "_score": 78
+        },
+        {
+            "title": "Engineering Manager, Advanced Signals (SWE)",
+            "company": "Reddit",
+            "url": "https://jobicy.com/jobs/145335-engineering-manager-advanced-signals-swe",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$217,000",
+            "salary_eur": 199640,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 78
+        },
+        {
+            "title": "Staff AI Architect, Family AI Lab",
+            "company": "Life360",
+            "url": "https://jobicy.com/jobs/143221-staff-ai-architect-family-ai-lab",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$197,000",
+            "salary_eur": 181240,
+            "skills": [
+                "LLM",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 76
+        },
+        {
+            "title": "Staff Product Engineer (São Paulo)",
+            "company": "LawnStarter",
+            "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-sao-paulo-2091000",
+            "region": "Worldwide",
+            "location_raw": "Brazil",
+            "salary_raw": "$80,000",
+            "salary_eur": 73600,
+            "skills": [
+                "RAG",
+                "AWS",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 74
+        },
+        {
+            "title": "IT Software Asset Management Analyst",
+            "company": "DoorDash",
+            "url": "https://jobicy.com/jobs/146432-it-software-asset-management-analyst",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$140,000",
+            "salary_eur": 128800,
+            "skills": [
+                "RAG",
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 74
+        },
+        {
+            "title": "Demo Engineer",
+            "company": "Okta",
+            "url": "https://jobicy.com/jobs/148141-demo-engineer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$179,000",
+            "salary_eur": 164680,
+            "skills": [
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 72
+        },
+        {
+            "title": "Distributed Systems Engineer",
+            "company": "MLabs",
+            "url": "https://jobicy.com/jobs/142756-distributed-systems-engineer",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "$180K",
+            "salary_eur": 165600,
+            "skills": [
+                "RAG",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 72
+        },
+        {
+            "title": "Senior Solutions Architect, Networking - Public Sector",
+            "company": "NVIDIA",
+            "url": "https://jobicy.com/jobs/143573-senior-solutions-architect-networking-public-sector",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "184,000 USD",
+            "salary_eur": 169280,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 72
+        },
+        {
+            "title": "Senior Data Engineer",
+            "company": "Salesloft",
+            "url": "https://jobicy.com/jobs/142570-senior-data-engineer-9",
+            "region": "Worldwide",
+            "location_raw": "Mexico",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "RAG",
+                "AWS",
+                "GCP",
+                "Airflow",
+                "Git",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Data Analyst",
+            "company": "Ruby Labs",
+            "url": "https://jobicy.com/jobs/143979-senior-data-analyst-4",
+            "region": "Worldwide",
+            "location_raw": "Serbia",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "R",
+                "GCP",
+                "Airflow",
+                "Git",
+                "Tableau"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Analytics Engineer",
+            "company": "Experian",
+            "url": "https://jobicy.com/jobs/147113-analytics-engineer-2",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "Java",
+                "Pandas",
+                "NumPy",
+                "AWS",
+                "Airflow",
+                "Spark"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Director, Data Science: Data Science Tools",
+            "company": "Liberty Mutual",
+            "url": "https://jobicy.com/jobs/146606-director-data-science-data-science-tools",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "LLM",
+                "RAG",
+                "LangChain",
+                "Scikit-Learn",
+                "Airflow",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "AI Vendor Market Expert (Senior Director, Analyst – Fully Remote United States)",
+            "company": "Gartner",
+            "url": "https://jobicy.com/jobs/146434-ai-vendor-market-expert-senior-director-analyst-fully-remote-united-states",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": "172,000 USD",
+            "salary_eur": 158240,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior/Lead Data Engineer – AI-Native Aftermarket Platform",
+            "company": "Truelogic",
+            "url": "https://jobicy.com/jobs/146282-senior-lead-data-engineer-ai-native-aftermarket-platform",
+            "region": "Worldwide",
+            "location_raw": "LATAM",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "SQL",
+                "RAG",
+                "Azure",
+                "Spark",
+                "Git",
+                "Snowflake"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Software Engineer - Video",
+            "company": "Twilio",
+            "url": "https://jobicy.com/jobs/142760-software-engineer-video",
+            "region": "North America",
+            "location_raw": "USA",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "Java",
+                "RAG",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Fullstack Engineer (Java / React)",
+            "company": "Zartis",
+            "url": "https://jobicy.com/jobs/147648-senior-fullstack-engineer-java-react",
+            "region": "Europe & UK",
+            "location_raw": "Europe",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "Java",
+                "RAG",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Director Corporate Sales - United Kingdom",
+            "company": "BCD Travel",
+            "url": "https://jobicy.com/jobs/148222-senior-director-corporate-sales-united-kingdom",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Field CTO – Analytics & AI (North Europe)",
+            "company": "EDB",
+            "url": "https://jobicy.com/jobs/148221-field-cto-analytics-ai-north-europe",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior DevOps Engineer",
+            "company": "Zartis",
+            "url": "https://jobicy.com/jobs/148116-senior-devops-engineer",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Events Marketing Manager",
+            "company": "Ahrefs",
+            "url": "https://jobicy.com/jobs/144835-events-marketing-manager",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "LLM",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Financial Analyst, Global Pricing",
+            "company": "BCD Travel",
+            "url": "https://jobicy.com/jobs/148062-financial-analyst-global-pricing",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Product Lead - Experience",
+            "company": "Enode",
+            "url": "https://jobicy.com/jobs/148057-product-lead-experience",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "LLM",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Head of Sales - Europe",
+            "company": "SWORD Health",
+            "url": "https://jobicy.com/jobs/143136-head-of-sales-europe",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "AWS",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "CRA II",
+            "company": "ICON plc",
+            "url": "https://jobicy.com/jobs/144491-cra-ii",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "RAG",
+                "GCP"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Android SDK Engineer",
+            "company": "RevenueCat",
+            "url": "https://jobicy.com/jobs/144154-senior-android-sdk-engineer",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Partner Account Executive - France",
+            "company": "EDB",
+            "url": "https://jobicy.com/jobs/145496-senior-partner-account-executive-france",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Lifecycle Specialist, Employee Relations and Transitions - EMEA",
+            "company": "Remote",
+            "url": "https://jobicy.com/jobs/147424-lifecycle-specialist-employee-relations-and-transitions-emea",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "RAG",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Director - Technical Support (EMEA)",
+            "company": "EDB",
+            "url": "https://jobicy.com/jobs/147418-director-technical-support-emea",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "SQL",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Sr. IT Systems Engineer",
+            "company": "Zapier",
+            "url": "https://jobicy.com/jobs/147417-sr-it-systems-engineer",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "LLM",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Staff Backend Engineer / Tech Lead Manager",
+            "company": "Nebius",
+            "url": "https://jobicy.com/jobs/147410-staff-backend-engineer-tech-lead-manager",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "RAG",
+                "Kubernetes"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior Backend Software Engineer (Observability)",
+            "company": "Nebius",
+            "url": "https://jobicy.com/jobs/147408-senior-backend-software-engineer-observability",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "RAG",
+                "Kubernetes"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior QA Automation Engineer (BDD)",
+            "company": "Zartis",
+            "url": "https://jobicy.com/jobs/147399-senior-qa-automation-engineer-bdd",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "Python",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "People (HR) Consultant - 6 month fixed term contract",
+            "company": "Autodesk",
+            "url": "https://jobicy.com/jobs/146168-people-hr-consultant-6-month-fixed-term-contract",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "RAG",
+                "AWS"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Senior .NET (WPF) Developer",
+            "company": "Skylum",
+            "url": "https://jobicy.com/jobs/147080-senior-net-wpf-developer",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "C++",
+                "RAG"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        },
+        {
+            "title": "Sales Executive",
+            "company": "BCD Travel",
+            "url": "https://jobicy.com/jobs/147077-sales-executive-2",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "skills": [
+                "RAG",
+                "Git"
+            ],
+            "is_unicorn": false,
+            "_score": 70
+        }
+    ]
+}

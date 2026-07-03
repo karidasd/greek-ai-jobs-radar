@@ -1,0 +1,31 @@
+name: Daily Job Market Update
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Runs at 04:00 UTC daily (07:00 AM Greek Time)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Run Job Analyzer
+      run: python scripts/analyze_jobs.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git add data/skills.json
+        git commit -m "Auto-update: Daily AI Job Market Analysis" || exit 0
+        git push

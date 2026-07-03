@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Salary Geo-Radar 🇬🇷</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glow"></div>
+    <div class="container">
+        <header>
+            <h1>AI Salary <span class="accent">Geo-Radar</span> 🇬🇷</h1>
+            <p>Σύγκριση Μισθών AI & Data Science: Ελλάδα vs Εξωτερικό</p>
+            <div style="margin-top: 15px; margin-bottom: 20px;">
+                <a href="https://github.com/karidasd/ai-salary-geo-radar/actions/workflows/update.yml" target="_blank" style="background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid #10b981; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: bold; transition: all 0.3s; display: inline-block;">
+                    🔄 Αυτόματη Ενημέρωση Δεδομένων
+                </a>
+            </div>
+            <div class="stats" id="stats-container">
+                <!-- Injected via JS -->
+            </div>
+        </header>
+
+        <main>
+            <section class="salary-section">
+                <div class="section-header">
+                    <h2>🌍 Μέσοι Μισθοί (Ετήσιοι σε Ευρώ)</h2>
+                    <p>Βασισμένο σε NLP εξαγωγή μισθών από ενεργές remote αγγελίες.</p>
+                </div>
+                <div class="salary-chart" id="salary-chart">
+                    <!-- Bars injected here -->
+                </div>
+            </section>
+
+            <section class="stack-section">
+                <div class="section-header">
+                    <h2>📈 Τεχνολογίες με τη Μεγαλύτερη Ζήτηση</h2>
+                    <p>Τι ακριβώς ζητάει η παγκόσμια αγορά σήμερα.</p>
+                </div>
+                <div class="categories-grid" id="categories-grid">
+                    <!-- Categories injected here -->
+                </div>
+            </section>
+
+            <section class="jobs-section">
+                <div class="section-header">
+                    <h2>🔥 Live Αγγελίες (Τοπ 100)</h2>
+                    <p>Οι καλύτερες remote ευκαιρίες (με προτεραιότητα σε Ελλάδα και Υψηλούς Μισθούς).</p>
+                </div>
+                <div class="job-list" id="job-list">
+                    <!-- Jobs injected here -->
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Δεδομένα από Remotive, Jobicy & Arbeitnow. Αυτόματη ενημέρωση μέσω GitHub Actions.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
