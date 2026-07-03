@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const data = await response.json();
         
         renderStats(data);
-        renderSalaries(data.avg_salaries_eur);
+        renderSalaries(data.avg_salaries_eur, data.avg_salaries_net);
         renderCategories(data.categories);
         renderJobs(data.latest_jobs);
     } catch (error) {
@@ -31,7 +31,7 @@ function renderStats(data) {
     `;
 }
 
-function renderSalaries(salaries) {
+function renderSalaries(salaries, netSalaries) {
     const chartContainer = document.getElementById('salary-chart');
     if (!salaries || Object.keys(salaries).length === 0) return;
 
@@ -48,14 +48,22 @@ function renderSalaries(salaries) {
     let html = '';
     regions.forEach(r => {
         let val = salaries[r.id] || 0;
+        let net = netSalaries ? (netSalaries[r.id] || 0) : 0;
         let width = val === 0 ? 5 : (val / maxSalary) * 100;
+        
+        let valText = val === 0 ? 'N/A' : `${formatEUR(val)} Μικτά/έτος`;
+        let netText = net === 0 ? '' : `(~${formatEUR(net)}/μήνα Καθαρά)`;
+        
         html += `
-            <div class="salary-bar-container">
+            <div class="salary-bar-container" style="flex-wrap: wrap;">
                 <div class="salary-label">${r.name}</div>
                 <div class="salary-track">
                     <div class="salary-fill" style="width: ${width}%; background: ${r.color};"></div>
                 </div>
-                <div class="salary-value">${val === 0 ? 'N/A' : formatEUR(val)}</div>
+                <div class="salary-value">${valText}</div>
+                <div style="width: 100%; text-align: right; font-size: 0.85rem; color: #9ca3af; margin-top: -5px; padding-right: 120px;">
+                    ${netText}
+                </div>
             </div>
         `;
     });

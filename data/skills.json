@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-04 02:28",
+    "last_updated": "2026-07-04 02:31",
     "total_jobs_analyzed": 395,
     "avg_salaries_eur": {
         "Greece": 38000,
@@ -7,19 +7,25 @@
         "North America": 138956,
         "Worldwide": 114863
     },
+    "avg_salaries_net": {
+        "Greece": 1900,
+        "Europe & UK": 3310,
+        "North America": 8105,
+        "Worldwide": 6700
+    },
     "categories": {
         "Programming Languages": [
             {
                 "skill": "SQL",
                 "count": 90,
                 "percentage": 22.8,
-                "trend": -0.1
+                "trend": 0.0
             },
             {
                 "skill": "Python",
                 "count": 88,
                 "percentage": 22.3,
-                "trend": -0.1
+                "trend": 0.0
             },
             {
                 "skill": "Java",
@@ -45,13 +51,13 @@
                 "skill": "RAG",
                 "count": 246,
                 "percentage": 62.3,
-                "trend": -0.3
+                "trend": 0.0
             },
             {
                 "skill": "LLM",
                 "count": 66,
                 "percentage": 16.7,
-                "trend": -0.1
+                "trend": 0.0
             },
             {
                 "skill": "PyTorch",
@@ -101,25 +107,25 @@
                 "skill": "Git",
                 "count": 165,
                 "percentage": 41.8,
-                "trend": -0.2
+                "trend": 0.0
             },
             {
                 "skill": "AWS",
                 "count": 93,
                 "percentage": 23.5,
-                "trend": -0.2
+                "trend": 0.0
             },
             {
                 "skill": "Azure",
                 "count": 38,
                 "percentage": 9.6,
-                "trend": -0.1
+                "trend": 0.0
             },
             {
                 "skill": "GCP",
                 "count": 29,
                 "percentage": 7.3,
-                "trend": -0.1
+                "trend": 0.0
             },
             {
                 "skill": "Kubernetes",
@@ -174,6 +180,7 @@
             "location_raw": "EMEA",
             "salary_raw": "$500K",
             "salary_eur": 460000,
+            "salary_net_mo": 26833,
             "skills": [
                 "SQL",
                 "LLM",
@@ -192,6 +199,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -215,6 +223,7 @@
             "location_raw": "Greece",
             "salary_raw": "$500K",
             "salary_eur": 460000,
+            "salary_net_mo": 26833,
             "skills": [
                 "RAG",
                 "Git"
@@ -230,6 +239,7 @@
             "location_raw": "USA, Canada, USA timezones",
             "salary_raw": "$160,000",
             "salary_eur": 147200,
+            "salary_net_mo": 8586,
             "skills": [
                 "SQL",
                 "LLM",
@@ -251,6 +261,7 @@
             "location_raw": "Canada",
             "salary_raw": "$156,000",
             "salary_eur": 143520,
+            "salary_net_mo": 8372,
             "skills": [
                 "Python",
                 "PyTorch",
@@ -272,6 +283,7 @@
             "location_raw": "USA",
             "salary_raw": "$200,000",
             "salary_eur": 184000,
+            "salary_net_mo": 10733,
             "skills": [
                 "Python",
                 "PyTorch",
@@ -292,6 +304,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -317,6 +330,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -342,6 +356,7 @@
             "location_raw": "USA",
             "salary_raw": "$225,000",
             "salary_eur": 207000,
+            "salary_net_mo": 12075,
             "skills": [
                 "Python",
                 "RAG",
@@ -361,6 +376,7 @@
             "location_raw": "USA",
             "salary_raw": "$155,000",
             "salary_eur": 142600,
+            "salary_net_mo": 8318,
             "skills": [
                 "Python",
                 "SQL",
@@ -381,6 +397,7 @@
             "location_raw": "USA",
             "salary_raw": "$160,000",
             "salary_eur": 147200,
+            "salary_net_mo": 8586,
             "skills": [
                 "Python",
                 "C++",
@@ -401,6 +418,7 @@
             "location_raw": "USA",
             "salary_raw": "$148,000",
             "salary_eur": 136160,
+            "salary_net_mo": 7942,
             "skills": [
                 "Python",
                 "SQL",
@@ -421,6 +439,7 @@
             "location_raw": "USA",
             "salary_raw": "$202,000",
             "salary_eur": 185840,
+            "salary_net_mo": 10840,
             "skills": [
                 "SQL",
                 "RAG",
@@ -440,6 +459,7 @@
             "location_raw": "Canada,  USA",
             "salary_raw": "$152,000",
             "salary_eur": 139840,
+            "salary_net_mo": 8157,
             "skills": [
                 "Python",
                 "Java",
@@ -460,6 +480,7 @@
             "location_raw": "USA",
             "salary_raw": "$230,000",
             "salary_eur": 211600,
+            "salary_net_mo": 12343,
             "skills": [
                 "Java",
                 "LLM",
@@ -478,6 +499,7 @@
             "location_raw": "LATAM",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -502,6 +524,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "RAG",
@@ -521,6 +544,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "LLM",
                 "RAG",
@@ -540,6 +564,7 @@
             "location_raw": "USA",
             "salary_raw": "$217,000",
             "salary_eur": 199640,
+            "salary_net_mo": 11645,
             "skills": [
                 "Python",
                 "SQL",
@@ -558,6 +583,7 @@
             "location_raw": "USA",
             "salary_raw": "$230,000",
             "salary_eur": 211600,
+            "salary_net_mo": 12343,
             "skills": [
                 "Python",
                 "SQL",
@@ -575,6 +601,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -598,6 +625,7 @@
             "location_raw": "LATAM",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -621,6 +649,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "Java",
@@ -644,6 +673,7 @@
             "location_raw": "USA",
             "salary_raw": "$110,000",
             "salary_eur": 101200,
+            "salary_net_mo": 5903,
             "skills": [
                 "Python",
                 "SQL",
@@ -663,6 +693,7 @@
             "location_raw": "Canada,  USA",
             "salary_raw": "$153,000",
             "salary_eur": 140760,
+            "salary_net_mo": 8211,
             "skills": [
                 "Python",
                 "LLM",
@@ -681,6 +712,7 @@
             "location_raw": "USA",
             "salary_raw": "$263,000",
             "salary_eur": 241960,
+            "salary_net_mo": 14114,
             "skills": [
                 "RAG",
                 "AWS",
@@ -697,6 +729,7 @@
             "location_raw": "USA",
             "salary_raw": "$198,000",
             "salary_eur": 182160,
+            "salary_net_mo": 10625,
             "skills": [
                 "RAG",
                 "AWS",
@@ -714,6 +747,7 @@
             "location_raw": "USA",
             "salary_raw": "$205,000",
             "salary_eur": 188600,
+            "salary_net_mo": 11001,
             "skills": [
                 "Kubernetes",
                 "Spark",
@@ -731,6 +765,7 @@
             "location_raw": "Greece",
             "salary_raw": "38,000 EUR",
             "salary_eur": 38000,
+            "salary_net_mo": 1900,
             "skills": [
                 "RAG",
                 "Git"
@@ -746,6 +781,7 @@
             "location_raw": "Greece",
             "salary_raw": "38,000 EUR",
             "salary_eur": 38000,
+            "salary_net_mo": 1900,
             "skills": [
                 "RAG",
                 "Git"
@@ -761,6 +797,7 @@
             "location_raw": "USA",
             "salary_raw": "$84,000",
             "salary_eur": 77280,
+            "salary_net_mo": 4508,
             "skills": [
                 "Python",
                 "SQL",
@@ -780,6 +817,7 @@
             "location_raw": "USA",
             "salary_raw": "$230,000",
             "salary_eur": 211600,
+            "salary_net_mo": 12343,
             "skills": [
                 "PyTorch",
                 "TensorFlow",
@@ -796,6 +834,7 @@
             "location_raw": "Americas, Europe, Asia, Oceania",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "Java",
@@ -818,6 +857,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -840,6 +880,7 @@
             "location_raw": "Czechia",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -862,6 +903,7 @@
             "location_raw": "USA",
             "salary_raw": "$115,000",
             "salary_eur": 105800,
+            "salary_net_mo": 6171,
             "skills": [
                 "Python",
                 "SQL",
@@ -880,6 +922,7 @@
             "location_raw": "Denmark,  Europe,  UK",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "PyTorch",
@@ -902,6 +945,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "RAG",
@@ -919,6 +963,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "LLM",
@@ -936,6 +981,7 @@
             "location_raw": "USA",
             "salary_raw": "$160,000",
             "salary_eur": 147200,
+            "salary_net_mo": 8586,
             "skills": [
                 "RAG",
                 "AWS",
@@ -953,6 +999,7 @@
             "location_raw": "USA",
             "salary_raw": "$145,000",
             "salary_eur": 133400,
+            "salary_net_mo": 7781,
             "skills": [
                 "SQL",
                 "R",
@@ -970,6 +1017,7 @@
             "location_raw": "Canada",
             "salary_raw": "$143,000",
             "salary_eur": 131560,
+            "salary_net_mo": 7674,
             "skills": [
                 "SQL",
                 "LLM",
@@ -987,6 +1035,7 @@
             "location_raw": "LATAM,  Canada,  USA",
             "salary_raw": "$140,000",
             "salary_eur": 128800,
+            "salary_net_mo": 7513,
             "skills": [
                 "Python",
                 "SQL",
@@ -1004,6 +1053,7 @@
             "location_raw": "USA",
             "salary_raw": "$135,000",
             "salary_eur": 124200,
+            "salary_net_mo": 7245,
             "skills": [
                 "Python",
                 "SQL",
@@ -1021,6 +1071,7 @@
             "location_raw": "Greece",
             "salary_raw": "$140,000",
             "salary_eur": 128800,
+            "salary_net_mo": 7513,
             "skills": [
                 "SQL",
                 "RAG",
@@ -1038,6 +1089,7 @@
             "location_raw": "USA",
             "salary_raw": "$120,000",
             "salary_eur": 110400,
+            "salary_net_mo": 6440,
             "skills": [
                 "SQL",
                 "Git",
@@ -1055,6 +1107,7 @@
             "location_raw": "USA",
             "salary_raw": "$120,000",
             "salary_eur": 110400,
+            "salary_net_mo": 6440,
             "skills": [
                 "SQL",
                 "Git",
@@ -1072,6 +1125,7 @@
             "location_raw": "USA",
             "salary_raw": "$120,000",
             "salary_eur": 110400,
+            "salary_net_mo": 6440,
             "skills": [
                 "SQL",
                 "Git",
@@ -1089,6 +1143,7 @@
             "location_raw": "USA",
             "salary_raw": "$120,000",
             "salary_eur": 110400,
+            "salary_net_mo": 6440,
             "skills": [
                 "SQL",
                 "Git",
@@ -1106,6 +1161,7 @@
             "location_raw": "USA",
             "salary_raw": "$120,000",
             "salary_eur": 110400,
+            "salary_net_mo": 6440,
             "skills": [
                 "SQL",
                 "Git",
@@ -1123,6 +1179,7 @@
             "location_raw": "USA",
             "salary_raw": "$15K",
             "salary_eur": 13800,
+            "salary_net_mo": 805,
             "skills": [
                 "Python",
                 "SQL",
@@ -1142,6 +1199,7 @@
             "location_raw": "USA",
             "salary_raw": "$170,000",
             "salary_eur": 156400,
+            "salary_net_mo": 9123,
             "skills": [
                 "RAG",
                 "AWS",
@@ -1158,6 +1216,7 @@
             "location_raw": "LATAM",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -1179,6 +1238,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "Java",
@@ -1200,6 +1260,7 @@
             "location_raw": "Serbia",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -1221,6 +1282,7 @@
             "location_raw": "Germany",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "LLM",
@@ -1242,6 +1304,7 @@
             "location_raw": "Canada",
             "salary_raw": "$110,000",
             "salary_eur": 101200,
+            "salary_net_mo": 5903,
             "skills": [
                 "SQL",
                 "LLM",
@@ -1259,6 +1322,7 @@
             "location_raw": "Canada",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -1280,6 +1344,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "RAG",
@@ -1296,6 +1361,7 @@
             "location_raw": "Canada,  USA",
             "salary_raw": "$100,000",
             "salary_eur": 92000,
+            "salary_net_mo": 5366,
             "skills": [
                 "SQL",
                 "LLM",
@@ -1313,6 +1379,7 @@
             "location_raw": "USA",
             "salary_raw": "$217,000",
             "salary_eur": 199640,
+            "salary_net_mo": 11645,
             "skills": [
                 "RAG",
                 "Git"
@@ -1328,6 +1395,7 @@
             "location_raw": "USA",
             "salary_raw": "$197,000",
             "salary_eur": 181240,
+            "salary_net_mo": 10572,
             "skills": [
                 "LLM",
                 "RAG"
@@ -1343,6 +1411,7 @@
             "location_raw": "Brazil",
             "salary_raw": "$80,000",
             "salary_eur": 73600,
+            "salary_net_mo": 4293,
             "skills": [
                 "RAG",
                 "AWS",
@@ -1360,6 +1429,7 @@
             "location_raw": "USA",
             "salary_raw": "$140,000",
             "salary_eur": 128800,
+            "salary_net_mo": 7513,
             "skills": [
                 "RAG",
                 "AWS",
@@ -1376,6 +1446,7 @@
             "location_raw": "Greece",
             "salary_raw": "€120,000",
             "salary_eur": 120000,
+            "salary_net_mo": 7000,
             "skills": [
                 "LLM",
                 "RAG",
@@ -1392,6 +1463,7 @@
             "location_raw": "Greece",
             "salary_raw": "$80,000",
             "salary_eur": 73600,
+            "salary_net_mo": 4293,
             "skills": [
                 "RAG",
                 "AWS",
@@ -1409,6 +1481,7 @@
             "location_raw": "USA",
             "salary_raw": "$179,000",
             "salary_eur": 164680,
+            "salary_net_mo": 9606,
             "skills": [
                 "AWS",
                 "Git"
@@ -1424,6 +1497,7 @@
             "location_raw": "USA",
             "salary_raw": "$180K",
             "salary_eur": 165600,
+            "salary_net_mo": 9659,
             "skills": [
                 "RAG",
                 "AWS"
@@ -1439,6 +1513,7 @@
             "location_raw": "USA",
             "salary_raw": "184,000 USD",
             "salary_eur": 169280,
+            "salary_net_mo": 9874,
             "skills": [
                 "RAG",
                 "Git"
@@ -1454,6 +1529,7 @@
             "location_raw": "Greece",
             "salary_raw": "$126,000",
             "salary_eur": 115920,
+            "salary_net_mo": 6762,
             "skills": [
                 "LLM",
                 "RAG",
@@ -1470,6 +1546,7 @@
             "location_raw": "Mexico",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "RAG",
@@ -1490,6 +1567,7 @@
             "location_raw": "Serbia",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -1510,6 +1588,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "Java",
@@ -1530,6 +1609,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "LLM",
@@ -1550,6 +1630,7 @@
             "location_raw": "USA",
             "salary_raw": "172,000 USD",
             "salary_eur": 158240,
+            "salary_net_mo": 9230,
             "skills": [
                 "RAG",
                 "Git"
@@ -1565,6 +1646,7 @@
             "location_raw": "LATAM",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -1585,6 +1667,7 @@
             "location_raw": "USA",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "Java",
@@ -1605,6 +1688,7 @@
             "location_raw": "Europe",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "Java",
@@ -1625,6 +1709,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "Git"
@@ -1640,6 +1725,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "RAG"
@@ -1655,6 +1741,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "AWS",
                 "Git"
@@ -1670,6 +1757,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "LLM",
                 "Git"
@@ -1685,6 +1773,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "Git"
@@ -1700,6 +1789,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "LLM",
                 "RAG"
@@ -1715,6 +1805,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "AWS",
                 "Git"
@@ -1730,6 +1821,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "GCP"
@@ -1745,6 +1837,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "Git"
@@ -1760,6 +1853,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "RAG"
@@ -1775,6 +1869,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "AWS"
@@ -1790,6 +1885,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "SQL",
                 "RAG"
@@ -1805,6 +1901,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "LLM",
                 "RAG"
@@ -1820,6 +1917,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "Kubernetes"
@@ -1835,6 +1933,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "Kubernetes"
@@ -1850,6 +1949,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "Git"
@@ -1865,6 +1965,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "AWS"
@@ -1880,6 +1981,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "C++",
                 "RAG"
@@ -1895,6 +1997,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "Git"
@@ -1910,6 +2013,7 @@
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "RAG",
                 "Git"
@@ -1925,6 +2029,7 @@
             "location_raw": "Stuttgart",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",
@@ -1945,6 +2050,7 @@
             "location_raw": "Stuttgart",
             "salary_raw": null,
             "salary_eur": null,
+            "salary_net_mo": null,
             "skills": [
                 "Python",
                 "SQL",

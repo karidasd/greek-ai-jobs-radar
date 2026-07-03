@@ -338,11 +338,11 @@ footer {
     transition: width 1s ease-out;
 }
 .salary-value {
-    width: 100px;
+    width: 140px;
     font-size: 0.9rem;
     font-weight: 600;
     color: #f3f4f6;
-    text-align: left;
+    text-align: right;
 }
 
 .gr-badge {

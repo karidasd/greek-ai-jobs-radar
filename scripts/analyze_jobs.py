@@ -92,6 +92,25 @@ def extract_salary_info(text):
             
     return None
 
+def estimate_net_monthly(gross_annual, region):
+    if not gross_annual:
+        return 0
+    if region == "Greece":
+        # 14 salaries, ~30-35% deductions
+        if gross_annual <= 20000:
+            net = gross_annual * 0.75
+        elif gross_annual <= 40000:
+            net = gross_annual * 0.70
+        else:
+            net = gross_annual * 0.65
+        return int(net / 14)
+    elif region == "Europe & UK":
+        # 12 salaries, ~40% deductions
+        return int((gross_annual * 0.60) / 12)
+    else:
+        # North America & Worldwide (12 salaries, ~30% deductions)
+        return int((gross_annual * 0.70) / 12)
+
 def classify_region(loc_string):
     if not loc_string:
         return "Worldwide"
@@ -228,6 +247,7 @@ def analyze_jobs(jobs, previous_percentages):
                 "location_raw": job['location'],
                 "salary_raw": salary_info['raw'] if salary_info else None,
                 "salary_eur": salary_info['eur_annual'] if salary_info else None,
+                "salary_net_mo": estimate_net_monthly(salary_info['eur_annual'], region) if salary_info else None,
                 "skills": found_skills
             }
             valid_jobs_list.append(job_entry)
@@ -255,11 +275,15 @@ def analyze_jobs(jobs, previous_percentages):
 
     # Compute Averages
     avg_salaries = {}
+    avg_salaries_net = {}
     for r, sals in region_salaries.items():
         if sals:
-            avg_salaries[r] = sum(sals) // len(sals)
+            avg_gross = sum(sals) // len(sals)
+            avg_salaries[r] = avg_gross
+            avg_salaries_net[r] = estimate_net_monthly(avg_gross, r)
         else:
             avg_salaries[r] = 0
+            avg_salaries_net[r] = 0
 
     unicorn_job = None
     max_score = -1
@@ -286,7 +310,7 @@ def analyze_jobs(jobs, previous_percentages):
         
     valid_jobs_list.sort(key=lambda x: x['_score'], reverse=True)
 
-    return categories_output, valid_jobs_list[:100], avg_salaries
+    return categories_output, valid_jobs_list[:100], avg_salaries, avg_salaries_net
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -316,13 +340,14 @@ def main():
     
     print(f"Total jobs collected: {len(jobs)}")
     
-    categories_stats, top_jobs, avg_salaries = analyze_jobs(jobs, previous_percentages)
+    categories_stats, top_jobs, avg_salaries, avg_salaries_net = analyze_jobs(jobs, previous_percentages)
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json_data = {
             "last_updated": datetime.now().strftime('%Y-%m-%d %H:%M'),
             "total_jobs_analyzed": len(jobs),
             "avg_salaries_eur": avg_salaries,
+            "avg_salaries_net": avg_salaries_net,
             "categories": categories_stats,
             "latest_jobs": top_jobs
         }
