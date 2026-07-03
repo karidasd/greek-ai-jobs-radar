@@ -1,64 +1,60 @@
 <div align="center">
-  <img src="logo.png" alt="AI Job Radar Logo" width="200" style="border-radius: 20px; box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);">
+  <img src="greek_flag.png" alt="Cyber Greek Flag" width="400" style="border-radius: 20px; box-shadow: 0 0 30px rgba(0, 229, 255, 0.6);">
+  <br/><br/>
+  
+  # ⚔️ AI SALARY GEO-RADAR (GREECE VS THE WORLD)
+  
+  **STOP GUESSING. START EXECUTING. DOMINATE THE AI JOB MARKET.**
 
-  # 🎯 AI & Data Science Job Radar
+  ![Python](https://img.shields.io/badge/Python-Cyber_Engine-000000?style=for-the-badge&logo=python&logoColor=00e5ff)
+  ![Data Analysis](https://img.shields.io/badge/NLP-Regex_Extraction-000000?style=for-the-badge&logoColor=00e5ff)
+  ![GitHub Actions](https://img.shields.io/badge/Automated-Cron_Raids-000000?style=for-the-badge&logo=github-actions&logoColor=00e5ff)
 
-  **DOMINATE THE REMOTE TECH MARKET. STOP GUESSING, START EXECUTING.**
-
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![GitHub Actions](https://img.shields.io/badge/Automated-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-  ![Data Analysis](https://img.shields.io/badge/NLP-Keyword_Extraction-fbbf24?style=for-the-badge)
-
-  🔗 **[DEPLOYED LIVE: ENTER THE RADAR HERE](https://karidasd.github.io/ai-data-science-jobs/)**
+  🔗 **[ENTER THE RADAR HERE](https://karidasd.github.io/ai-salary-geo-radar/)**
 </div>
 
 ---
 
-## 🚀 THE ULTIMATE CAREER WEAPON
+## 🚀 THE ULTIMATE GREEK TECH WEAPON
 
-The **AI Job Radar** isn't just another job board. It is an automated, aggressive intelligence tool designed exclusively for Data Scientists, Machine Learning Engineers, and AI Practitioners who want to crush the competition. 
+The **AI Salary Geo-Radar** is not a cute little job board. It is a **ruthless, automated intelligence machine** built to tear apart the global remote tech market and expose the truth about salaries in Greece versus the rest of the world. 
 
-Every night, while others sleep, this serverless machine scrapes, dissects, and analyzes hundreds of global remote job listings. It uses aggressive NLP processing to tear apart job descriptions, extract the real technologies companies are hiding in the fine print, and expose the massive salaries they try to keep secret.
+Every single night, while others are sleeping, this serverless engine executes a massive raid on global APIs (Remotive, Jobicy, Arbeitnow). It uses surgical NLP to strip away corporate garbage, expose hidden salaries, and convert every single currency into **Euros (€)** to feed a live, aggressive geographical comparison matrix.
 
-## 🔥 LETHAL FEATURES
+## 💥 LETHAL FEATURES
 
-- **👑 THE UNICORN JOB**: Why settle for average? A proprietary scoring matrix evaluates every single scraped job based on the brutality of its AI tech stack and the sheer volume of its salary. The undisputed champion is pinned to the top of your dashboard.
-- **📈 PURE MARKET DOMINANCE**: Forget outdated advice. The Radar tracks the live market share of `Programming Languages`, `AI Models`, and `Cloud MLOps` technologies. It tells you exactly what to learn to remain untouchable.
-- **🔄 TREND MOMENTUM**: See what's bleeding edge before the masses catch on. The system tracks daily fluctuations (e.g., `📈 +2%`), allowing you to pivot your learning strategy aggressively.
-- **💰 RUTHLESS SALARY EXTRACTION**: Companies hide salaries. The Radar doesn't care. It deploys surgical Regular Expressions (Regex) to rip salary bands (e.g., `$150,000 USD`) straight out of raw HTML descriptions.
-- **🎯 THE ELITE 100**: We scrape over 300+ remote jobs daily from APIs like Remotive, Arbeitnow, and Jobicy. The weak, irrelevant jobs (Data Entry, Admin) are completely annihilated. Only the **Top 100 Elite Tech Opportunities** survive the cut to reach your dashboard.
-
----
-
-## ⚙️ TECHNICAL SUPREMACY
-
-Zero hosting costs. Maximum performance. 
-
-1. **The Python Engine**: `analyze_jobs.py` runs an automated daily raid. It pulls JSON payloads, deduplicates targets, strips HTML garbage, and executes a massive keyword extraction matrix.
-2. **The Automation Payload**: A GitHub Actions CRON workflow triggers the assault every midnight. It calculates the market deltas and commits the intelligence briefing (`skills.json`) directly into the repository.
-3. **The Tactical Dashboard**: A dark-mode, high-contrast Vanilla JS/CSS interface dynamically renders the intelligence payload. It is blazing fast and completely serverless.
+| Feature | Execution |
+| :--- | :--- |
+| **🇬🇷 Greek Market Priority** | We don't care about generic global stats. This engine heavily prioritizes and isolates Greek remote jobs, stamping them with the `🇬🇷 Ελληνική Αγορά` badge so you know exactly what the local market pays. |
+| **💰 Salary Extraction** | Companies try to hide salaries in the fine print. The Radar deploys aggressive Regular Expressions to rip out salary bands (e.g., $150k, 30.000€) and normalizes them into Annual Euros for a brutal side-by-side comparison. |
+| **🌍 Geo-Warfare Bar Chart** | A live, auto-updating dashboard pitting Greek salaries against the USA, Europe, and the World. See exactly how much money you are leaving on the table. |
+| **📈 Live Tech Matrix** | Tracks the live market share of `Programming Languages`, `LLMs`, and `Cloud MLOps` technologies. We analyze exactly what tech stacks are getting hired today. |
 
 ---
 
-## 🛠️ EXECUTE LOCALLY
+## ⚙️ ARCHITECTURE OF DOMINANCE
 
-Want to run your own intelligence sweep?
+Zero hosting costs. Infinite scalability.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/karidasd/ai-data-science-jobs.git
-   cd ai-data-science-jobs
-   ```
-2. Trigger the Python Engine (Python 3.x required, zero dependencies):
-   ```bash
-   python scripts/analyze_jobs.py
-   ```
-3. Open `index.html` to view the raw data.
+1. **The Python Engine (`analyze_jobs.py`)**: Runs the daily raid. Deduplicates targets, normalizes currencies, and structures the intelligence into a pure JSON payload.
+2. **The Automation Payload**: A GitHub Actions CRON workflow triggers the assault every midnight. No manual intervention. Pure automation.
+3. **The Tactical Dashboard**: A dark-mode, glassmorphism Vanilla JS/CSS interface dynamically renders the intelligence payload in Greek.
 
 ---
 
-## ⚠️ LEGAL DISCLAIMER
+## 🛠️ RUN IT LOCALLY
 
-**EN:** This project is a personal portfolio piece created solely for educational and programming demonstration purposes. It does not provide professional career counseling.
-**EL:** ΠΡΟΣΟΧΗ: Το παρόν έργο αποτελεί προσωπικό project (portfolio) καθαρά για εκπαιδευτικούς σκοπούς προγραμματισμού και ανάλυσης δεδομένων. Δεν αποτελεί επαγγελματική συμβουλευτική καριέρας. Δημιουργήθηκε από Δημόσιο Υπάλληλο στον ελεύθερο χρόνο του, εκτός ωραρίου υπηρεσίας, χωρίς καμία απολύτως εμπορική, κερδοσκοπική ή επαγγελματική εκμετάλλευση. Δεν υφίσταται καμία απολύτως οικονομική συναλλαγή.
+Clone it. Break it. Use it.
+```bash
+git clone https://github.com/karidasd/ai-salary-geo-radar.git
+cd ai-salary-geo-radar
+python scripts/analyze_jobs.py
+```
+Open `index.html` to view the live intelligence.
+
+---
+
+<div align="center">
+  <b>Built for dominance by karidasd</b><br/>
+  <i>Take what's yours.</i>
+</div>
