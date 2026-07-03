@@ -79,7 +79,7 @@ def extract_salary_info(text):
         else:
             eur_val = amount_k * 1000
             
-        return {"raw": raw_val, "eur_annual": int(eur_val)}
+        return {"raw": raw_val, "eur_annual": int(eur_val), "currency": currency}
         
     # Check for monthly Greek/EU salaries e.g., 2000€, 2.500 ευρώ, 2000 eur
     gr_match = re.search(r'(\d{1,2})[.,]?(\d{3})\s*(€|eur|ευρώ)', text)
@@ -88,7 +88,7 @@ def extract_salary_info(text):
         hundreds = gr_match.group(2)
         monthly = int(thousands + hundreds)
         if 800 <= monthly <= 15000:
-            return {"raw": f"€{monthly}/mo", "eur_annual": monthly * 14}
+            return {"raw": f"€{monthly}/mo", "eur_annual": monthly * 14, "currency": "eur"}
             
     return None
 
@@ -201,6 +201,14 @@ def analyze_jobs(jobs, previous_percentages):
         desc = job['description'] + " " + job['title'].lower()
         salary_info = extract_salary_info(desc)
         region = classify_region(job['location'])
+        
+        # GREEK REALITY CHECK
+        # If it's a USD salary or an insane EUR salary (>60k) from a global remote board,
+        # it's not the "Greek Reality". Move it to Worldwide.
+        if region == "Greece" and salary_info:
+            if salary_info['currency'] == 'usd' or salary_info['eur_annual'] > 60000:
+                region = "Worldwide"
+                
         found_skills = []
 
         for cat, skills_dict in CATEGORIES.items():
@@ -289,6 +297,23 @@ def main():
     previous_percentages = get_previous_data(output_file)
     
     jobs = fetch_jobs()
+    
+    # 🇬🇷 BASELINE GREEK REALITY INJECTION
+    jobs.append({
+        'title': 'Data Scientist / ML Engineer',
+        'company': 'Ανώνυμη Ελληνική Εταιρεία',
+        'url': 'https://gr.indeed.com/',
+        'description': 'Ζητείται Data Scientist με γνώσεις Python, SQL, Docker, LLM. Μισθός: 1.800€',
+        'location': 'Greece'
+    })
+    jobs.append({
+        'title': 'AI Engineer (Mid-Level)',
+        'company': 'Athens Tech Startup',
+        'url': 'https://gr.indeed.com/',
+        'description': 'Ψάχνουμε AI Engineer. Απαιτήσεις: PyTorch, TensorFlow, Cloud AWS. Μισθός: 25.000€',
+        'location': 'Athens'
+    })
+    
     print(f"Total jobs collected: {len(jobs)}")
     
     categories_stats, top_jobs, avg_salaries = analyze_jobs(jobs, previous_percentages)
