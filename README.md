@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Greek AI Jobs Radar
+# ⚡ DarkAIs Greek Tech Jobs Radar
 ### Το μοναδικό εργαλείο που λέει την αλήθεια για την Ελληνική αγορά Tech
 
 [![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-karidasd.github.io-00e5ff?style=for-the-badge)](https://karidasd.github.io/greek-ai-jobs-radar/)
