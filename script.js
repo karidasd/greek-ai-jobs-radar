@@ -119,9 +119,20 @@ function renderJobs(jobs, selectedSkills) {
         jobEl.className = "job-card";
         if (job.is_unicorn) jobEl.classList.add("unicorn");
 
-        const salaryStr = job.salary_eur
-            ? "💰 " + formatEUR(job.salary_eur) + "/ετος (~" + formatEUR(job.salary_net_mo) + "/μηνα)"
-            : "<span style=\"color:#9ca3af;\">Μισθος: Κατοπιν Συνεννοησης</span>";
+        let salaryStr;
+        if (job.salary_eur) {
+            salaryStr = "💰 " + formatEUR(job.salary_eur) + "/έτος (~" + formatEUR(job.salary_net_mo) + "/μήνα καθαρά)";
+        } else {
+            // Show market average as reference
+            const regionKey = job.region || "Greece";
+            const mktNet = globalNetSalaries[regionKey];
+            if (mktNet) {
+                salaryStr = "<span style='color:#94a3b8;'>Μισθός: Κατόπιν Συνεννόησης</span>" +
+                            " <span style='color:#60a5fa;font-size:0.8rem;'>(Μέσος αγοράς: ~" + formatEUR(mktNet) + "/μήνα καθαρά)</span>";
+            } else {
+                salaryStr = "<span style='color:#94a3b8;'>Μισθός: Κατόπιν Συνεννόησης</span>";
+            }
+        }
 
         let matchHtml = "";
         if (showMatch && job.matchPct !== undefined) {
