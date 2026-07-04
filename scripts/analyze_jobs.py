@@ -180,17 +180,24 @@ def fetch_jobs():
                 shortcode = j.get("shortcode")
                 if not shortcode:
                     continue
-                title_lower = j.get("title", "").lower()
-                dept_lower = j.get("department", "").lower()
+                title_val = j.get("title", "")
+                title_lower = title_val.lower() if isinstance(title_val, str) else ""
+                
+                dept_val = j.get("department", "")
+                if isinstance(dept_val, list):
+                    dept_val = " ".join([str(d) for d in dept_val])
+                elif not isinstance(dept_val, str):
+                    dept_val = str(dept_val)
+                dept_lower = dept_val.lower()
+                
                 # Only include tech-related roles
                 if not any(kw in title_lower or kw in dept_lower for kw in TECH_KEYWORDS):
                     continue
                 url = f"https://apply.workable.com/{comp}/j/{shortcode}/"
                 loc_dict = j.get("location", {})
                 loc_str = f"{loc_dict.get('city', '')}, Greece".strip(", ")
-                dept = j.get("department", "")
-                desc_text = f"{j.get('title', '')} {dept} {comp}"
-                add_job(j.get("title", ""), comp.capitalize(), url, desc_text, loc_str or "Greece")
+                desc_text = f"{title_val} {dept_val} {comp}"
+                add_job(title_val, comp.capitalize(), url, desc_text, loc_str or "Greece")
                 count += 1
             print(f"Workable ({comp}): {count} tech jobs")
         except Exception as e:
