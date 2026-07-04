@@ -184,6 +184,9 @@ def fetch_jobs():
             for j in data.get('data', []):
                 add_job(j.get('title', ''), j.get('company_name', ''), j.get('url', ''), j.get('description', ''), j.get('location', ''))
                 count += 1
+    except Exception as e:
+        print(f"Error fetching from Arbeitnow: {e}")
+
     # 4. Workable Greek Companies
     greek_companies = [
         'skroutz', 'blueground', 'epignosis', 'novibet', 'orfium', 
