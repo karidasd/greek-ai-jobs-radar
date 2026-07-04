@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         renderJobs(data.latest_jobs);
         
         setupCalculator();
+        setupSkillSniper(data.latest_jobs);
         startLocationScanner(data.latest_jobs);
     } catch (error) {
         console.error("Error loading data:", error);
@@ -128,9 +129,14 @@ function renderCategories(categories) {
     }
 }
 
-function renderJobs(jobs) {
+function renderJobs(jobs, showMatch = false) {
     const jobList = document.getElementById('job-list');
     jobList.innerHTML = '';
+
+    if (!jobs || jobs.length === 0) {
+        jobList.innerHTML = '<p>Δεν βρέθηκαν αγγελίες.</p>';
+        return;
+    }
 
     jobs.forEach(job => {
         const jobEl = document.createElement('div');
@@ -139,21 +145,27 @@ function renderJobs(jobs) {
             jobEl.classList.add('unicorn');
         }
 
-        const skillsHtml = job.skills.map(s => `<span class="tag skill-tag">${s}</span>`).join('');
-        const unicornBadge = job.is_unicorn ? `<span class="badge unicorn-badge">👑 Unicorn Job</span>` : '';
-        const grBadge = job.region === "Greece" ? `<span class="badge gr-badge">🇬🇷 Ελληνική Αγορά</span>` : '';
+        const salaryStr = job.salary_eur 
+            ? `€${job.salary_eur.toLocaleString()}/έτος (~€${job.salary_net_mo}/μήνα καθαρά)` 
+            : '<span style="color:#9ca3af;">Απόκρυψη Μισθού</span>';
+
+        let skillsHtml = '';
+        if (job.skills && job.skills.length > 0) {
+            skillsHtml = job.skills.map(s => `<span class="skill-tag">${s}</span>`).join('');
+        }
         
-        let salaryHtml = '';
-        if (job.salary_eur) {
-            salaryHtml = `<span class="badge salary-badge">💰 ${formatEUR(job.salary_eur)}/έτος</span>`;
+        let matchHtml = '';
+        if (showMatch && job.matchPct !== undefined) {
+            let badgeClass = 'low';
+            if (job.matchPct >= 80) badgeClass = 'high';
+            else if (job.matchPct >= 50) badgeClass = 'med';
+            matchHtml = `<div class="match-badge ${badgeClass}">🔥 ${job.matchPct}% Match</div>`;
         }
 
         jobEl.innerHTML = `
-            <div class="job-header">
+            ${matchHtml}
+            <div class="job-card-header">
                 <div>
-                    ${unicornBadge}
-                    ${grBadge}
-                    ${salaryHtml}
                     <h3><a href="${job.url}" target="_blank">${job.title}</a></h3>
                     <p class="company">${job.company} • 📍 ${job.location_raw}</p>
                 </div>
@@ -244,14 +256,108 @@ function setupCalculator() {
     });
 }
 
+let selectedUserSkills = new Set();
+let allLoadedJobs = [];
+
+function setupSkillSniper(jobs) {
+    allLoadedJobs = jobs;
+    const container = document.getElementById('skill-selector');
+    if (!container) return;
+    
+    const uniqueSkills = new Set();
+    jobs.forEach(j => {
+        if(j.skills) j.skills.forEach(s => {
+            if(s !== "Tech") uniqueSkills.add(s);
+        });
+    });
+    
+    const sortedSkills = Array.from(uniqueSkills).sort();
+    
+    sortedSkills.forEach(skill => {
+        const label = document.createElement('label');
+        label.className = 'skill-checkbox-label';
+        label.innerHTML = `<input type="checkbox" value="${skill}"> ${skill}`;
+        
+        const cb = label.querySelector('input');
+        cb.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                selectedUserSkills.add(skill);
+                label.classList.add('selected');
+            } else {
+                selectedUserSkills.delete(skill);
+                label.classList.remove('selected');
+            }
+            reRenderJobsWithMatch();
+        });
+        container.appendChild(label);
+    });
+}
+
+function reRenderJobsWithMatch() {
+    if (selectedUserSkills.size === 0) {
+        renderJobs(allLoadedJobs);
+        return;
+    }
+    
+    const scoredJobs = allLoadedJobs.map(job => {
+        let matchCount = 0;
+        let jobSkills = Array.isArray(job.skills) ? job.skills.filter(s => s !== "Tech") : [];
+        
+        if (jobSkills.length === 0) return { ...job, matchPct: 0 };
+        
+        jobSkills.forEach(s => {
+            if (selectedUserSkills.has(s)) matchCount++;
+        });
+        
+        let pct = Math.round((matchCount / jobSkills.length) * 100);
+        if (matchCount >= jobSkills.length) pct = 100;
+        
+        return { ...job, matchPct: pct };
+    });
+    
+    scoredJobs.sort((a, b) => {
+        if (b.matchPct !== a.matchPct) return b.matchPct - a.matchPct;
+        return (b._score || 0) - (a._score || 0);
+    });
+    
+    renderJobs(scoredJobs, true);
+}
+
 function startLocationScanner(jobs) {
     const locations = [...new Set(jobs.map(j => j.location_raw))].filter(l => l && l !== "Worldwide");
-    const span = document.getElementById('radar-location-text');
-    if (!span || locations.length === 0) return;
+    const statusText = document.getElementById('radar-status-text');
+    const blipsContainer = document.getElementById('radar-blips');
+    if (!statusText || !blipsContainer || locations.length === 0) return;
     
     let i = 0;
     setInterval(() => {
-        span.innerText = locations[i];
+        const loc = locations[i];
+        statusText.innerText = `📡 Σαρώνει: ${loc}`;
+        
+        const blip = document.createElement('div');
+        blip.className = 'radar-blip';
+        const label = document.createElement('div');
+        label.className = 'blip-label';
+        label.innerText = loc;
+        
+        const angle = Math.random() * 2 * Math.PI;
+        const radius = Math.random() * 70;
+        const x = 100 + radius * Math.cos(angle);
+        const y = 100 + radius * Math.sin(angle);
+        
+        blip.style.left = `${x}px`;
+        blip.style.top = `${y}px`;
+        label.style.left = `${x + 10}px`;
+        label.style.top = `${y - 5}px`;
+        
+        blipsContainer.appendChild(blip);
+        blipsContainer.appendChild(label);
+        
+        setTimeout(() => {
+            if (blipsContainer.contains(blip)) blipsContainer.removeChild(blip);
+            if (blipsContainer.contains(label)) blipsContainer.removeChild(label);
+        }, 2000);
+        
         i = (i + 1) % locations.length;
-    }, 1500);
+    }, 1200);
 }

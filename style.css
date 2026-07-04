@@ -375,24 +375,138 @@ footer {
     border-color: rgba(16, 185, 129, 0.5);
 }
 
-.radar-scanner {
+/* --- GRAPHICAL RADAR --- */
+.radar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.radar {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #000;
+    border: 2px solid #00e5ff;
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+    overflow: hidden;
+}
+.radar-grid {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 50%;
+    background: 
+        linear-gradient(90deg, transparent 49%, rgba(0, 229, 255, 0.3) 50%, transparent 51%),
+        linear-gradient(0deg, transparent 49%, rgba(0, 229, 255, 0.3) 50%, transparent 51%);
+}
+.radar-grid::after {
+    content: '';
+    position: absolute;
+    top: 25%; left: 25%; right: 25%; bottom: 25%;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 229, 255, 0.2);
+}
+.radar-sweep {
+    position: absolute;
+    top: 0; left: 50%;
+    width: 50%; height: 50%;
+    background: conic-gradient(from 0deg, transparent 70%, rgba(0, 229, 255, 0.8) 100%);
+    transform-origin: 0% 100%;
+    animation: radar-spin 2s linear infinite;
+}
+@keyframes radar-spin {
+    100% { transform: rotate(360deg); }
+}
+.radar-blip {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #10b981;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #10b981;
+    opacity: 0;
+    animation: blip-fade 2s linear infinite;
+}
+.blip-label {
+    position: absolute;
+    color: #fff;
+    font-size: 0.65rem;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 0.95rem;
+    text-shadow: 0 0 5px #000;
+    white-space: nowrap;
+    opacity: 0;
+    animation: blip-fade 2s linear infinite;
+}
+@keyframes blip-fade {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0; transform: scale(2); }
+    100% { opacity: 0; }
+}
+.radar-status {
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
     color: #00e5ff;
-    background: rgba(0, 229, 255, 0.1);
-    border: 1px solid rgba(0, 229, 255, 0.3);
-    padding: 8px 20px;
-    border-radius: 20px;
-    display: inline-block;
-    box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
+    font-size: 0.9rem;
+    letter-spacing: 1px;
 }
 
-.radar-scanner span {
-    font-weight: bold;
-    color: #fff;
-    text-shadow: 0 0 5px #00e5ff;
-    animation: pulse 1s infinite alternate;
+/* --- SKILL SNIPER --- */
+.skill-sniper-panel {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 229, 255, 0.3);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 800px;
 }
+.skill-sniper-panel h3 {
+    margin-top: 0;
+    color: #00e5ff;
+    font-size: 1.3rem;
+}
+.skill-sniper-panel p {
+    color: #9ca3af;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.skill-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skill-checkbox-label {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #d1d5db;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+    user-select: none;
+}
+.skill-checkbox-label input {
+    display: none;
+}
+.skill-checkbox-label.selected {
+    background: rgba(16, 185, 129, 0.2);
+    border-color: #10b981;
+    color: #10b981;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+}
+.match-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: 1px solid;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.match-badge.high { color: #10b981; border-color: #10b981; background: rgba(16, 185, 129, 0.2); }
+.match-badge.med { color: #fbbf24; border-color: #fbbf24; background: rgba(251, 191, 36, 0.2); }
+.match-badge.low { color: #f43f5e; border-color: #f43f5e; background: rgba(244, 63, 94, 0.2); }
 
 .stats {
     display: flex;
