@@ -156,13 +156,32 @@ function renderJobs(jobs) {
                     <h3><a href="${job.url}" target="_blank">${job.title}</a></h3>
                     <p class="company">${job.company} • 📍 ${job.location_raw}</p>
                 </div>
-                <a href="${job.url}" target="_blank" class="apply-btn">Δες το</a>
+                <div>
+                    <button class="snipe-btn" onclick="snipeRecruiter('${job.title}', '${job.company}', '${job.skills.join(', ')}')">🎯 Snipe Recruiter</button>
+                    <a href="${job.url}" target="_blank" class="apply-btn">Δες το</a>
+                </div>
             </div>
             <div class="job-skills">
                 ${skillsHtml}
             </div>
         `;
         jobList.appendChild(jobEl);
+    });
+}
+
+window.snipeRecruiter = function(title, company, skills) {
+    const prompt = `Act as an aggressive, highly professional technical recruiter and career coach. 
+Write a short "Cold Email" (in Greek) that I will send to the HR Manager of ${company} to apply for the "${title}" position. 
+The job requires the following skills: ${skills}.
+The tone should be confident, showing that I have exactly these skills and I am ready to deliver results immediately. Keep it under 150 words. Do not use generic corporate jargon, make it punchy.`;
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(prompt).then(() => {
+        alert("🎯 Το Μυστικό Prompt αντιγράφηκε στο πρόχειρο (Clipboard)!\n\nΤώρα θα ανοίξει το ChatGPT. Απλά κάνε Επικόλληση (Paste) και πάτα Enter για να σου γράψει το τέλειο Cold Email.");
+        window.open("https://chatgpt.com/", "_blank");
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+        alert("Κάτι πήγε στραβά με την αντιγραφή. Δοκίμασε ξανά.");
     });
 }
 

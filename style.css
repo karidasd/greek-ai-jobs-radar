@@ -262,20 +262,39 @@ header p {
 }
 
 .apply-btn {
-    background: var(--accent);
-    color: white;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: #fff;
     text-decoration: none;
-    padding: 10px 24px;
-    border-radius: 8px;
+    border-radius: 6px;
     font-weight: 600;
-    transition: background 0.2s, box-shadow 0.2s;
-    margin-left: 20px;
-    white-space: nowrap;
+    transition: background-color 0.2s;
+    font-size: 0.9rem;
 }
 
 .apply-btn:hover {
-    background: #2563eb;
-    box-shadow: 0 0 15px var(--accent-glow);
+    background-color: #2563eb;
+}
+
+.snipe-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #f43f5e;
+    text-decoration: none;
+    border: 1px solid #f43f5e;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.snipe-btn:hover {
+    background-color: rgba(244, 63, 94, 0.1);
+    box-shadow: 0 0 10px rgba(244, 63, 94, 0.4);
 }
 
 footer {
