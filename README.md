@@ -32,6 +32,15 @@ Every single night, while others are sleeping, this serverless engine executes a
 
 ---
 
+## 🛡️ ANTI-BOT BYPASS (THE WORKABLE HACK)
+
+**Why don't we scrape LinkedIn, Kariera.gr, or xe.gr?** 
+Because they deploy aggressive Cloudflare anti-bot systems, 403 Firewalls, and IP bans against free automated scrapers. 
+
+To keep this engine **100% free, automated, and unstoppable**, we use a tactical bypass: We directly interrogate the public **Workable APIs** of top Greek Tech companies (Skroutz, Novibet, Blueground, Orfium, Spotawheel, etc.). This allows us to pull pure, authentic Greek job data directly from the HR source, bypassing job boards entirely.
+
+---
+
 ## ⚙️ ARCHITECTURE OF DOMINANCE
 
 Zero hosting costs. Infinite scalability.
