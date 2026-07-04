@@ -7,6 +7,7 @@
     <meta name="description" content="Real-time Greek tech job market data. Compare salaries, find jobs at Skroutz, Novibet, Blueground and more.">
     <link rel="stylesheet" href="style.css?v=3">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
 <div style="background:rgba(251,191,36,0.12);border-bottom:2px solid rgba(251,191,36,0.4);padding:12px 20px;text-align:center;font-size:0.88rem;line-height:1.6;">
@@ -14,6 +15,10 @@
     <span style="color:#e5e7eb;">&#x0392;&#x03AC;&#x03C3;&#x03B5;&#x03B9; &#x03C4;&#x03B7;&#x03C2; &#x0395;&#x0395; &#x039F;&#x03B4;&#x03B7;&#x03B3;&#x03AF;&#x03B1;&#x03C2; 2023/970, &#x03BF;&#x03B9; &#x03B5;&#x03C4;&#x03B1;&#x03B9;&#x03C1;&#x03B5;&#x03AF;&#x03B5;&#x03C2; &#x03C5;&#x03C0;&#x03BF;&#x03C7;&#x03C1;&#x03B5;&#x03BF;&#x03CD;&#x03BD;&#x03C4;&#x03B1;&#x03B9; &#x03BD;&#x03B1; &#x03B1;&#x03BD;&#x03B1;&#x03B3;&#x03C1;&#x03AC;&#x03C6;&#x03BF;&#x03C5;&#x03BD; &#x03C4;&#x03BF;&#x03BD; &#x03BC;&#x03B9;&#x03C3;&#x03B8;&#x03CC; &#x03C3;&#x03C4;&#x03B9;&#x03C2; &#x03B1;&#x03B3;&#x03B3;&#x03B5;&#x03BB;&#x03AF;&#x03B5;&#x03C2; &#x03B5;&#x03C1;&#x03B3;&#x03B1;&#x03C3;&#x03AF;&#x03B1;&#x03C2;. &#x0391;&#x03BD; &#x03B4;&#x03B5;&#x03BD; &#x03C4;&#x03BF;&#x03BD; &#x03B2;&#x03BB;&#x03AD;&#x03C0;&#x03B5;&#x03B9;&#x03C2; — &#x03B7; &#x03B5;&#x03C4;&#x03B1;&#x03B9;&#x03C1;&#x03B5;&#x03AF;&#x03B1; &#x03C0;&#x03B1;&#x03C1;&#x03B1;&#x03BD;&#x03BF;&#x03BC;&#x03B5;&#x03AF;.</span>
     <a href="https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX%3A32023L0970" target="_blank" rel="noopener" style="color:#fbbf24;margin-left:8px;font-weight:700;text-decoration:underline;">&#x039F;&#x03B4;&#x03B7;&#x03B3;&#x03AF;&#x03B1; &#x0395;&#x0395; &#x2192;</a>
 </div>
+
+<!-- THEME TOGGLE -->
+<button id="theme-toggle" title="Εναλλαγή Dark/Light Mode" style="position:absolute;top:10px;right:20px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;border-radius:50%;width:40px;height:40px;cursor:pointer;font-size:1.2rem;z-index:100;transition:all 0.3s;">🌙</button>
+
 <div class="glow"></div>
 <div class="container">
 
@@ -57,6 +62,16 @@
             <div class="salary-chart" id="salary-chart"></div>
         </section>
 
+        <section style="margin-top:30px;">
+            <div class="section-header">
+                <h2>📉 Τάση Μισθών (Ιστορικό 30 Ημερών)</h2>
+                <p>Πώς κινείται ο μέσος καθαρός μισθός στην αγορά με τον καιρό.</p>
+            </div>
+            <div class="card" style="padding:20px;">
+                <canvas id="salary-trend-chart" height="80"></canvas>
+            </div>
+        </section>
+
         <section class="action-section">
             <div class="card">
                 <h2>🛑 Υπολογιστής Αδικίας</h2>
@@ -87,7 +102,16 @@
             <div class="categories-grid" id="categories-grid"></div>
         </section>
 
-                <section style="margin-top:40px;">
+        <!-- HALL OF SHAME -->
+        <section style="margin-top:30px;">
+            <div class="section-header">
+                <h2>🚨 Hall of Shame — Εταιρείες που Κρύβουν τον Μισθό</h2>
+                <p>Ελληνικές εταιρείες με ανοιχτές αγγελίες <strong>χωρίς μισθό</strong> — παρά την Οδηγία ΕΕ 2023/970.</p>
+            </div>
+            <div id="hall-of-shame" class="hall-of-shame-grid" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:15px;"></div>
+        </section>
+
+        <section style="margin-top:40px;">
             <div class="section-header">
                 <h2>📬 Job Alerts — Ειδοποιήσεις Νέων Αγγελιών</h2>
                 <p>Βάλε το email σου και μάθε πρώτος για νέες θέσεις στην Ελλάδα.</p>

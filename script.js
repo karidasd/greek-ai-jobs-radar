@@ -1,7 +1,27 @@
 let globalNetSalaries = {};
 let allCategories = {};
 
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
+    loadData();
+    initThemeToggle();
+});
+
+function initThemeToggle() {
+    const btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    const currentTheme = localStorage.getItem("theme") || "dark";
+    document.documentElement.setAttribute("data-theme", currentTheme);
+    btn.innerText = currentTheme === "dark" ? "🌙" : "☀️";
+    
+    btn.addEventListener("click", () => {
+        const t = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", t);
+        localStorage.setItem("theme", t);
+        btn.innerText = t === "dark" ? "🌙" : "☀️";
+    });
+}
+
+async function loadData() {
     try {
         const response = await fetch("data/skills.json?v=" + new Date().getTime());
         const data = await response.json();
@@ -14,16 +34,19 @@ document.addEventListener("DOMContentLoaded", async () => {
         renderTopCompanies(data.top_greek_companies);
         renderCategories(data.categories);
         renderJobs(data.latest_jobs, null);
+        renderHallOfShame(data.latest_jobs);
         
         setupCalculator();
         setupSkillSniper(data.categories, data.latest_jobs);
         startLocationScanner(data.latest_jobs);
+        
+        loadChartData();
     } catch (error) {
         console.error("Error loading data:", error);
         const jl = document.getElementById("job-list");
         if (jl) jl.innerHTML = "<p style=\"color:#ef4444;\">Σφαλμα φορτωσης. Δοκιμασε Ctrl+F5.</p>";
     }
-});
+}
 
 function formatEUR(number) {
     if (!number) return "Αγνωστος";
@@ -123,7 +146,6 @@ function renderJobs(jobs, selectedSkills) {
         if (job.salary_eur) {
             salaryStr = "💰 " + formatEUR(job.salary_eur) + "/έτος (~" + formatEUR(job.salary_net_mo) + "/μήνα καθαρά)";
         } else {
-            // Show market average as reference
             const regionKey = job.region || "Greece";
             const mktNet = globalNetSalaries[regionKey];
             if (mktNet) {
@@ -152,13 +174,21 @@ function renderJobs(jobs, selectedSkills) {
                 </div>
                 <div style="display:flex;gap:8px;flex-shrink:0;align-items:flex-start;margin-top:5px;">
                     <button class="snipe-btn" id="snipe-${Math.random().toString(36).substr(2,9)}">🎯 Snipe</button>
+                    ${!job.salary_eur ? `<button class="share-btn" style="background:transparent;color:#fbbf24;border:1px solid #fbbf24;border-radius:8px;padding:8px;cursor:pointer;transition:all 0.2s;" title="Share violation">📤</button>` : ''}
                     <a href="${job.url}" target="_blank" rel="noopener" class="apply-btn">Δες →</a>
                 </div>
             </div>`;
 
-        // Attach snipe event properly via JS (no inline onclick)
         const snipeBtn = jobEl.querySelector(".snipe-btn");
         snipeBtn.addEventListener("click", () => snipeRecruiter(safeTitle, safeCompany));
+
+        const shareBtn = jobEl.querySelector(".share-btn");
+        if (shareBtn) {
+            shareBtn.addEventListener("click", () => {
+                const text = encodeURIComponent(`Η ${job.company || 'εταιρεία'} ψάχνει ${job.title || 'άτομο'} στην Ελλάδα αλλά δεν αναφέρει μισθό στην αγγελία, παραβιάζοντας την Οδηγία ΕΕ 2023/970 για Μισθολογική Διαφάνεια. Δες περισσότερα στο DarkAIs Jobs Radar: https://karidasd.github.io/greek-ai-jobs-radar/`);
+                window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+            });
+        }
 
         jobList.appendChild(jobEl);
     });
@@ -296,6 +326,100 @@ function startLocationScanner(jobs) {
         setTimeout(() => { blip.remove(); lbl.remove(); }, 2000);
         i++;
     }, 1500);
+}
+
+// ─── Hall of Shame & Chart ────────────────────────────────────────────────
+function renderHallOfShame(jobs) {
+    const shameContainer = document.getElementById("hall-of-shame");
+    if (!shameContainer) return;
+    
+    const badJobs = (jobs || []).filter(j => j.region === "Greece" && !j.salary_eur && j.company);
+    const companyCounts = {};
+    badJobs.forEach(j => {
+        companyCounts[j.company] = (companyCounts[j.company] || 0) + 1;
+    });
+    
+    const sortedBad = Object.entries(companyCounts).sort((a,b) => b[1]-a[1]);
+    
+    if (sortedBad.length === 0) {
+        shameContainer.innerHTML = "<p style='color:#10b981;'>Όλες οι εταιρείες αναγράφουν μισθό! 🎉</p>";
+        return;
+    }
+    
+    shameContainer.innerHTML = "";
+    sortedBad.slice(0, 10).forEach(([comp, count]) => {
+        const el = document.createElement("div");
+        el.style.background = "rgba(239,68,68,0.1)";
+        el.style.border = "1px solid rgba(239,68,68,0.4)";
+        el.style.padding = "8px 12px";
+        el.style.borderRadius = "8px";
+        el.style.fontSize = "0.9rem";
+        el.innerHTML = `<span style="font-weight:bold;color:#ef4444;">${comp}</span> <span style="color:var(--text-secondary);">(${count} αγγελίες)</span>`;
+        shameContainer.appendChild(el);
+    });
+}
+
+function loadChartData() {
+    fetch("data/history.json?v=" + new Date().getTime())
+        .then(r => r.json())
+        .then(data => {
+            if (!data || data.length < 2) {
+                document.getElementById("trend-note").innerText = "Συλλέγουμε δεδομένα. Ελάτε ξανά σε λίγες μέρες για το γράφημα.";
+                return;
+            }
+            renderChart(data);
+        })
+        .catch(() => {
+            document.getElementById("trend-note").innerText = "Δεν βρέθηκε ιστορικό.";
+        });
+}
+
+function renderChart(historyData) {
+    const ctx = document.getElementById("salary-trend-chart");
+    if (!ctx) return;
+    
+    const labels = historyData.map(d => {
+        const [y, m, day] = d.date.split("-");
+        return `${day}/${m}`;
+    });
+    const grData = historyData.map(d => d.salaries["Greece"] || 0);
+    const euData = historyData.map(d => d.salaries["Europe & UK"] || 0);
+    
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Ελλάδα (Net/mo)',
+                    data: grData,
+                    borderColor: '#3b82f6',
+                    backgroundColor: 'rgba(59,130,246,0.1)',
+                    borderWidth: 2,
+                    tension: 0.3,
+                    fill: true
+                },
+                {
+                    label: 'Ευρώπη (Net/mo)',
+                    data: euData,
+                    borderColor: '#10b981',
+                    borderWidth: 2,
+                    borderDash: [5,5],
+                    tension: 0.3
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { labels: { color: '#94a3b8' } }
+            },
+            scales: {
+                x: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+                y: { ticks: { color: '#94a3b8' }, grid: { color: 'rgba(255,255,255,0.05)' }, min: 500 }
+            }
+        }
+    });
 }
 
 // ─── Email Alerts (Formspree) ───────────────────────────────────────────────
