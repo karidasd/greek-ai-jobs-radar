@@ -13,10 +13,13 @@
         <header>
             <h1>AI Salary <span class="accent">Geo-Radar</span> 🇬🇷</h1>
             <p>Σύγκριση Μισθών AI & Data Science: Ελλάδα vs Εξωτερικό</p>
-            <div style="margin-top: 15px; margin-bottom: 20px;">
+            <div style="margin-top: 15px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; gap: 10px;">
                 <a href="https://github.com/karidasd/greek-ai-jobs-radar/actions/workflows/update.yml" target="_blank" style="background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid #10b981; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: bold; transition: all 0.3s; display: inline-block;">
                     🔄 Αυτόματη Ενημέρωση Δεδομένων
                 </a>
+                <div id="radar-scanner" class="radar-scanner">
+                    📡 Σάρωση Τοποθεσιών: <span id="radar-location-text">Αναμονή...</span>
+                </div>
             </div>
             <div class="stats" id="stats-container">
                 <!-- Injected via JS -->

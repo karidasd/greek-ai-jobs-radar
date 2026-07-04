@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         renderJobs(data.latest_jobs);
         
         setupCalculator();
+        startLocationScanner(data.latest_jobs);
     } catch (error) {
         console.error("Error loading data:", error);
     }
@@ -241,4 +242,16 @@ function setupCalculator() {
 
         resultDiv.innerHTML = msg;
     });
+}
+
+function startLocationScanner(jobs) {
+    const locations = [...new Set(jobs.map(j => j.location_raw))].filter(l => l && l !== "Worldwide");
+    const span = document.getElementById('radar-location-text');
+    if (!span || locations.length === 0) return;
+    
+    let i = 0;
+    setInterval(() => {
+        span.innerText = locations[i];
+        i = (i + 1) % locations.length;
+    }, 1500);
 }

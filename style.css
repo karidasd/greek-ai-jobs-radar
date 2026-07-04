@@ -374,6 +374,30 @@ footer {
     color: #10b981;
     border-color: rgba(16, 185, 129, 0.5);
 }
+
+.radar-scanner {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    color: #00e5ff;
+    background: rgba(0, 229, 255, 0.1);
+    border: 1px solid rgba(0, 229, 255, 0.3);
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
+}
+
+.radar-scanner span {
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 5px #00e5ff;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    from { opacity: 0.7; }
+    to { opacity: 1; }
+}
 /* Unicorn Job */
 .job-card.unicorn {
     border: 2px solid #fbbf24;
