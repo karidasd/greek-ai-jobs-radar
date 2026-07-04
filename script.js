@@ -1,257 +1,216 @@
-let globalNetSalaries = {};
+﻿let globalNetSalaries = {};
+let allCategories = {};
 
 document.addEventListener("DOMContentLoaded", async () => {
     try {
-        // Append a timestamp to bypass aggressive browser caching
-        const response = await fetch('data/skills.json?v=' + new Date().getTime());
+        const response = await fetch("data/skills.json?v=" + new Date().getTime());
         const data = await response.json();
         
         globalNetSalaries = data.avg_salaries_net;
+        allCategories = data.categories;
 
         renderStats(data);
         renderSalaries(data.avg_salaries_eur, data.avg_salaries_net);
         renderTopCompanies(data.top_greek_companies);
         renderCategories(data.categories);
-        renderJobs(data.latest_jobs);
+        renderJobs(data.latest_jobs, null);
         
         setupCalculator();
-        setupSkillSniper(data.latest_jobs);
+        setupSkillSniper(data.categories, data.latest_jobs);
         startLocationScanner(data.latest_jobs);
     } catch (error) {
         console.error("Error loading data:", error);
+        const jl = document.getElementById("job-list");
+        if (jl) jl.innerHTML = "<p style=\"color:#ef4444;\">Σφαλμα φορτωσης. Δοκιμασε Ctrl+F5.</p>";
     }
 });
 
 function formatEUR(number) {
-    if (!number) return "Άγνωστος";
-    return new Intl.NumberFormat('el-GR', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(number);
+    if (!number) return "Αγνωστος";
+    return new Intl.NumberFormat("el-GR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(number);
 }
 
 function renderStats(data) {
-    const statsContainer = document.getElementById('stats-container');
-    statsContainer.innerHTML = `
-        <div class="stat-card">
-            <h3>Τελευταία Ενημέρωση</h3>
-            <p>${data.last_updated}</p>
-        </div>
-        <div class="stat-card">
-            <h3>Αγγελίες που Αναλύθηκαν</h3>
-            <p>${data.total_jobs_analyzed}</p>
-        </div>
+    const c = document.getElementById("stats-container");
+    if (!c) return;
+    c.innerHTML = `
+        <div class="stat-card"><h3>Τελευταια Ενημερωση</h3><p>${data.last_updated}</p></div>
+        <div class="stat-card"><h3>Αγγελιες που Αναλυθηκαν</h3><p>${data.total_jobs_analyzed}</p></div>
     `;
 }
 
 function renderSalaries(salaries, netSalaries) {
-    const chartContainer = document.getElementById('salary-chart');
-    if (!salaries || Object.keys(salaries).length === 0) return;
-
+    const c = document.getElementById("salary-chart");
+    if (!c || !salaries) return;
     let maxSalary = Math.max(...Object.values(salaries));
-    if (maxSalary === 0) maxSalary = 100000; // fallback
-
+    if (maxSalary === 0) maxSalary = 100000;
     const regions = [
-        { id: "Greece", name: "Ελλάδα 🇬🇷", color: "#3b82f6" },
-        { id: "Europe & UK", name: "Ευρώπη & UK 🇪🇺", color: "#8b5cf6" },
-        { id: "Worldwide", name: "Παγκόσμια (Remote) 🌍", color: "#10b981" },
-        { id: "North America", name: "Αμερική 🇺🇸", color: "#f59e0b" }
+        { id: "Greece", name: "Ελλαδα", color: "#3b82f6" },
+        { id: "Europe & UK", name: "Ευρωπη & UK", color: "#8b5cf6" },
+        { id: "Worldwide", name: "Παγκοσμια Remote", color: "#10b981" },
+        { id: "North America", name: "Αμερικη", color: "#f59e0b" }
     ];
-
-    let html = '';
+    let html = "";
     regions.forEach(r => {
         let val = salaries[r.id] || 0;
         let net = netSalaries ? (netSalaries[r.id] || 0) : 0;
         let width = val === 0 ? 5 : (val / maxSalary) * 100;
-        
-        let valText = val === 0 ? 'N/A' : `${formatEUR(val)} Μικτά/έτος`;
-        let netText = net === 0 ? '' : `(~${formatEUR(net)}/μήνα Καθαρά)`;
-        
-        html += `
-            <div class="salary-bar-container" style="flex-wrap: wrap;">
-                <div class="salary-label">${r.name}</div>
-                <div class="salary-track">
-                    <div class="salary-fill" style="width: ${width}%; background: ${r.color};"></div>
-                </div>
-                <div class="salary-value">${valText}</div>
-                <div style="width: 100%; text-align: right; font-size: 0.85rem; color: #9ca3af; margin-top: -5px; padding-right: 120px;">
-                    ${netText}
-                </div>
-            </div>
-        `;
+        html += `<div class="salary-bar-container" style="flex-wrap:wrap;">
+            <div class="salary-label">${r.name}</div>
+            <div class="salary-track"><div class="salary-fill" style="width:${width}%;background:${r.color};"></div></div>
+            <div class="salary-value">${val === 0 ? "N/A" : formatEUR(val) + "/ετος"}</div>
+            <div style="width:100%;text-align:right;font-size:0.85rem;color:#9ca3af;margin-top:-5px;padding-right:120px;">${net ? "(~" + formatEUR(net) + "/μηνα Καθαρα)" : ""}</div>
+        </div>`;
     });
-    chartContainer.innerHTML = html;
+    c.innerHTML = html;
 }
 
 function renderCategories(categories) {
-    const grid = document.getElementById('categories-grid');
-    grid.innerHTML = '';
-
+    const grid = document.getElementById("categories-grid");
+    if (!grid || !categories) return;
+    grid.innerHTML = "";
     for (const [catName, skills] of Object.entries(categories)) {
-        const card = document.createElement('div');
-        card.className = 'category-card';
-        
-        const catTitle = document.createElement('h3');
-        catTitle.textContent = catName;
-        card.appendChild(catTitle);
-
+        const card = document.createElement("div");
+        card.className = "category-card";
+        let html = "<h3>" + catName + "</h3>";
         skills.forEach(skill => {
-            const skillItem = document.createElement('div');
-            skillItem.className = 'skill-item';
-            
-            let trendHtml = '';
-            if (skill.trend > 0) {
-                trendHtml = `<span class="trend up">↑ ${skill.trend}%</span>`;
-            } else if (skill.trend < 0) {
-                trendHtml = `<span class="trend down">↓ ${Math.abs(skill.trend)}%</span>`;
-            } else {
-                trendHtml = `<span class="trend">−</span>`;
-            }
-
-            skillItem.innerHTML = `
+            let trendHtml = skill.trend > 0 ? "<span class=\"trend up\">+ " + skill.trend + "%</span>"
+                : skill.trend < 0 ? "<span class=\"trend down\">- " + Math.abs(skill.trend) + "%</span>"
+                : "<span class=\"trend\">-</span>";
+            html += `<div class="skill-item">
                 <span class="skill-name">${skill.skill}</span>
-                <div class="skill-stats">
-                    <span class="skill-pct">${skill.percentage}%</span>
-                    ${trendHtml}
-                </div>
-            `;
-            
-            // Add a progress bar under the skill
-            const progressTrack = document.createElement('div');
-            progressTrack.className = 'progress-track';
-            const progressFill = document.createElement('div');
-            progressFill.className = 'progress-fill';
-            progressFill.style.width = `${skill.percentage}%`;
-            progressTrack.appendChild(progressFill);
-            
-            card.appendChild(skillItem);
-            card.appendChild(progressTrack);
+                <div class="skill-stats"><span class="skill-pct">${skill.percentage}%</span>${trendHtml}</div>
+            </div>
+            <div class="progress-track"><div class="progress-fill" style="width:${skill.percentage}%"></div></div>`;
         });
-
+        card.innerHTML = html;
         grid.appendChild(card);
     }
 }
 
-function renderJobs(jobs, showMatch = false) {
-    const jobList = document.getElementById('job-list');
-    jobList.innerHTML = '';
+function renderJobs(jobs, selectedSkills) {
+    const jobList = document.getElementById("job-list");
+    if (!jobList) return;
+    jobList.innerHTML = "";
 
     if (!jobs || jobs.length === 0) {
-        jobList.innerHTML = '<p>Δεν βρέθηκαν αγγελίες.</p>';
+        jobList.innerHTML = "<p style=\"color:#9ca3af;\">Δεν βρεθηκαν αγγελιες.</p>";
         return;
     }
 
-    jobs.forEach(job => {
-        const jobEl = document.createElement('div');
-        jobEl.className = 'job-card';
-        if (job.is_unicorn) {
-            jobEl.classList.add('unicorn');
-        }
+    const showMatch = selectedSkills && selectedSkills.size > 0;
+    let displayJobs = [...jobs];
 
-        const salaryStr = job.salary_eur 
-            ? `€${job.salary_eur.toLocaleString()}/έτος (~€${job.salary_net_mo}/μήνα καθαρά)` 
-            : '<span style="color:#9ca3af;">Απόκρυψη Μισθού</span>';
+    if (showMatch) {
+        displayJobs = displayJobs.map(job => {
+            let matchCount = 0;
+            const searchText = (job.title + " " + (job.company || "")).toLowerCase();
+            selectedSkills.forEach(skill => {
+                if (searchText.includes(skill.toLowerCase())) matchCount++;
+            });
+            const matchPct = Math.min(100, Math.round((matchCount / selectedSkills.size) * 100));
+            return { ...job, matchPct };
+        });
+        displayJobs.sort((a, b) => (b.matchPct || 0) - (a.matchPct || 0));
+    }
 
-        let skillsHtml = '';
-        if (job.skills && job.skills.length > 0) {
-            skillsHtml = job.skills.map(s => `<span class="skill-tag">${s}</span>`).join('');
-        }
-        
-        let matchHtml = '';
+    displayJobs.forEach(job => {
+        const jobEl = document.createElement("div");
+        jobEl.className = "job-card";
+        if (job.is_unicorn) jobEl.classList.add("unicorn");
+
+        const salaryStr = job.salary_eur
+            ? "💰 " + formatEUR(job.salary_eur) + "/ετος (~" + formatEUR(job.salary_net_mo) + "/μηνα)"
+            : "<span style=\"color:#9ca3af;\">Μισθος: Κατοπιν Συνεννοησης</span>";
+
+        let matchHtml = "";
         if (showMatch && job.matchPct !== undefined) {
-            let badgeClass = 'low';
-            if (job.matchPct >= 80) badgeClass = 'high';
-            else if (job.matchPct >= 50) badgeClass = 'med';
-            matchHtml = `<div class="match-badge ${badgeClass}">🔥 ${job.matchPct}% Match</div>`;
+            let cls = job.matchPct >= 60 ? "high" : job.matchPct >= 30 ? "med" : "low";
+            matchHtml = "<div class=\"match-badge " + cls + "\">🎯 " + job.matchPct + "% Match</div>";
         }
 
-        jobEl.innerHTML = `
-            ${matchHtml}
+        const safeTitle = (job.title || "Αγγελια").replace(/\\/g, "").replace(/"/g, "");
+        const safeCompany = (job.company || "").replace(/\\/g, "").replace(/"/g, "");
+
+        jobEl.innerHTML = matchHtml + `
             <div class="job-card-header">
                 <div>
-                    <h3><a href="${job.url}" target="_blank">${job.title}</a></h3>
-                    <p class="company">${job.company} • 📍 ${job.location_raw}</p>
+                    <h3><a href="${job.url}" target="_blank" rel="noopener">${job.title || "Αγγελια"}</a></h3>
+                    <p class="company">${job.company || ""} • 📍 ${job.location_raw || "Ελλαδα"}</p>
+                    <p style="font-size:0.85rem;margin-top:5px;">${salaryStr}</p>
                 </div>
-                <div>
-                    <button class="snipe-btn" onclick="snipeRecruiter('${job.title}', '${job.company}', '${job.skills.join(', ')}')">🎯 Snipe Recruiter</button>
-                    <a href="${job.url}" target="_blank" class="apply-btn">Δες το</a>
+                <div style="display:flex;gap:8px;flex-shrink:0;align-items:flex-start;margin-top:5px;">
+                    <button class="snipe-btn" id="snipe-${Math.random().toString(36).substr(2,9)}">🎯 Snipe</button>
+                    <a href="${job.url}" target="_blank" rel="noopener" class="apply-btn">Δες →</a>
                 </div>
-            </div>
-            <div class="job-skills">
-                ${skillsHtml}
-            </div>
-        `;
+            </div>`;
+
+        // Attach snipe event properly via JS (no inline onclick)
+        const snipeBtn = jobEl.querySelector(".snipe-btn");
+        snipeBtn.addEventListener("click", () => snipeRecruiter(safeTitle, safeCompany));
+
         jobList.appendChild(jobEl);
     });
 }
 
-window.snipeRecruiter = function(title, company, skills) {
-    const prompt = `Act as an aggressive, highly professional technical recruiter and career coach. 
-Write a short "Cold Email" (in Greek) that I will send to the HR Manager of ${company} to apply for the "${title}" position. 
-The job requires the following skills: ${skills}.
-The tone should be confident, showing that I have exactly these skills and I am ready to deliver results immediately. Keep it under 150 words. Do not use generic corporate jargon, make it punchy.`;
-    
-    // Copy to clipboard
-    navigator.clipboard.writeText(prompt).then(() => {
-        alert("🎯 Το Μυστικό Prompt αντιγράφηκε στο πρόχειρο (Clipboard)!\n\nΤώρα θα ανοίξει το ChatGPT. Απλά κάνε Επικόλληση (Paste) και πάτα Enter για να σου γράψει το τέλειο Cold Email.");
+function snipeRecruiter(title, company) {
+    const prompt = "Εισαι career coach. Γραψε μου ενα συντομο Cold Email στα Ελληνικα (κατω απο 120 λεξεις) που θα στειλω στον HR Manager της εταιρειας \"" + company + "\" για τη θεση \"" + title + "\". Ο τονος να ειναι σιγουρος και επαγγελματικος. Να ξεκινα απευθειας με το email, χωρις εισαγωγη.";
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(prompt).then(() => {
+            alert("Το Prompt αντιγραφηκε!\n\nΤωρα ανοιγει το ChatGPT. Κανε Paste (Ctrl+V) και πατα Enter!");
+            window.open("https://chatgpt.com/", "_blank");
+        }).catch(() => {
+            window.open("https://chatgpt.com/", "_blank");
+            alert("Αντιγραψε χειροκινητα:\n\n" + prompt);
+        });
+    } else {
         window.open("https://chatgpt.com/", "_blank");
-    }).catch(err => {
-        console.error('Failed to copy: ', err);
-        alert("Κάτι πήγε στραβά με την αντιγραφή. Δοκίμασε ξανά.");
-    });
+        alert("Αντιγραψε χειροκινητα:\n\n" + prompt);
+    }
 }
 
 function renderTopCompanies(companies) {
-    const list = document.getElementById('top-companies-list');
+    const list = document.getElementById("top-companies-list");
+    if (!list) return;
     if (!companies || companies.length === 0) {
-        list.innerHTML = '<li>Δεν βρέθηκαν δεδομένα.</li>';
+        list.innerHTML = "<li>Δεν βρεθηκαν δεδομενα.</li>";
         return;
     }
-    
-    let html = '';
+    let html = "";
     companies.forEach((comp, index) => {
-        let medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏢';
-        let workableUrl = comp.url || '#';
-        html += `
-            <a href="${workableUrl}" target="_blank" style="text-decoration: none; color: inherit; display: block;">
-                <li style="display: flex; justify-content: space-between; background: rgba(59, 130, 246, 0.1); padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6; transition: background 0.3s ease; cursor: pointer;" onmouseover="this.style.background='rgba(59, 130, 246, 0.3)'" onmouseout="this.style.background='rgba(59, 130, 246, 0.1)'">
-                    <span style="font-weight: 600;">${medal} ${comp.name}</span>
-                    <span style="color: #60a5fa; font-weight: bold;">${comp.count} Θέσεις &rarr;</span>
-                </li>
-            </a>
-        `;
+        const medal = index === 0 ? "🥇" : index === 1 ? "🥈" : index === 2 ? "🥉" : "🏢";
+        html += `<a href="${comp.url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+            <li style="display:flex;justify-content:space-between;background:rgba(59,130,246,0.1);padding:10px 15px;border-radius:6px;border-left:3px solid #3b82f6;transition:background 0.3s;cursor:pointer;"
+                onmouseover="this.style.background='rgba(59,130,246,0.3)'" onmouseout="this.style.background='rgba(59,130,246,0.1)'">
+                <span style="font-weight:600;">${medal} ${comp.name}</span>
+                <span style="color:#60a5fa;font-weight:bold;">${comp.count} Θεσεις &rarr;</span>
+            </li></a>`;
     });
     list.innerHTML = html;
 }
 
 function setupCalculator() {
-    const btn = document.getElementById('calc-btn');
-    const input = document.getElementById('user-salary');
-    const resultDiv = document.getElementById('calc-result');
-
-    btn.addEventListener('click', () => {
+    const btn = document.getElementById("calc-btn");
+    const input = document.getElementById("user-salary");
+    const resultDiv = document.getElementById("calc-result");
+    if (!btn || !input || !resultDiv) return;
+    btn.addEventListener("click", () => {
         const salary = parseInt(input.value);
         if (!salary || salary < 400 || salary > 50000) {
-            resultDiv.innerHTML = '<span style="color: #ef4444;">Βάλε έναν έγκυρο καθαρό μισθό (π.χ. 1500)</span>';
+            resultDiv.innerHTML = "<span style=\"color:#ef4444;\">Βαλε εναν εγκυρο μισθο (π.χ. 1500)</span>";
             return;
         }
-
-        const grNet = globalNetSalaries['Greece'] || 1900;
-        const euNet = globalNetSalaries['Europe & UK'] || 3300;
-
-        let diffGr = Math.round(((salary - grNet) / grNet) * 100);
-        let diffEu = Math.round(((salary - euNet) / euNet) * 100);
-
-        let msg = '';
-        if (diffGr < 0) {
-            msg += `<span style="color: #ef4444;">⚠️ Πληρώνεσαι ${Math.abs(diffGr)}% ΚΑΤΩ από τον Ελληνικό μέσο όρο Tech.</span><br/>`;
-        } else {
-            msg += `<span style="color: #10b981;">✅ Είσαι ${diffGr}% ΠΑΝΩ από τον Ελληνικό μέσο όρο.</span><br/>`;
-        }
-
-        if (diffEu < 0) {
-            msg += `<span style="color: #ef4444; margin-top: 5px; display: inline-block;">❌ Και ${Math.abs(diffEu)}% ΚΑΤΩ από την Ευρώπη (Remote). Ώρα για αλλαγή!</span>`;
-        } else {
-            msg += `<span style="color: #10b981; margin-top: 5px; display: inline-block;">🌍 Κερδίζεις ακόμα και την Ευρώπη!</span>`;
-        }
-
+        const grNet = globalNetSalaries["Greece"] || 1900;
+        const euNet = globalNetSalaries["Europe & UK"] || 3300;
+        let msg = "";
+        const diffGr = Math.round(((salary - grNet) / grNet) * 100);
+        const diffEu = Math.round(((salary - euNet) / euNet) * 100);
+        msg += diffGr < 0
+            ? "<span style=\"color:#ef4444;\">Πληρωνεσαι " + Math.abs(diffGr) + "% ΚΑΤΩ απο τον Ελληνικο μεσο οπο Tech (" + formatEUR(grNet) + "/μηνα).</span><br/>"
+            : "<span style=\"color:#10b981;\">Εισαι " + diffGr + "% ΠΑΝΩ απο τον Ελληνικο μεσο ορο (" + formatEUR(grNet) + "/μηνα).</span><br/>";
+        msg += diffEu < 0
+            ? "<span style=\"color:#ef4444;margin-top:5px;display:inline-block;\">" + Math.abs(diffEu) + "% ΚΑΤΩ απο την Ευρωπη Remote (" + formatEUR(euNet) + "/μηνα). Ωρα για αλλαγη!</span>"
+            : "<span style=\"color:#10b981;margin-top:5px;display:inline-block;\">Κερδιζεις ακομα και την Ευρωπη!</span>";
         resultDiv.innerHTML = msg;
     });
 }
@@ -259,105 +218,71 @@ function setupCalculator() {
 let selectedUserSkills = new Set();
 let allLoadedJobs = [];
 
-function setupSkillSniper(jobs) {
+function setupSkillSniper(categories, jobs) {
     allLoadedJobs = jobs;
-    const container = document.getElementById('skill-selector');
+    const container = document.getElementById("skill-selector");
     if (!container) return;
-    
-    const uniqueSkills = new Set();
-    jobs.forEach(j => {
-        if(j.skills) j.skills.forEach(s => {
-            if(s !== "Tech") uniqueSkills.add(s);
-        });
-    });
-    
-    const sortedSkills = Array.from(uniqueSkills).sort();
-    
-    sortedSkills.forEach(skill => {
-        const label = document.createElement('label');
-        label.className = 'skill-checkbox-label';
-        label.innerHTML = `<input type="checkbox" value="${skill}"> ${skill}`;
-        
-        const cb = label.querySelector('input');
-        cb.addEventListener('change', (e) => {
-            if (e.target.checked) {
-                selectedUserSkills.add(skill);
-                label.classList.add('selected');
-            } else {
+    const allSkills = [];
+    if (categories) {
+        for (const skillList of Object.values(categories)) {
+            skillList.forEach(s => { if (s.count > 0) allSkills.push(s.skill); });
+        }
+    }
+    if (allSkills.length === 0) {
+        container.innerHTML = "<p style=\"color:#9ca3af;\">Φορτωση skills...</p>";
+        return;
+    }
+    allSkills.sort().forEach(skill => {
+        const label = document.createElement("label");
+        label.className = "skill-checkbox-label";
+        label.textContent = skill;
+        label.addEventListener("click", () => {
+            if (selectedUserSkills.has(skill)) {
                 selectedUserSkills.delete(skill);
-                label.classList.remove('selected');
+                label.classList.remove("selected");
+            } else {
+                selectedUserSkills.add(skill);
+                label.classList.add("selected");
             }
-            reRenderJobsWithMatch();
+            renderJobs(allLoadedJobs, selectedUserSkills);
         });
         container.appendChild(label);
     });
 }
 
-function reRenderJobsWithMatch() {
-    if (selectedUserSkills.size === 0) {
-        renderJobs(allLoadedJobs);
-        return;
-    }
-    
-    const scoredJobs = allLoadedJobs.map(job => {
-        let matchCount = 0;
-        let jobSkills = Array.isArray(job.skills) ? job.skills.filter(s => s !== "Tech") : [];
-        
-        if (jobSkills.length === 0) return { ...job, matchPct: 0 };
-        
-        jobSkills.forEach(s => {
-            if (selectedUserSkills.has(s)) matchCount++;
-        });
-        
-        let pct = Math.round((matchCount / jobSkills.length) * 100);
-        if (matchCount >= jobSkills.length) pct = 100;
-        
-        return { ...job, matchPct: pct };
-    });
-    
-    scoredJobs.sort((a, b) => {
-        if (b.matchPct !== a.matchPct) return b.matchPct - a.matchPct;
-        return (b._score || 0) - (a._score || 0);
-    });
-    
-    renderJobs(scoredJobs, true);
-}
-
 function startLocationScanner(jobs) {
-    const locations = [...new Set(jobs.map(j => j.location_raw))].filter(l => l && l !== "Worldwide");
-    const statusText = document.getElementById('radar-status-text');
-    const blipsContainer = document.getElementById('radar-blips');
-    if (!statusText || !blipsContainer || locations.length === 0) return;
-    
+    const locations = [...new Set(
+        (jobs || []).map(j => j.location_raw).filter(l => l && l.trim() !== "")
+    )];
+    const statusText = document.getElementById("radar-status-text");
+    const blipsContainer = document.getElementById("radar-blips");
+    if (!statusText || !blipsContainer) return;
+    if (locations.length === 0) { statusText.innerText = "📡 Online"; return; }
+
     let i = 0;
+    const center = 100;
     setInterval(() => {
-        const loc = locations[i];
-        statusText.innerText = `📡 Σαρώνει: ${loc}`;
-        
-        const blip = document.createElement('div');
-        blip.className = 'radar-blip';
-        const label = document.createElement('div');
-        label.className = 'blip-label';
-        label.innerText = loc;
-        
+        const loc = locations[i % locations.length];
+        statusText.innerText = "📡 " + loc;
         const angle = Math.random() * 2 * Math.PI;
-        const radius = Math.random() * 70;
-        const x = 100 + radius * Math.cos(angle);
-        const y = 100 + radius * Math.sin(angle);
-        
-        blip.style.left = `${x}px`;
-        blip.style.top = `${y}px`;
-        label.style.left = `${x + 10}px`;
-        label.style.top = `${y - 5}px`;
-        
+        const radius = 15 + Math.random() * 70;
+        const x = center + radius * Math.cos(angle);
+        const y = center + radius * Math.sin(angle);
+
+        const blip = document.createElement("div");
+        blip.className = "radar-blip";
+        blip.style.left = (x - 3) + "px";
+        blip.style.top = (y - 3) + "px";
+
+        const lbl = document.createElement("div");
+        lbl.className = "blip-label";
+        lbl.style.left = (x > center ? x - 55 : x + 10) + "px";
+        lbl.style.top = (y - 8) + "px";
+        lbl.innerText = loc;
+
         blipsContainer.appendChild(blip);
-        blipsContainer.appendChild(label);
-        
-        setTimeout(() => {
-            if (blipsContainer.contains(blip)) blipsContainer.removeChild(blip);
-            if (blipsContainer.contains(label)) blipsContainer.removeChild(label);
-        }, 2000);
-        
-        i = (i + 1) % locations.length;
-    }, 1200);
+        blipsContainer.appendChild(lbl);
+        setTimeout(() => { blip.remove(); lbl.remove(); }, 2000);
+        i++;
+    }, 1500);
 }
