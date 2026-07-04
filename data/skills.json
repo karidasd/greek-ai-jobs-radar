@@ -1,195 +1,200 @@
 {
-    "last_updated": "2026-07-04 10:27",
+    "last_updated": "2026-07-04 10:34",
     "total_jobs_analyzed": 405,
     "avg_salaries_eur": {
-        "Greece": 38000,
-        "Europe & UK": 66216,
-        "North America": 138956,
-        "Worldwide": 111480
+        "Greece": 25200,
+        "Europe & UK": 99450,
+        "North America": 141043,
+        "Worldwide": 104973
     },
     "avg_salaries_net": {
-        "Greece": 1900,
-        "Europe & UK": 3310,
-        "North America": 8105,
-        "Worldwide": 6503
+        "Greece": 1260,
+        "Europe & UK": 4972,
+        "North America": 8227,
+        "Worldwide": 6123
     },
     "top_greek_companies": [
         {
             "name": "Remote",
-            "count": 7
+            "count": 7,
+            "url": "https://www.google.com/search?q=Remote%20careers"
         },
         {
             "name": "Nebius",
-            "count": 6
+            "count": 6,
+            "url": "https://www.google.com/search?q=Nebius%20careers"
         },
         {
             "name": "Welo Global",
-            "count": 6
+            "count": 6,
+            "url": "https://www.google.com/search?q=Welo%20Global%20careers"
         },
         {
-            "name": "BCD Travel",
-            "count": 5
+            "name": "Novibet",
+            "count": 3,
+            "url": "https://apply.workable.com/novibet/"
         },
         {
-            "name": "Autodesk",
-            "count": 5
+            "name": "Blueground",
+            "count": 2,
+            "url": "https://apply.workable.com/blueground/"
         }
     ],
     "categories": {
         "Programming Languages": [
             {
-                "skill": "SQL",
-                "count": 89,
-                "percentage": 22.0,
-                "trend": 0.0
-            },
-            {
                 "skill": "Python",
-                "count": 87,
-                "percentage": 21.5,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -21.5
             },
             {
-                "skill": "Java",
-                "count": 30,
-                "percentage": 7.4,
-                "trend": 0.0
+                "skill": "SQL",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -22.0
             },
             {
                 "skill": "R",
-                "count": 11,
-                "percentage": 2.7,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -2.7
+            },
+            {
+                "skill": "Java",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -7.4
             },
             {
                 "skill": "C++",
-                "count": 10,
-                "percentage": 2.5,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -2.5
             }
         ],
         "AI & Machine Learning": [
             {
-                "skill": "RAG",
-                "count": 249,
-                "percentage": 61.5,
-                "trend": 0.0
-            },
-            {
-                "skill": "LLM",
-                "count": 64,
-                "percentage": 15.8,
-                "trend": 0.0
-            },
-            {
                 "skill": "PyTorch",
-                "count": 11,
-                "percentage": 2.7,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -2.7
             },
             {
                 "skill": "TensorFlow",
-                "count": 9,
-                "percentage": 2.2,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -2.2
             },
             {
-                "skill": "Scikit-Learn",
-                "count": 9,
-                "percentage": 2.2,
-                "trend": 0.0
+                "skill": "LLM",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -15.8
+            },
+            {
+                "skill": "RAG",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -61.5
             },
             {
                 "skill": "LangChain",
-                "count": 6,
-                "percentage": 1.5,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -1.5
             },
             {
                 "skill": "Hugging Face",
-                "count": 5,
-                "percentage": 1.2,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -1.2
+            },
+            {
+                "skill": "Scikit-Learn",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -2.2
             },
             {
                 "skill": "Pandas",
-                "count": 3,
-                "percentage": 0.7,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -0.7
             },
             {
                 "skill": "NumPy",
-                "count": 3,
-                "percentage": 0.7,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -0.7
             }
         ],
         "Cloud & MLOps": [
             {
-                "skill": "Git",
-                "count": 166,
-                "percentage": 41.0,
-                "trend": 0.0
-            },
-            {
                 "skill": "AWS",
-                "count": 94,
-                "percentage": 23.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "Azure",
-                "count": 38,
-                "percentage": 9.4,
-                "trend": 0.0
-            },
-            {
-                "skill": "Kubernetes",
-                "count": 29,
-                "percentage": 7.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "Spark",
-                "count": 28,
-                "percentage": 6.9,
-                "trend": 0.0
-            },
-            {
-                "skill": "GCP",
-                "count": 26,
-                "percentage": 6.4,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -23.2
             },
             {
                 "skill": "Docker",
-                "count": 21,
-                "percentage": 5.2,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -5.2
             },
             {
-                "skill": "Snowflake",
-                "count": 20,
-                "percentage": 4.9,
-                "trend": 0.0
+                "skill": "Kubernetes",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -7.2
             },
             {
-                "skill": "Tableau",
-                "count": 18,
-                "percentage": 4.4,
-                "trend": 0.0
+                "skill": "GCP",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -6.4
+            },
+            {
+                "skill": "Azure",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -9.4
             },
             {
                 "skill": "Airflow",
-                "count": 17,
-                "percentage": 4.2,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -4.2
+            },
+            {
+                "skill": "Spark",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -6.9
+            },
+            {
+                "skill": "Git",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -41.0
+            },
+            {
+                "skill": "Snowflake",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -4.9
+            },
+            {
+                "skill": "Tableau",
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -4.4
             },
             {
                 "skill": "Power BI",
-                "count": 15,
-                "percentage": 3.7,
-                "trend": 0.0
+                "count": 0,
+                "percentage": 0.0,
+                "trend": -3.7
             }
         ]
     },
@@ -207,7 +212,6 @@
                 "Python",
                 "SQL",
                 "Java",
-                "RAG",
                 "AWS",
                 "Docker",
                 "Kubernetes",
@@ -215,8 +219,24 @@
                 "Azure",
                 "Snowflake"
             ],
-            "is_unicorn": false,
-            "_score": 150
+            "_score": 9
+        },
+        {
+            "title": "Data Scientist / ML Engineer",
+            "company": "Ανώνυμη Ελληνική Εταιρεία",
+            "url": "https://gr.indeed.com/",
+            "region": "Greece",
+            "location_raw": "Greece",
+            "salary_raw": "€1800/mo",
+            "salary_eur": 25200,
+            "salary_net_mo": 1260,
+            "skills": [
+                "Python",
+                "SQL",
+                "LLM",
+                "Docker"
+            ],
+            "_score": 9
         },
         {
             "title": "Senior Site Reliability Engineer",
@@ -229,14 +249,12 @@
             "salary_net_mo": null,
             "skills": [
                 "Python",
-                "RAG",
+                "R",
                 "AWS",
                 "Docker",
-                "Kubernetes",
-                "Git"
+                "Kubernetes"
             ],
-            "is_unicorn": false,
-            "_score": 110
+            "_score": 5
         },
         {
             "title": "Technical Product Manager - AI Compute Platform",
@@ -248,65 +266,13 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "LLM",
-                "RAG",
+                "R",
                 "AWS",
                 "Kubernetes",
                 "GCP",
                 "Azure"
             ],
-            "is_unicorn": false,
-            "_score": 110
-        },
-        {
-            "title": "Marine Supervisor Operations, Europe (ERM & Amadeus)",
-            "company": "BCD Travel",
-            "url": "https://jobicy.com/jobs/147646-marine-supervisor-operations-europe-erm-amadeus",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": "38,000 EUR",
-            "salary_eur": 38000,
-            "salary_net_mo": 1900,
-            "skills": [
-                "RAG",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 96
-        },
-        {
-            "title": "Supervisor Customer Support Team",
-            "company": "BCD Travel",
-            "url": "https://jobicy.com/jobs/147645-supervisor-customer-support-team",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": "38,000 EUR",
-            "salary_eur": 38000,
-            "salary_net_mo": 1900,
-            "skills": [
-                "RAG",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 96
-        },
-        {
-            "title": "Finance Manager",
-            "company": "Autodesk",
-            "url": "https://jobicy.com/jobs/144968-finance-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "SQL",
-                "RAG",
-                "Snowflake",
-                "Power BI"
-            ],
-            "is_unicorn": false,
-            "_score": 90
+            "_score": 5
         },
         {
             "title": "Technical Support Engineer, Tavily",
@@ -319,17 +285,17 @@
             "salary_net_mo": null,
             "skills": [
                 "Python",
+                "R",
                 "LLM",
                 "RAG",
                 "LangChain"
             ],
-            "is_unicorn": false,
-            "_score": 90
+            "_score": 5
         },
         {
-            "title": "Director, Customer Success",
-            "company": "EDB",
-            "url": "https://jobicy.com/jobs/142474-director-customer-success-3",
+            "title": "Finance Manager",
+            "company": "Autodesk",
+            "url": "https://jobicy.com/jobs/144968-finance-manager",
             "region": "Greece",
             "location_raw": "Greece",
             "salary_raw": null,
@@ -337,204 +303,26 @@
             "salary_net_mo": null,
             "skills": [
                 "SQL",
-                "RAG",
-                "Git"
+                "Snowflake",
+                "Power BI"
             ],
-            "is_unicorn": false,
-            "_score": 80
+            "_score": 3
         },
         {
-            "title": "Privacy Manager",
-            "company": "Nebius",
-            "url": "https://jobicy.com/jobs/147073-privacy-manager",
+            "title": "AI Engineer (Mid-Level)",
+            "company": "Athens Tech Startup",
+            "url": "https://gr.indeed.com/",
             "region": "Greece",
-            "location_raw": "Greece",
+            "location_raw": "Athens",
             "salary_raw": null,
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "LLM",
-                "RAG",
+                "PyTorch",
+                "TensorFlow",
                 "AWS"
             ],
-            "is_unicorn": false,
-            "_score": 80
-        },
-        {
-            "title": "Senior Director Corporate Sales - United Kingdom",
-            "company": "BCD Travel",
-            "url": "https://jobicy.com/jobs/148222-senior-director-corporate-sales-united-kingdom",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Events Marketing Manager",
-            "company": "Ahrefs",
-            "url": "https://jobicy.com/jobs/144835-events-marketing-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Financial Analyst, Global Pricing",
-            "company": "BCD Travel",
-            "url": "https://jobicy.com/jobs/148062-financial-analyst-global-pricing",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Product Lead - Experience",
-            "company": "Enode",
-            "url": "https://jobicy.com/jobs/148057-product-lead-experience",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM",
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Head of Sales - Europe",
-            "company": "SWORD Health",
-            "url": "https://jobicy.com/jobs/143136-head-of-sales-europe",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "AWS",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "CRA II",
-            "company": "ICON plc",
-            "url": "https://jobicy.com/jobs/144491-cra-ii",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG",
-                "GCP"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Senior Android SDK Engineer",
-            "company": "RevenueCat",
-            "url": "https://jobicy.com/jobs/144154-senior-android-sdk-engineer",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Python",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Senior Partner Account Executive - France",
-            "company": "EDB",
-            "url": "https://jobicy.com/jobs/145496-senior-partner-account-executive-france",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "SQL",
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Lifecycle Specialist, Employee Relations and Transitions - EMEA",
-            "company": "Remote",
-            "url": "https://jobicy.com/jobs/147424-lifecycle-specialist-employee-relations-and-transitions-emea",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG",
-                "AWS"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Director - Technical Support (EMEA)",
-            "company": "EDB",
-            "url": "https://jobicy.com/jobs/147418-director-technical-support-emea",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "SQL",
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Sr. IT Systems Engineer",
-            "company": "Zapier",
-            "url": "https://jobicy.com/jobs/147417-sr-it-systems-engineer",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM",
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 70
+            "_score": 3
         },
         {
             "title": "Staff Backend Engineer / Tech Lead Manager",
@@ -546,11 +334,10 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG",
+                "R",
                 "Kubernetes"
             ],
-            "is_unicorn": false,
-            "_score": 70
+            "_score": 2
         },
         {
             "title": "Senior Backend Software Engineer (Observability)",
@@ -562,11 +349,10 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG",
+                "R",
                 "Kubernetes"
             ],
-            "is_unicorn": false,
-            "_score": 70
+            "_score": 2
         },
         {
             "title": "Senior QA Automation Engineer (BDD)",
@@ -581,103 +367,22 @@
                 "Python",
                 "Git"
             ],
-            "is_unicorn": false,
-            "_score": 70
+            "_score": 2
         },
         {
-            "title": "People (HR) Consultant - 6 month fixed term contract",
-            "company": "Autodesk",
-            "url": "https://jobicy.com/jobs/146168-people-hr-consultant-6-month-fixed-term-contract",
+            "title": "Privacy Manager",
+            "company": "Nebius",
+            "url": "https://jobicy.com/jobs/147073-privacy-manager",
             "region": "Greece",
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG",
-                "AWS"
+                "R",
+                "LLM"
             ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Senior .NET (WPF) Developer",
-            "company": "Skylum",
-            "url": "https://jobicy.com/jobs/147080-senior-net-wpf-developer",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "C++",
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Sales Executive",
-            "company": "BCD Travel",
-            "url": "https://jobicy.com/jobs/147077-sales-executive-2",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Email Growth Manager",
-            "company": "Ruby Labs",
-            "url": "https://jobicy.com/jobs/147074-email-growth-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG",
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Staff Android Engineer",
-            "company": "AlphaSense",
-            "url": "https://jobicy.com/jobs/147066-staff-android-engineer",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG",
-                "AWS"
-            ],
-            "is_unicorn": false,
-            "_score": 70
-        },
-        {
-            "title": "Accounts Payable Clerk (Entry Level Opportunity)",
-            "company": "Canonical Ltd.",
-            "url": "https://jobicy.com/jobs/145235-accounts-payable-clerk-entry-level-opportunity",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 2
         },
         {
             "title": "Senior Total Rewards Partner",
@@ -689,55 +394,23 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG"
+                "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
-            "title": "Accounts Payable Clerk (Entry Level Opportunity)",
+            "title": "Accounts Receivable Clerk",
             "company": "Canonical Ltd.",
-            "url": "https://jobicy.com/jobs/148299-accounts-payable-clerk-entry-level-opportunity-2",
+            "url": "https://jobicy.com/jobs/148113-accounts-receivable-clerk",
             "region": "Greece",
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "Git"
+                "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Partner Sales Manager",
-            "company": "Fivetran",
-            "url": "https://jobicy.com/jobs/148115-partner-sales-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Onboarding Project Manager",
-            "company": "Cloudbeds",
-            "url": "https://jobicy.com/jobs/144915-onboarding-project-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Senior Manager, Global Payroll Strategy and Compliance",
@@ -749,10 +422,9 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG"
+                "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Technical Program Manager, Data Centers",
@@ -764,25 +436,23 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG"
+                "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
-            "title": "Chief Executive Officer",
-            "company": "saas.group",
-            "url": "https://jobicy.com/jobs/148055-chief-executive-officer",
+            "title": "Product Lead - Experience",
+            "company": "Enode",
+            "url": "https://jobicy.com/jobs/148057-product-lead-experience",
             "region": "Greece",
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG"
+                "LLM"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Social Media Manager",
@@ -796,83 +466,7 @@
             "skills": [
                 "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "CRM Manager (ManyChat)",
-            "company": "Ruby Labs",
-            "url": "https://jobicy.com/jobs/148053-crm-manager-manychat",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "International Recruitment Consultant",
-            "company": "Atlean World",
-            "url": "https://jobicy.com/jobs/144775-international-recruitment-consultant",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Onboarding Project Manager - Europe",
-            "company": "Cloudbeds",
-            "url": "https://jobicy.com/jobs/144914-onboarding-project-manager-europe",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Senior Business Analyst - Health Insurance (Fully Remote)",
-            "company": "CoverGo",
-            "url": "https://jobicy.com/jobs/144774-senior-business-analyst-health-insurance-fully-remote",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Sales Development Representative",
-            "company": "saas.group",
-            "url": "https://jobicy.com/jobs/147757-sales-development-representative",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Coordinator, Payroll Client Services",
@@ -884,100 +478,37 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG"
+                "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
-            "title": "Executive Assistant / Corporate Administrator",
-            "company": "Canonical Ltd.",
-            "url": "https://jobicy.com/jobs/147703-executive-assistant-corporate-administrator",
+            "title": "CRA II",
+            "company": "ICON plc",
+            "url": "https://jobicy.com/jobs/144491-cra-ii",
             "region": "Greece",
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "Git"
+                "GCP"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
-            "title": "CRM & Retention Specialist",
-            "company": "Sporty Group",
-            "url": "https://jobicy.com/jobs/147702-crm-retention-specialist",
+            "title": "Senior Android SDK Engineer",
+            "company": "RevenueCat",
+            "url": "https://jobicy.com/jobs/144154-senior-android-sdk-engineer",
             "region": "Greece",
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG"
+                "Python"
             ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Enterprise Core Customer Success Manager",
-            "company": "Samsara",
-            "url": "https://jobicy.com/jobs/147614-enterprise-core-customer-success-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "AI Systems Engineering Subject Matter Expert",
-            "company": "TripleTen",
-            "url": "https://jobicy.com/jobs/144479-ai-systems-engineering-subject-matter-expert",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Sr. Director (m/f/d) Sales, Europe",
-            "company": "Thermo Fisher Scientific",
-            "url": "https://jobicy.com/jobs/147454-sr-director-m-f-d-sales-europe",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Sr Sales Manager EMEA",
-            "company": "Thermo Fisher Scientific",
-            "url": "https://jobicy.com/jobs/147448-sr-sales-manager-emea",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Customer Care Associate",
@@ -989,10 +520,9 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG"
+                "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Accountant",
@@ -1004,40 +534,23 @@
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "RAG"
+                "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
-            "title": "Technical Pre-Sales Specialist - Forma for Design",
-            "company": "Autodesk",
-            "url": "https://jobicy.com/jobs/147420-technical-pre-sales-specialist-forma-for-design",
+            "title": "Lifecycle Specialist, Employee Relations and Transitions - EMEA",
+            "company": "Remote",
+            "url": "https://jobicy.com/jobs/147424-lifecycle-specialist-employee-relations-and-transitions-emea",
             "region": "Greece",
             "location_raw": "Greece",
             "salary_raw": null,
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "Git"
+                "R"
             ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Sales Specialist - Forma for Design",
-            "company": "Autodesk",
-            "url": "https://jobicy.com/jobs/147419-sales-specialist-forma-for-design",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Git"
-            ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Brazilian Subject Matter Expert in Animals and Pets (PhD level)",
@@ -1051,8 +564,7 @@
             "skills": [
                 "LLM"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Brazilian Subject Matter Expert in History (PhD level)",
@@ -1066,8 +578,7 @@
             "skills": [
                 "LLM"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Brazilian Subject Matter Expert in Law and Ethics (PhD level)",
@@ -1081,8 +592,7 @@
             "skills": [
                 "LLM"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Brazilian Subject Matter Expert in Literature and linguistics (PhD level)",
@@ -1096,8 +606,7 @@
             "skills": [
                 "LLM"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Brazilian Subject Matter Expert in Politics (PhD level)",
@@ -1111,8 +620,7 @@
             "skills": [
                 "LLM"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Brazilian Subject Matter Expert in Religion or Philosophy (PhD level)",
@@ -1126,23 +634,7 @@
             "skills": [
                 "LLM"
             ],
-            "is_unicorn": false,
-            "_score": 60
-        },
-        {
-            "title": "Business Development Manager - German Speaking (Europe)",
-            "company": "Nivoda",
-            "url": "https://jobicy.com/jobs/147400-business-development-manager-german-speaking-europe",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "RAG"
-            ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
             "title": "Sr. Business Development Representative",
@@ -1156,23 +648,147 @@
             "skills": [
                 "Kubernetes"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
         },
         {
-            "title": "Enterprise Account Executive",
-            "company": "Autodesk",
-            "url": "https://jobicy.com/jobs/143971-enterprise-account-executive-5",
+            "title": "Operations Driver Success Specialist(Paiania)-Skroutz Last Mile(ODSS 0626)",
+            "company": "Skroutz",
+            "url": "https://apply.workable.com/skroutz/j/458EF07861/",
             "region": "Greece",
-            "location_raw": "Greece",
+            "location_raw": "Paiania, Greece",
             "salary_raw": null,
             "salary_eur": null,
             "salary_net_mo": null,
             "skills": [
-                "Git"
+                "Tech"
             ],
-            "is_unicorn": false,
-            "_score": 60
+            "_score": 1
+        },
+        {
+            "title": "Senior Full-Stack Software Engineer",
+            "company": "Blueground",
+            "url": "https://apply.workable.com/blueground/j/A676D38600/",
+            "region": "Greece",
+            "location_raw": "Athens, Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
+        },
+        {
+            "title": "Full-Stack Software Engineer",
+            "company": "Blueground",
+            "url": "https://apply.workable.com/blueground/j/3C3D8183F6/",
+            "region": "Greece",
+            "location_raw": "Athens, Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
+        },
+        {
+            "title": "Analytics Engineer",
+            "company": "Novibet",
+            "url": "https://apply.workable.com/novibet/j/246AB1BCCE/",
+            "region": "Greece",
+            "location_raw": "Athens, Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
+        },
+        {
+            "title": "Junior DevOps Engineer",
+            "company": "Novibet",
+            "url": "https://apply.workable.com/novibet/j/A65D26A3EE/",
+            "region": "Greece",
+            "location_raw": "Athens, Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
+        },
+        {
+            "title": "Junior DevOps Engineer",
+            "company": "Novibet",
+            "url": "https://apply.workable.com/novibet/j/14B7A4B32A/",
+            "region": "Greece",
+            "location_raw": "Naxxar, Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
+        },
+        {
+            "title": "Music Copyright Specialist - Youtube Claiming Team ( Batch 21 )",
+            "company": "Orfium",
+            "url": "https://apply.workable.com/orfium/j/32F13B7598/",
+            "region": "Greece",
+            "location_raw": "Colombo, Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
+        },
+        {
+            "title": "Support Analyst",
+            "company": "Orfium",
+            "url": "https://apply.workable.com/orfium/j/B31270CF59/",
+            "region": "Greece",
+            "location_raw": "Colombo, Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
+        },
+        {
+            "title": "Destination Operations Manager (Spain)",
+            "company": "Welcomepickups",
+            "url": "https://apply.workable.com/welcomepickups/j/A1C4FE9988/",
+            "region": "Greece",
+            "location_raw": ", Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
+        },
+        {
+            "title": "Supply Chain Associate",
+            "company": "Spotawheel",
+            "url": "https://apply.workable.com/spotawheel/j/3850C127B3/",
+            "region": "Greece",
+            "location_raw": "Nea Ionia, Greece",
+            "salary_raw": null,
+            "salary_eur": null,
+            "salary_net_mo": null,
+            "skills": [
+                "Tech"
+            ],
+            "_score": 1
         }
     ]
 }

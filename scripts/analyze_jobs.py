@@ -243,6 +243,7 @@ def analyze_jobs(jobs, previous_percentages):
     for cat, skills_dict in CATEGORIES.items():
         skill_counts[cat] = {skill: 0 for skill in skills_dict.keys()}
 
+    # Filter logic: Keep if it has skills OR if it's a Workable Greek job
     valid_jobs_list = []
     region_salaries = {"Greece": [], "Europe & UK": [], "North America": [], "Worldwide": []}
 
@@ -252,23 +253,20 @@ def analyze_jobs(jobs, previous_percentages):
         region = classify_region(job['location'])
         
         # GREEK REALITY CHECK
-        # If it's a USD salary or an insane EUR salary (>60k) from a global remote board,
-        # it's not the "Greek Reality". Move it to Worldwide.
         if region == "Greece" and salary_info:
             if salary_info['currency'] == 'usd' or salary_info['eur_annual'] > 60000:
                 region = "Worldwide"
                 
         found_skills = []
-
         for cat, skills_dict in CATEGORIES.items():
-            for skill, keywords in skills_dict.items():
-                for kw in keywords:
-                    if kw in desc:
-                        skill_counts[cat][skill] += 1
-                        found_skills.append(skill)
-                        break
-
-        if found_skills:
+            for skill in skills_dict.keys():
+                if re.search(r'\b' + re.escape(skill) + r'\b', desc, re.IGNORECASE):
+                    found_skills.append(skill)
+                    
+        # Force keep if it's from our workable scraper
+        is_workable = "workable.com" in job['url']
+        
+        if found_skills or is_workable:
             job_entry = {
                 "title": job['title'],
                 "company": job['company'],
@@ -278,7 +276,7 @@ def analyze_jobs(jobs, previous_percentages):
                 "salary_raw": salary_info['raw'] if salary_info else None,
                 "salary_eur": salary_info['eur_annual'] if salary_info else None,
                 "salary_net_mo": estimate_net_monthly(salary_info['eur_annual'], region) if salary_info else None,
-                "skills": found_skills
+                "skills": found_skills if found_skills else ["Tech"]
             }
             valid_jobs_list.append(job_entry)
             
@@ -317,21 +315,14 @@ def analyze_jobs(jobs, previous_percentages):
 
     unicorn_job = None
     max_score = -1
-
+    
     for job in valid_jobs_list:
-        score = len(job['skills']) * 10
+        score = len(job['skills'])
         if job['salary_eur']:
-            score += 20
-            # Higher salary = higher score
-            score += (job['salary_eur'] // 10000) * 2
-            
-        if job['region'] == "Greece":
-            score += 50 # Priority to Greek jobs
-            
-        job['is_unicorn'] = False
+            score += 5
         job['_score'] = score
         
-        if score > max_score:
+        if score > max_score and job['salary_eur'] and job['salary_eur'] > 80000:
             max_score = score
             unicorn_job = job
 
@@ -344,9 +335,18 @@ def analyze_jobs(jobs, previous_percentages):
     greek_jobs = [j for j in valid_jobs_list if j['region'] == 'Greece']
     
     # Calculate Top Greek Companies by open roles
+    import urllib.parse
     from collections import Counter
     gr_company_counts = Counter([j['company'] for j in greek_jobs if j['company']])
-    top_greek_companies = [{"name": comp, "count": count} for comp, count in gr_company_counts.most_common(5)]
+    top_greek_companies = []
+    # Known workable companies to generate direct links
+    workable_comps = [c.lower() for c in ['skroutz', 'blueground', 'epignosis', 'novibet', 'orfium', 'hellasdirect', 'welcomepickups', 'spotawheel', 'persado', 'hackthebox']]
+    for comp, count in gr_company_counts.most_common(5):
+        if comp.lower() in workable_comps:
+            url = f"https://apply.workable.com/{comp.lower()}/"
+        else:
+            url = f"https://www.google.com/search?q={urllib.parse.quote(comp + ' careers')}"
+        top_greek_companies.append({"name": comp, "count": count, "url": url})
 
     return categories_output, greek_jobs[:100], avg_salaries, avg_salaries_net, top_greek_companies
 
