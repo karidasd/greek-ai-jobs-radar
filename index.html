@@ -82,7 +82,21 @@
             <div class="categories-grid" id="categories-grid"></div>
         </section>
 
-        <section class="jobs-section">
+                <section style="margin-top:40px;">
+            <div class="section-header">
+                <h2>📬 Job Alerts — Ειδοποιήσεις Νέων Αγγελιών</h2>
+                <p>Βάλε το email σου και μάθε πρώτος για νέες θέσεις στην Ελλάδα.</p>
+            </div>
+            <div class="card" style="max-width:600px;">
+                <p style="color:#94a3b8;font-size:0.9rem;margin-bottom:20px;">Κάθε βράδυ σαρώνουμε νέες αγγελίες. Στείλε email για νέες θέσεις που ταιριάζουν στα skills σου.</p>
+                <form id="alert-form" style="display:flex;gap:10px;flex-wrap:wrap;">
+                    <input type="email" id="alert-email" placeholder="email@example.com" required style="flex:1;min-width:180px;padding:10px;border-radius:6px;border:1px solid #374151;background:#1f2937;color:#f3f4f6;">
+                    <input type="text" id="alert-skills" placeholder="Skills: Python, SQL..." style="flex:1;min-width:180px;padding:10px;border-radius:6px;border:1px solid #374151;background:#1f2937;color:#f3f4f6;">
+                    <button type="submit" style="background:#3b82f6;color:white;border:none;padding:10px 20px;border-radius:6px;font-weight:bold;cursor:pointer;">🔔 Ενεργοποίηση</button>
+                </form>
+                <div id="alert-result" style="margin-top:12px;font-size:0.9rem;"></div>
+            </div>
+        </section><section class="jobs-section">
             <div class="section-header">
                 <h2>🔥 Live Ελληνικές Αγγελίες</h2>
                 <p>Αποκλειστικά από Ελληνικές εταιρείες (Workable API). Κλικ για άμεση αίτηση.</p>
@@ -100,3 +114,4 @@
 <script src="script.js?v=3"></script>
 </body>
 </html>
+

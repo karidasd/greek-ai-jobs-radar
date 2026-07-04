@@ -1,4 +1,4 @@
-﻿let globalNetSalaries = {};
+let globalNetSalaries = {};
 let allCategories = {};
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -286,3 +286,31 @@ function startLocationScanner(jobs) {
         i++;
     }, 1500);
 }
+
+// ─── Email Alerts (Formspree) ───────────────────────────────────────────────
+const alertForm = document.getElementById("alert-form");
+if (alertForm) {
+    alertForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const email  = document.getElementById("alert-email").value.trim();
+        const skills = document.getElementById("alert-skills").value.trim();
+        const result = document.getElementById("alert-result");
+        if (!email) return;
+        result.innerHTML = "<span style='color:#60a5fa;'>Αποστολή...</span>";
+        fetch("https://formspree.io/f/xpwzqkrg", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", "Accept": "application/json" },
+            body: JSON.stringify({ email, skills, source: "Greek AI Jobs Radar" })
+        }).then(r => {
+            if (r.ok) {
+                result.innerHTML = "<span style='color:#10b981;'>Εγγραφηκες! Θα λαμβανεις alerts για νεες αγγελιες.</span>";
+                alertForm.reset();
+            } else {
+                result.innerHTML = "<span style='color:#ef4444;'>Σφαλμα. Δοκιμασε ξανα.</span>";
+            }
+        }).catch(() => {
+            result.innerHTML = "<span style='color:#ef4444;'>Σφαλμα συνδεσης.</span>";
+        });
+    });
+}
+

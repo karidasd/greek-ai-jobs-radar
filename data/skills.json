@@ -1,343 +1,929 @@
 {
-    "last_updated": "2026-07-04 11:14",
-    "total_jobs_analyzed": 405,
-    "avg_salaries_eur": {
-        "Greece": 38000,
-        "Europe & UK": 66216,
-        "North America": 138956,
-        "Worldwide": 111480
+  "last_updated": "2026-07-04 11:34",
+  "total_jobs_analyzed": 361,
+  "avg_salaries_eur": {
+    "Greece": 31550,
+    "Europe & UK": 66216,
+    "North America": 138956,
+    "Worldwide": 121004
+  },
+  "avg_salaries_net": {
+    "Greece": 1577,
+    "Europe & UK": 3310,
+    "North America": 8105,
+    "Worldwide": 7058
+  },
+  "top_greek_companies": [
+    {
+      "name": "Blueground",
+      "count": 10,
+      "url": "https://apply.workable.com/blueground/"
     },
-    "avg_salaries_net": {
-        "Greece": 1900,
-        "Europe & UK": 3310,
-        "North America": 8105,
-        "Worldwide": 6503
+    {
+      "name": "Novibet",
+      "count": 10,
+      "url": "https://apply.workable.com/novibet/"
     },
-    "top_greek_companies": [
-        {
-            "name": "Novibet",
-            "count": 3,
-            "url": "https://apply.workable.com/novibet/"
-        },
-        {
-            "name": "Blueground",
-            "count": 2,
-            "url": "https://apply.workable.com/blueground/"
-        },
-        {
-            "name": "Orfium",
-            "count": 2,
-            "url": "https://apply.workable.com/orfium/"
-        },
-        {
-            "name": "Skroutz",
-            "count": 1,
-            "url": "https://apply.workable.com/skroutz/"
-        },
-        {
-            "name": "Welcomepickups",
-            "count": 1,
-            "url": "https://apply.workable.com/welcomepickups/"
-        }
+    {
+      "name": "Orfium",
+      "count": 10,
+      "url": "https://apply.workable.com/orfium/"
+    },
+    {
+      "name": "Welcomepickups",
+      "count": 10,
+      "url": "https://apply.workable.com/welcomepickups/"
+    },
+    {
+      "name": "Spotawheel",
+      "count": 10,
+      "url": "https://apply.workable.com/spotawheel/"
+    },
+    {
+      "name": "Skroutz",
+      "count": 9,
+      "url": "https://apply.workable.com/skroutz/"
+    },
+    {
+      "name": "Hellasdirect",
+      "count": 3,
+      "url": "https://apply.workable.com/hellasdirect/"
+    },
+    {
+      "name": "Persado",
+      "count": 3,
+      "url": "https://apply.workable.com/persado/"
+    }
+  ],
+  "categories": {
+    "Programming Languages": [
+      {
+        "skill": "SQL",
+        "count": 83,
+        "percentage": 23.0,
+        "trend": 0
+      },
+      {
+        "skill": "Python",
+        "count": 80,
+        "percentage": 22.2,
+        "trend": 0
+      },
+      {
+        "skill": "Go",
+        "count": 35,
+        "percentage": 9.7,
+        "trend": 0
+      },
+      {
+        "skill": "JavaScript",
+        "count": 32,
+        "percentage": 8.9,
+        "trend": 0
+      },
+      {
+        "skill": "Java",
+        "count": 27,
+        "percentage": 7.5,
+        "trend": 0
+      },
+      {
+        "skill": "C++",
+        "count": 10,
+        "percentage": 2.8,
+        "trend": 0
+      }
     ],
-    "categories": {
-        "Programming Languages": [
-            {
-                "skill": "SQL",
-                "count": 89,
-                "percentage": 22.0,
-                "trend": 0.0
-            },
-            {
-                "skill": "Python",
-                "count": 88,
-                "percentage": 21.7,
-                "trend": 0.2
-            },
-            {
-                "skill": "Java",
-                "count": 30,
-                "percentage": 7.4,
-                "trend": 0.0
-            },
-            {
-                "skill": "R",
-                "count": 11,
-                "percentage": 2.7,
-                "trend": 0.0
-            },
-            {
-                "skill": "C++",
-                "count": 11,
-                "percentage": 2.7,
-                "trend": 0.2
-            }
-        ],
-        "AI & Machine Learning": [
-            {
-                "skill": "RAG",
-                "count": 249,
-                "percentage": 61.5,
-                "trend": 0.0
-            },
-            {
-                "skill": "LLM",
-                "count": 64,
-                "percentage": 15.8,
-                "trend": 0.0
-            },
-            {
-                "skill": "PyTorch",
-                "count": 11,
-                "percentage": 2.7,
-                "trend": 0.0
-            },
-            {
-                "skill": "TensorFlow",
-                "count": 9,
-                "percentage": 2.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "Scikit-Learn",
-                "count": 9,
-                "percentage": 2.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "LangChain",
-                "count": 6,
-                "percentage": 1.5,
-                "trend": 0.0
-            },
-            {
-                "skill": "Hugging Face",
-                "count": 5,
-                "percentage": 1.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "Pandas",
-                "count": 3,
-                "percentage": 0.7,
-                "trend": 0.0
-            },
-            {
-                "skill": "NumPy",
-                "count": 3,
-                "percentage": 0.7,
-                "trend": 0.0
-            }
-        ],
-        "Cloud & MLOps": [
-            {
-                "skill": "Git",
-                "count": 166,
-                "percentage": 41.0,
-                "trend": 0.0
-            },
-            {
-                "skill": "AWS",
-                "count": 94,
-                "percentage": 23.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "Azure",
-                "count": 38,
-                "percentage": 9.4,
-                "trend": 0.0
-            },
-            {
-                "skill": "Kubernetes",
-                "count": 29,
-                "percentage": 7.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "Spark",
-                "count": 28,
-                "percentage": 6.9,
-                "trend": 0.0
-            },
-            {
-                "skill": "GCP",
-                "count": 26,
-                "percentage": 6.4,
-                "trend": 0.0
-            },
-            {
-                "skill": "Docker",
-                "count": 21,
-                "percentage": 5.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "Snowflake",
-                "count": 20,
-                "percentage": 4.9,
-                "trend": 0.0
-            },
-            {
-                "skill": "Tableau",
-                "count": 18,
-                "percentage": 4.4,
-                "trend": 0.0
-            },
-            {
-                "skill": "Airflow",
-                "count": 17,
-                "percentage": 4.2,
-                "trend": 0.0
-            },
-            {
-                "skill": "Power BI",
-                "count": 15,
-                "percentage": 3.7,
-                "trend": 0.0
-            }
-        ]
-    },
-    "latest_jobs": [
-        {
-            "title": "Operations Driver Success Specialist(Paiania)-Skroutz Last Mile(ODSS 0626)",
-            "company": "Skroutz",
-            "url": "https://apply.workable.com/skroutz/j/458EF07861/",
-            "region": "Greece",
-            "location_raw": "Paiania, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Senior Full-Stack Software Engineer",
-            "company": "Blueground",
-            "url": "https://apply.workable.com/blueground/j/A676D38600/",
-            "region": "Greece",
-            "location_raw": "Athens, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Full-Stack Software Engineer",
-            "company": "Blueground",
-            "url": "https://apply.workable.com/blueground/j/3C3D8183F6/",
-            "region": "Greece",
-            "location_raw": "Athens, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Analytics Engineer",
-            "company": "Novibet",
-            "url": "https://apply.workable.com/novibet/j/246AB1BCCE/",
-            "region": "Greece",
-            "location_raw": "Athens, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Junior DevOps Engineer",
-            "company": "Novibet",
-            "url": "https://apply.workable.com/novibet/j/A65D26A3EE/",
-            "region": "Greece",
-            "location_raw": "Athens, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Junior DevOps Engineer",
-            "company": "Novibet",
-            "url": "https://apply.workable.com/novibet/j/14B7A4B32A/",
-            "region": "Greece",
-            "location_raw": "Naxxar, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Music Copyright Specialist - Youtube Claiming Team ( Batch 21 )",
-            "company": "Orfium",
-            "url": "https://apply.workable.com/orfium/j/32F13B7598/",
-            "region": "Greece",
-            "location_raw": "Colombo, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Support Analyst",
-            "company": "Orfium",
-            "url": "https://apply.workable.com/orfium/j/B31270CF59/",
-            "region": "Greece",
-            "location_raw": "Colombo, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Destination Operations Manager (Spain)",
-            "company": "Welcomepickups",
-            "url": "https://apply.workable.com/welcomepickups/j/A1C4FE9988/",
-            "region": "Greece",
-            "location_raw": ", Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Supply Chain Associate",
-            "company": "Spotawheel",
-            "url": "https://apply.workable.com/spotawheel/j/3850C127B3/",
-            "region": "Greece",
-            "location_raw": "Nea Ionia, Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Tech"
-            ],
-            "_score": 1
-        }
+    "AI & Machine Learning": [
+      {
+        "skill": "RAG",
+        "count": 173,
+        "percentage": 47.9,
+        "trend": 0
+      },
+      {
+        "skill": "LLM",
+        "count": 63,
+        "percentage": 17.5,
+        "trend": 0
+      },
+      {
+        "skill": "PyTorch",
+        "count": 12,
+        "percentage": 3.3,
+        "trend": 0
+      },
+      {
+        "skill": "TensorFlow",
+        "count": 10,
+        "percentage": 2.8,
+        "trend": 0
+      },
+      {
+        "skill": "Scikit-Learn",
+        "count": 9,
+        "percentage": 2.5,
+        "trend": 0
+      },
+      {
+        "skill": "LangChain",
+        "count": 6,
+        "percentage": 1.7,
+        "trend": 0
+      },
+      {
+        "skill": "Hugging Face",
+        "count": 5,
+        "percentage": 1.4,
+        "trend": 0
+      },
+      {
+        "skill": "Pandas",
+        "count": 3,
+        "percentage": 0.8,
+        "trend": 0
+      },
+      {
+        "skill": "NumPy",
+        "count": 3,
+        "percentage": 0.8,
+        "trend": 0
+      }
+    ],
+    "Cloud & MLOps": [
+      {
+        "skill": "Git",
+        "count": 126,
+        "percentage": 34.9,
+        "trend": 0
+      },
+      {
+        "skill": "AWS",
+        "count": 92,
+        "percentage": 25.5,
+        "trend": 0
+      },
+      {
+        "skill": "Azure",
+        "count": 36,
+        "percentage": 10.0,
+        "trend": 0
+      },
+      {
+        "skill": "GCP",
+        "count": 26,
+        "percentage": 7.2,
+        "trend": 0
+      },
+      {
+        "skill": "Spark",
+        "count": 25,
+        "percentage": 6.9,
+        "trend": 0
+      },
+      {
+        "skill": "Kubernetes",
+        "count": 24,
+        "percentage": 6.6,
+        "trend": 0
+      },
+      {
+        "skill": "Snowflake",
+        "count": 20,
+        "percentage": 5.5,
+        "trend": 0
+      },
+      {
+        "skill": "Tableau",
+        "count": 18,
+        "percentage": 5.0,
+        "trend": 0
+      },
+      {
+        "skill": "Docker",
+        "count": 17,
+        "percentage": 4.7,
+        "trend": 0
+      },
+      {
+        "skill": "Airflow",
+        "count": 17,
+        "percentage": 4.7,
+        "trend": 0
+      },
+      {
+        "skill": "Power BI",
+        "count": 15,
+        "percentage": 4.2,
+        "trend": 0
+      }
     ]
+  },
+  "latest_jobs": [
+    {
+      "title": "Data Scientist",
+      "company": "Ανώνυμη Ελληνική Εταιρεία",
+      "url": "https://gr.indeed.com/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": "€1800/mo",
+      "salary_eur": 25200,
+      "salary_net_mo": 1260,
+      "skills": [
+        "Python",
+        "SQL",
+        "LLM",
+        "Docker"
+      ],
+      "_score": 9
+    },
+    {
+      "title": "AI Engineer",
+      "company": "Athens Tech Startup",
+      "url": "https://gr.indeed.com/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": "25000 EUR",
+      "salary_eur": 25000,
+      "salary_net_mo": 1250,
+      "skills": [
+        "PyTorch",
+        "TensorFlow",
+        "AWS"
+      ],
+      "_score": 8
+    },
+    {
+      "title": "Automation Senior Manager, Skroutz Warehouse (ASMSK 0626)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/933DA8CE76/",
+      "region": "Greece",
+      "location_raw": "Aspropyrgos, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Operations Driver Success Specialist(Paiania)-Skroutz Last Mile(ODSS 0626)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/458EF07861/",
+      "region": "Greece",
+      "location_raw": "Paiania, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Operations Driver Success Specialist - Skroutz Last Mile (ODSS 0626)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/689A33867A/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Warehouse Staff Morning Shift - Aspropyrgos (WSΜSA 0626)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/8180143630/",
+      "region": "Greece",
+      "location_raw": "Aspropyrgos, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Warehouse Staff Afternoon Shift - Aspropyrgos (WSASA 0626)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/4F3C72AF95/",
+      "region": "Greece",
+      "location_raw": "Aspropyrgos, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Warehouse Staff Night Shift - Aspropyrgos (WSNSA 0526)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/2BFA843F32/",
+      "region": "Greece",
+      "location_raw": "Aspropyrgos, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Customer Care Agent - Skroutz Last Mile (CCA 0426)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/78684A0661/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Warehouse Staff - Aspropyrgos (WSA 0326)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/12CC21E6A1/",
+      "region": "Greece",
+      "location_raw": "Aspropyrgos, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "The Skroutz 'Add to Favorites' Pitch",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/4FFDCB70B4/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Operations Partner (Flexible Contract BOS)",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/0FD06D2AC9/",
+      "region": "Greece",
+      "location_raw": "Boston, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Operations Partner (Flexible Contract SEA)",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/DDED59C344/",
+      "region": "Greece",
+      "location_raw": "Seattle, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Junior Account Executive",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/FA118A2D56/",
+      "region": "Greece",
+      "location_raw": "Brasília, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "UX Research Internship",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/08D37FD888/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Sales Coordinator (Native-like French speaker)",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/9818BAD22D/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior Full-Stack Software Engineer",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/A676D38600/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "SEO Senior Associate",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/B40901E4AB/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Full-Stack Software Engineer",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/3C3D8183F6/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Guest Operations Intern",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/6E66F700BF/",
+      "region": "Greece",
+      "location_raw": "Paris, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Business Accounts - Account Manager (San Francisco Bay Area)",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/E6D7324DEB/",
+      "region": "Greece",
+      "location_raw": "San Francisco, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior Financial Reporting Specialist",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/2E2BF027A8/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Sales Development Representative (Future Opportunities)",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/D26AEB4351/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Analytics Engineer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/246AB1BCCE/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Junior DevOps Engineer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/A65D26A3EE/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Junior DevOps Engineer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/14B7A4B32A/",
+      "region": "Greece",
+      "location_raw": "Naxxar, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Junior Pre-Event Trader (General Sports)",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/FDB0AD1C1D/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Customer Care Agent",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/95134562D7/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Customer Care Agent (Part-Time)",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/7031A16B13/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Agente de Suporte ao Cliente",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/50E3841C3E/",
+      "region": "Greece",
+      "location_raw": "São Paulo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Graphic Designer (Mexico)",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/B7E99A4F0E/",
+      "region": "Greece",
+      "location_raw": "Mexico City, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Customer Care Agent (Based in Heraklion, Crete)",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/1588193D9F/",
+      "region": "Greece",
+      "location_raw": "Heraklion, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "VIP Operations Specialist",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/6FB92FD635/",
+      "region": "Greece",
+      "location_raw": "Kifisia, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Global IT Manager",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/7255DA9F2E/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Service Delivery & Monitoring Executive",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/EB9C993F2C/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Music Copyright Specialist - Youtube Claiming Team ( Batch 21 )",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/32F13B7598/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Project Associate - BMI",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/71222F8459/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Junior Executive - Talent Acquisition ( 1 year fixed term contract )",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/D6AEE35311/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Product Manager",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/0D8455C85B/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Junior Service Desk Executive",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/8AAEB47DED/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Music Copyright Specialist - Batch 25",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/C4EC62EADE/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Junior Executive - Music Partners",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/503A4B47C5/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Support Analyst",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/B31270CF59/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Sales Administrator",
+      "company": "Hellasdirect",
+      "url": "https://apply.workable.com/hellasdirect/j/70E3C4AD09/",
+      "region": "Greece",
+      "location_raw": "Bucharest, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Emergency Team Member",
+      "company": "Hellasdirect",
+      "url": "https://apply.workable.com/hellasdirect/j/AB156C2442/",
+      "region": "Greece",
+      "location_raw": "Marousi, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Send us your CV",
+      "company": "Hellasdirect",
+      "url": "https://apply.workable.com/hellasdirect/j/A94C155643/",
+      "region": "Greece",
+      "location_raw": "Nicosia, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Live Operations Specialist",
+      "company": "Welcomepickups",
+      "url": "https://apply.workable.com/welcomepickups/j/D466B19184/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Portfolio Operations Manager (LATAM)",
+      "company": "Welcomepickups",
+      "url": "https://apply.workable.com/welcomepickups/j/F7D0F86AB1/",
+      "region": "Greece",
+      "location_raw": "Buenos Aires, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Finance Operations Associate",
+      "company": "Welcomepickups",
+      "url": "https://apply.workable.com/welcomepickups/j/960E64B767/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Destination Operations Manager (Turkey)",
+      "company": "Welcomepickups",
+      "url": "https://apply.workable.com/welcomepickups/j/006EF60461/",
+      "region": "Greece",
+      "location_raw": "Istanbul, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    }
+  ]
 }
