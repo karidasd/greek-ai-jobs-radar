@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-07-04 10:34",
+    "last_updated": "2026-07-04 10:39",
     "total_jobs_analyzed": 405,
     "avg_salaries_eur": {
         "Greece": 25200,
@@ -15,21 +15,6 @@
     },
     "top_greek_companies": [
         {
-            "name": "Remote",
-            "count": 7,
-            "url": "https://www.google.com/search?q=Remote%20careers"
-        },
-        {
-            "name": "Nebius",
-            "count": 6,
-            "url": "https://www.google.com/search?q=Nebius%20careers"
-        },
-        {
-            "name": "Welo Global",
-            "count": 6,
-            "url": "https://www.google.com/search?q=Welo%20Global%20careers"
-        },
-        {
             "name": "Novibet",
             "count": 3,
             "url": "https://apply.workable.com/novibet/"
@@ -38,6 +23,21 @@
             "name": "Blueground",
             "count": 2,
             "url": "https://apply.workable.com/blueground/"
+        },
+        {
+            "name": "Orfium",
+            "count": 2,
+            "url": "https://apply.workable.com/orfium/"
+        },
+        {
+            "name": "Ανώνυμη Ελληνική Εταιρεία",
+            "count": 1,
+            "url": "https://www.google.com/search?q=%CE%91%CE%BD%CF%8E%CE%BD%CF%85%CE%BC%CE%B7%20%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE%20%CE%95%CF%84%CE%B1%CE%B9%CF%81%CE%B5%CE%AF%CE%B1%20careers"
+        },
+        {
+            "name": "Athens Tech Startup",
+            "count": 1,
+            "url": "https://www.google.com/search?q=Athens%20Tech%20Startup%20careers"
         }
     ],
     "categories": {
@@ -46,31 +46,31 @@
                 "skill": "Python",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -21.5
+                "trend": 0.0
             },
             {
                 "skill": "SQL",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -22.0
+                "trend": 0.0
             },
             {
                 "skill": "R",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -2.7
+                "trend": 0.0
             },
             {
                 "skill": "Java",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -7.4
+                "trend": 0.0
             },
             {
                 "skill": "C++",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -2.5
+                "trend": 0.0
             }
         ],
         "AI & Machine Learning": [
@@ -78,55 +78,55 @@
                 "skill": "PyTorch",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -2.7
+                "trend": 0.0
             },
             {
                 "skill": "TensorFlow",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -2.2
+                "trend": 0.0
             },
             {
                 "skill": "LLM",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -15.8
+                "trend": 0.0
             },
             {
                 "skill": "RAG",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -61.5
+                "trend": 0.0
             },
             {
                 "skill": "LangChain",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -1.5
+                "trend": 0.0
             },
             {
                 "skill": "Hugging Face",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -1.2
+                "trend": 0.0
             },
             {
                 "skill": "Scikit-Learn",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -2.2
+                "trend": 0.0
             },
             {
                 "skill": "Pandas",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -0.7
+                "trend": 0.0
             },
             {
                 "skill": "NumPy",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -0.7
+                "trend": 0.0
             }
         ],
         "Cloud & MLOps": [
@@ -134,93 +134,71 @@
                 "skill": "AWS",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -23.2
+                "trend": 0.0
             },
             {
                 "skill": "Docker",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -5.2
+                "trend": 0.0
             },
             {
                 "skill": "Kubernetes",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -7.2
+                "trend": 0.0
             },
             {
                 "skill": "GCP",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -6.4
+                "trend": 0.0
             },
             {
                 "skill": "Azure",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -9.4
+                "trend": 0.0
             },
             {
                 "skill": "Airflow",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -4.2
+                "trend": 0.0
             },
             {
                 "skill": "Spark",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -6.9
+                "trend": 0.0
             },
             {
                 "skill": "Git",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -41.0
+                "trend": 0.0
             },
             {
                 "skill": "Snowflake",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -4.9
+                "trend": 0.0
             },
             {
                 "skill": "Tableau",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -4.4
+                "trend": 0.0
             },
             {
                 "skill": "Power BI",
                 "count": 0,
                 "percentage": 0.0,
-                "trend": -3.7
+                "trend": 0.0
             }
         ]
     },
     "latest_jobs": [
-        {
-            "title": "Senior Sales Engineer, Enterprise - German Speaking",
-            "company": "Fivetran",
-            "url": "https://jobicy.com/jobs/148110-senior-sales-engineer-enterprise-german-speaking",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Python",
-                "SQL",
-                "Java",
-                "AWS",
-                "Docker",
-                "Kubernetes",
-                "GCP",
-                "Azure",
-                "Snowflake"
-            ],
-            "_score": 9
-        },
         {
             "title": "Data Scientist / ML Engineer",
             "company": "Ανώνυμη Ελληνική Εταιρεία",
@@ -239,76 +217,6 @@
             "_score": 9
         },
         {
-            "title": "Senior Site Reliability Engineer",
-            "company": "Remote",
-            "url": "https://jobicy.com/jobs/148108-senior-site-reliability-engineer",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Python",
-                "R",
-                "AWS",
-                "Docker",
-                "Kubernetes"
-            ],
-            "_score": 5
-        },
-        {
-            "title": "Technical Product Manager - AI Compute Platform",
-            "company": "Nebius",
-            "url": "https://jobicy.com/jobs/147407-technical-product-manager-ai-compute-platform",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R",
-                "AWS",
-                "Kubernetes",
-                "GCP",
-                "Azure"
-            ],
-            "_score": 5
-        },
-        {
-            "title": "Technical Support Engineer, Tavily",
-            "company": "Nebius",
-            "url": "https://jobicy.com/jobs/147081-technical-support-engineer-tavily",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Python",
-                "R",
-                "LLM",
-                "RAG",
-                "LangChain"
-            ],
-            "_score": 5
-        },
-        {
-            "title": "Finance Manager",
-            "company": "Autodesk",
-            "url": "https://jobicy.com/jobs/144968-finance-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "SQL",
-                "Snowflake",
-                "Power BI"
-            ],
-            "_score": 3
-        },
-        {
             "title": "AI Engineer (Mid-Level)",
             "company": "Athens Tech Startup",
             "url": "https://gr.indeed.com/",
@@ -323,332 +231,6 @@
                 "AWS"
             ],
             "_score": 3
-        },
-        {
-            "title": "Staff Backend Engineer / Tech Lead Manager",
-            "company": "Nebius",
-            "url": "https://jobicy.com/jobs/147410-staff-backend-engineer-tech-lead-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R",
-                "Kubernetes"
-            ],
-            "_score": 2
-        },
-        {
-            "title": "Senior Backend Software Engineer (Observability)",
-            "company": "Nebius",
-            "url": "https://jobicy.com/jobs/147408-senior-backend-software-engineer-observability",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R",
-                "Kubernetes"
-            ],
-            "_score": 2
-        },
-        {
-            "title": "Senior QA Automation Engineer (BDD)",
-            "company": "Zartis",
-            "url": "https://jobicy.com/jobs/147399-senior-qa-automation-engineer-bdd",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Python",
-                "Git"
-            ],
-            "_score": 2
-        },
-        {
-            "title": "Privacy Manager",
-            "company": "Nebius",
-            "url": "https://jobicy.com/jobs/147073-privacy-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R",
-                "LLM"
-            ],
-            "_score": 2
-        },
-        {
-            "title": "Senior Total Rewards Partner",
-            "company": "Remote",
-            "url": "https://jobicy.com/jobs/145297-senior-total-rewards-partner-2",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Accounts Receivable Clerk",
-            "company": "Canonical Ltd.",
-            "url": "https://jobicy.com/jobs/148113-accounts-receivable-clerk",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Senior Manager, Global Payroll Strategy and Compliance",
-            "company": "Remote",
-            "url": "https://jobicy.com/jobs/148059-senior-manager-global-payroll-strategy-and-compliance",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Technical Program Manager, Data Centers",
-            "company": "Nebius",
-            "url": "https://jobicy.com/jobs/148058-technical-program-manager-data-centers",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Product Lead - Experience",
-            "company": "Enode",
-            "url": "https://jobicy.com/jobs/148057-product-lead-experience",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Social Media Manager",
-            "company": "Ruby Labs",
-            "url": "https://jobicy.com/jobs/148054-social-media-manager",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Coordinator, Payroll Client Services",
-            "company": "Remote",
-            "url": "https://jobicy.com/jobs/147704-coordinator-payroll-client-services",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "CRA II",
-            "company": "ICON plc",
-            "url": "https://jobicy.com/jobs/144491-cra-ii",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "GCP"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Senior Android SDK Engineer",
-            "company": "RevenueCat",
-            "url": "https://jobicy.com/jobs/144154-senior-android-sdk-engineer",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Python"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Customer Care Associate",
-            "company": "Remote",
-            "url": "https://jobicy.com/jobs/145125-customer-care-associate",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Accountant",
-            "company": "Remote",
-            "url": "https://jobicy.com/jobs/147426-accountant-4",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Lifecycle Specialist, Employee Relations and Transitions - EMEA",
-            "company": "Remote",
-            "url": "https://jobicy.com/jobs/147424-lifecycle-specialist-employee-relations-and-transitions-emea",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "R"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Brazilian Subject Matter Expert in Animals and Pets (PhD level)",
-            "company": "Welo Global",
-            "url": "https://jobicy.com/jobs/147409-brazilian-subject-matter-expert-in-animals-and-pets-phd-level",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Brazilian Subject Matter Expert in History (PhD level)",
-            "company": "Welo Global",
-            "url": "https://jobicy.com/jobs/147406-brazilian-subject-matter-expert-in-history-phd-level",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Brazilian Subject Matter Expert in Law and Ethics (PhD level)",
-            "company": "Welo Global",
-            "url": "https://jobicy.com/jobs/147405-brazilian-subject-matter-expert-in-law-and-ethics-phd-level",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Brazilian Subject Matter Expert in Literature and linguistics (PhD level)",
-            "company": "Welo Global",
-            "url": "https://jobicy.com/jobs/147404-brazilian-subject-matter-expert-in-literature-and-linguistics-phd-level",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Brazilian Subject Matter Expert in Politics (PhD level)",
-            "company": "Welo Global",
-            "url": "https://jobicy.com/jobs/147403-brazilian-subject-matter-expert-in-politics-phd-level",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Brazilian Subject Matter Expert in Religion or Philosophy (PhD level)",
-            "company": "Welo Global",
-            "url": "https://jobicy.com/jobs/147402-brazilian-subject-matter-expert-in-religion-or-philosophy-phd-level",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "LLM"
-            ],
-            "_score": 1
-        },
-        {
-            "title": "Sr. Business Development Representative",
-            "company": "UpBound",
-            "url": "https://jobicy.com/jobs/147398-sr-business-development-representative",
-            "region": "Greece",
-            "location_raw": "Greece",
-            "salary_raw": null,
-            "salary_eur": null,
-            "salary_net_mo": null,
-            "skills": [
-                "Kubernetes"
-            ],
-            "_score": 1
         },
         {
             "title": "Operations Driver Success Specialist(Paiania)-Skroutz Last Mile(ODSS 0626)",

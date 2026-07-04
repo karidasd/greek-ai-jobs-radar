@@ -331,8 +331,9 @@ def analyze_jobs(jobs, previous_percentages):
         
     valid_jobs_list.sort(key=lambda x: x['_score'], reverse=True)
     
-    # FILTER: Only show jobs from Greece in the final Job Board
-    greek_jobs = [j for j in valid_jobs_list if j['region'] == 'Greece']
+    # FILTER: Only show TRUE Greek jobs in the final Job Board and Top Companies
+    # (Must be from our Workable Greek scraper or our baselines)
+    greek_jobs = [j for j in valid_jobs_list if j['region'] == 'Greece' and ('workable.com' in j['url'] or 'gr.indeed.com' in j['url'])]
     
     # Calculate Top Greek Companies by open roles
     import urllib.parse
