@@ -184,9 +184,36 @@ def fetch_jobs():
             for j in data.get('data', []):
                 add_job(j.get('title', ''), j.get('company_name', ''), j.get('url', ''), j.get('description', ''), j.get('location', ''))
                 count += 1
-        print(f"Fetched {count} from Arbeitnow.")
-    except Exception as e:
-        print(f"Error fetching from Arbeitnow: {e}")
+    # 4. Workable Greek Companies
+    greek_companies = [
+        'skroutz', 'blueground', 'epignosis', 'novibet', 'orfium', 
+        'hellasdirect', 'welcomepickups', 'spotawheel', 'persado', 'hackthebox'
+    ]
+    for comp in greek_companies:
+        try:
+            req = urllib.request.Request(
+                f'https://apply.workable.com/api/v3/accounts/{comp}/jobs', 
+                headers={'User-Agent': 'Mozilla/5.0', 'Content-Type': 'application/json'}, 
+                method='POST', 
+                data=b'{"query":"","location":[],"department":[],"worktype":[],"remote":[]}'
+            )
+            resp = urllib.request.urlopen(req).read().decode()
+            data = json.loads(resp)
+            count = 0
+            for j in data.get('results', []):
+                # Only add if it's tech related (Data, Eng, AI, Dev, Analyst)
+                title = j.get('title', '').lower()
+                if any(x in title for x in ['data', 'engineer', 'developer', 'software', 'machine learning', 'ai', 'analyst', 'tech']):
+                    # Build URL
+                    shortcode = j.get('shortcode')
+                    url = f'https://apply.workable.com/{comp}/j/{shortcode}/' if shortcode else ''
+                    loc_dict = j.get('location', {})
+                    loc_str = f"{loc_dict.get('city', '')}, Greece"
+                    add_job(j.get('title', ''), comp.capitalize(), url, j.get('title', ''), loc_str)
+                    count += 1
+            print(f"Fetched {count} tech jobs from Workable ({comp}).")
+        except Exception as e:
+            print(f"Error fetching from Workable {comp}: {e}")
 
     return jobs
 
