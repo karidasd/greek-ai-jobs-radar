@@ -41,6 +41,26 @@ To keep this engine **100% free, automated, and unstoppable**, we use a tactical
 
 ---
 
+## 🧠 THE MATH BEHIND THE RADAR (HOW WE CALCULATE SALARIES)
+
+The calculation engine operates in two aggressive phases to decode what HR is trying to hide:
+
+### 1. Gross Extraction (NLP Regex)
+The engine reads the entire job description and hunts for hidden salary bands (e.g., `$150k`, `80.000€`, `50k GBP`, `2.500 ευρώ`).
+- It normalizes everything to **Annual Euros (€)** (using exchange rates like USD * 0.92, GBP * 1.17).
+- If it detects a Greek-style monthly salary (e.g., `2.000€`), it automatically multiplies it by 14 (Greek 14-salary system) to find the Annual Gross.
+
+### 2. The "Harsh Truth" Net Calculation
+Gross salaries are misleading. The Radar automatically estimates the **Net Monthly Income (Καθαρά το μήνα)** based on regional tax laws:
+- **🇬🇷 Greece (Divided by 14 months):**
+  - `< 20.000€`: ~25% tax & deductions.
+  - `< 40.000€`: ~30% tax & deductions.
+  - `> 40.000€`: ~35% tax & deductions.
+- **🇪🇺 Europe & UK (Divided by 12 months):** Flat ~40% deduction (heavy EU tax brackets).
+- **🌎 Worldwide / USA (Divided by 12 months):** Flat ~30% deduction.
+
+This ensures that our **"Are You Underpaid?" Calculator** compares Apples to Apples: real cash in your pocket.
+
 ## ⚙️ ARCHITECTURE OF DOMINANCE
 
 Zero hosting costs. Infinite scalability.
