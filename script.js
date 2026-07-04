@@ -176,11 +176,14 @@ function renderTopCompanies(companies) {
     let html = '';
     companies.forEach((comp, index) => {
         let medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏢';
+        let workableUrl = `https://apply.workable.com/${comp.name.toLowerCase().replace(/[^a-z0-9]/g, '')}/`;
         html += `
-            <li style="display: flex; justify-content: space-between; background: rgba(59, 130, 246, 0.1); padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6;">
-                <span style="font-weight: 600;">${medal} ${comp.name}</span>
-                <span style="color: #60a5fa; font-weight: bold;">${comp.count} Θέσεις</span>
-            </li>
+            <a href="${workableUrl}" target="_blank" style="text-decoration: none; color: inherit; display: block;">
+                <li style="display: flex; justify-content: space-between; background: rgba(59, 130, 246, 0.1); padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6; transition: background 0.3s ease; cursor: pointer;" onmouseover="this.style.background='rgba(59, 130, 246, 0.3)'" onmouseout="this.style.background='rgba(59, 130, 246, 0.1)'">
+                    <span style="font-weight: 600;">${medal} ${comp.name}</span>
+                    <span style="color: #60a5fa; font-weight: bold;">${comp.count} Θέσεις &rarr;</span>
+                </li>
+            </a>
         `;
     });
     list.innerHTML = html;
