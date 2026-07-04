@@ -259,9 +259,12 @@ def analyze_jobs(jobs, previous_percentages):
                 
         found_skills = []
         for cat, skills_dict in CATEGORIES.items():
-            for skill in skills_dict.keys():
-                if re.search(r'\b' + re.escape(skill) + r'\b', desc, re.IGNORECASE):
-                    found_skills.append(skill)
+            for skill, keywords in skills_dict.items():
+                for kw in keywords:
+                    if kw in desc:
+                        skill_counts[cat][skill] += 1
+                        found_skills.append(skill)
+                        break
                     
         # Force keep if it's from our workable scraper
         is_workable = "workable.com" in job['url']
