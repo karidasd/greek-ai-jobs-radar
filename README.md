@@ -1,89 +1,105 @@
-<div align="center">
-  <img src="greek_flag.png" alt="Cyber Greek Flag" width="400" style="border-radius: 20px; box-shadow: 0 0 30px rgba(0, 229, 255, 0.6);">
-  <br/><br/>
-  
-  # ⚔️ AI SALARY GEO-RADAR (GREECE VS THE WORLD)
-  
-  **STOP GUESSING. START EXECUTING. DOMINATE THE AI JOB MARKET.**
+﻿<div align="center">
 
-  ![Python](https://img.shields.io/badge/Python-Cyber_Engine-000000?style=for-the-badge&logo=python&logoColor=00e5ff)
-  ![Data Analysis](https://img.shields.io/badge/NLP-Regex_Extraction-000000?style=for-the-badge&logoColor=00e5ff)
-  ![GitHub Actions](https://img.shields.io/badge/Automated-Cron_Raids-000000?style=for-the-badge&logo=github-actions&logoColor=00e5ff)
+# ⚡ Greek AI Jobs Radar
+### Το μοναδικό εργαλείο που λέει την αλήθεια για την Ελληνική αγορά Tech
 
-  🔗 **[ENTER THE RADAR HERE](https://karidasd.github.io/greek-ai-jobs-radar/)**
+[![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-karidasd.github.io-00e5ff?style=for-the-badge)](https://karidasd.github.io/greek-ai-jobs-radar/)
+[![Auto Update](https://img.shields.io/badge/🤖_Auto_Update-Every_Night-10b981?style=for-the-badge)](https://github.com/karidasd/greek-ai-jobs-radar/actions)
+[![Made in Greece](https://img.shields.io/badge/🇬🇷_Made_in-Greece-0d5eaf?style=for-the-badge)](https://karidasd.github.io/greek-ai-jobs-radar/)
+
 </div>
 
 ---
 
-## 🚀 THE ULTIMATE GREEK TECH WEAPON
+## Τι είναι αυτό;
 
-The **AI Salary Geo-Radar** is not a cute little job board. It is a **ruthless, automated intelligence machine** built to tear apart the global remote tech market and expose the truth about salaries in Greece versus the rest of the world. 
+Ένα **100% δωρεάν, open-source εργαλείο** που κάθε βράδυ σαρώνει αυτόματα την αγορά εργασίας στην Ελλάδα και εμφανίζει:
 
-Every single night, while others are sleeping, this serverless engine executes a massive raid on global APIs (Remotive, Jobicy, Arbeitnow). It uses surgical NLP to strip away corporate garbage, expose hidden salaries, and convert every single currency into **Euros (€)** to feed a live, aggressive geographical comparison matrix.
-
-## 💥 LETHAL FEATURES
-
-| Feature | Execution |
-| :--- | :--- |
-| **🇬🇷 Greek Market Priority** | We don't care about generic global stats. This engine heavily prioritizes and isolates Greek remote jobs, stamping them with the `🇬🇷 Ελληνική Αγορά` badge so you know exactly what the local market pays. |
-| **💰 Salary Extraction** | Companies try to hide salaries in the fine print. The Radar deploys aggressive Regular Expressions to rip out salary bands (e.g., $150k, 30.000€) and normalizes them into Annual Euros for a brutal side-by-side comparison. |
-| **🌍 Geo-Warfare Bar Chart** | A live, auto-updating dashboard pitting Greek salaries against the USA, Europe, and the World. See exactly how much money you are leaving on the table. |
-| **📈 Live Tech Matrix** | Tracks the live market share of `Programming Languages`, `LLMs`, and `Cloud MLOps` technologies. We analyze exactly what tech stacks are getting hired today. |
+- 🇬🇷 **Live αγγελίες** από Ελληνικές εταιρείες (Skroutz, Novibet, Blueground, Orfium, Spotawheel...)
+- 💰 **Πραγματικούς μισθούς** — Μικτά & Καθαρά, σε Ευρώ, με φόρους
+- 📈 **Τάσεις αγοράς** — Ποιες τεχνολογίες ζητούνται περισσότερο (Python, SQL, AWS...)
+- 🛑 **Υπολογιστή Αδικίας** — Δες αν πληρώνεσαι λιγότερο από τον μέσο όρο
+- 🎯 **Skill-Sniper** — Βάλε τα skills σου και δες ποιες αγγελίες σου ταιριάζουν
+- 📡 **Graphical Radar** — Live scanner με τοποθεσίες αγγελιών
 
 ---
 
-## 🛡️ ANTI-BOT BYPASS (THE WORKABLE HACK)
+## 🛡️ Γιατί δεν ξύνουμε LinkedIn & Kariera.gr;
 
-**Why don't we scrape LinkedIn, Kariera.gr, or xe.gr?** 
-Because they deploy aggressive Cloudflare anti-bot systems, 403 Firewalls, and IP bans against free automated scrapers. 
+Απλό: **Cloudflare + Anti-bot = 403 Forbidden** σε κάθε αυτοματοποιημένο εργαλείο.
 
-To keep this engine **100% free, automated, and unstoppable**, we use a tactical bypass: We directly interrogate the public **Workable APIs** of top Greek Tech companies (Skroutz, Novibet, Blueground, Orfium, Spotawheel, etc.). This allows us to pull pure, authentic Greek job data directly from the HR source, bypassing job boards entirely.
+Αντί γι' αυτό, ανακαλύψαμε ότι όλες οι μεγάλες Ελληνικές Tech εταιρείες χρησιμοποιούν το **Workable** ως σύστημα HR. Το Workable έχει ανοιχτό JSON API:
 
----
-
-## 🧠 THE MATH BEHIND THE RADAR (HOW WE CALCULATE SALARIES)
-
-The calculation engine operates in two aggressive phases to decode what HR is trying to hide:
-
-### 1. Gross Extraction (NLP Regex)
-The engine reads the entire job description and hunts for hidden salary bands (e.g., `$150k`, `80.000€`, `50k GBP`, `2.500 ευρώ`).
-- It normalizes everything to **Annual Euros (€)** (using exchange rates like USD * 0.92, GBP * 1.17).
-- If it detects a Greek-style monthly salary (e.g., `2.000€`), it automatically multiplies it by 14 (Greek 14-salary system) to find the Annual Gross.
-
-### 2. The "Harsh Truth" Net Calculation
-Gross salaries are misleading. The Radar automatically estimates the **Net Monthly Income (Καθαρά το μήνα)** based on regional tax laws:
-- **🇬🇷 Greece (Divided by 14 months):**
-  - `< 20.000€`: ~25% tax & deductions.
-  - `< 40.000€`: ~30% tax & deductions.
-  - `> 40.000€`: ~35% tax & deductions.
-- **🇪🇺 Europe & UK (Divided by 12 months):** Flat ~40% deduction (heavy EU tax brackets).
-- **🌎 Worldwide / USA (Divided by 12 months):** Flat ~30% deduction.
-
-This ensures that our **"Are You Underpaid?" Calculator** compares Apples to Apples: real cash in your pocket.
-
-## ⚙️ ARCHITECTURE OF DOMINANCE
-
-Zero hosting costs. Infinite scalability.
-
-1. **The Python Engine (`analyze_jobs.py`)**: Runs the daily raid. Deduplicates targets, normalizes currencies, and structures the intelligence into a pure JSON payload.
-2. **The Automation Payload**: A GitHub Actions CRON workflow triggers the assault every midnight. No manual intervention. Pure automation.
-3. **The Tactical Dashboard**: A dark-mode, glassmorphism Vanilla JS/CSS interface dynamically renders the intelligence payload in Greek.
-
----
-
-## 🛠️ RUN IT LOCALLY
-
-Clone it. Break it. Use it.
-```bash
-git clone https://github.com/karidasd/ai-salary-geo-radar.git
-cd ai-salary-geo-radar
-python scripts/analyze_jobs.py
 ```
-Open `index.html` to view the live intelligence.
+POST https://apply.workable.com/api/v3/accounts/{company}/jobs
+```
+
+Το καλούμε απευθείας → παίρνουμε **καθαρά δεδομένα** χωρίς bot detection, χωρίς κόστος.
+
+---
+
+## 🧠 Πώς υπολογίζονται οι μισθοί;
+
+### Βήμα 1: Εξαγωγή Μισθού (NLP Regex)
+Ψάχνουμε στην περιγραφή κάθε αγγελίας για salary patterns:
+- `$150k` → USD → EUR (x 0.92)
+- `£50k` → GBP → EUR (x 1.17)
+- `2.500€/μήνα` → x14 μηνιάτικα = Ετήσιος Μισθός
+
+### Βήμα 2: Καθαρός Μισθός ανά Χώρα
+
+| Χώρα | Διαίρεση | Κρατήσεις |
+|------|----------|-----------|
+| 🇬🇷 Ελλάδα (<20k€) | ÷ 14 | ~25% |
+| 🇬🇷 Ελλάδα (<40k€) | ÷ 14 | ~30% |
+| 🇬🇷 Ελλάδα (>40k€) | ÷ 14 | ~35% |
+| 🇪🇺 Ευρώπη & UK | ÷ 12 | ~40% |
+| 🌎 Worldwide / USA | ÷ 12 | ~30% |
+
+---
+
+## ⚙️ Αρχιτεκτονική
+
+```
+GitHub Actions (CRON: κάθε μεσάνυχτα)
+    └── analyze_jobs.py
+            ├── Workable API (10 Ελληνικές εταιρείες)
+            ├── Remotive API (remote tech jobs)
+            ├── Jobicy API  (remote jobs + Greece filter)
+            └── Salary NLP Extractor
+                    └── data/skills.json
+                            └── GitHub Pages (index.html + script.js)
+```
+
+**Κόστος hosting: 0€. Κόστος servers: 0€. Κόστος APIs: 0€.**
+
+---
+
+## 🚀 Τρέξε το τοπικά
+
+```bash
+git clone https://github.com/karidasd/greek-ai-jobs-radar.git
+cd greek-ai-jobs-radar
+python scripts/analyze_jobs.py
+# Άνοιξε το index.html στον browser
+```
+
+---
+
+## 🎯 Features Roadmap
+
+- [x] Live αγγελίες από Workable API
+- [x] Σύγκριση μισθών Ελλάδα vs Κόσμος
+- [x] Skill-Sniper (% Match αγγελιών)
+- [x] Υπολογιστής Αδικίας
+- [x] Graphical Radar Scanner
+- [x] Snipe Recruiter (Cold Email Generator)
+- [ ] Lever & Greenhouse API integration
+- [ ] Email alerts για νέες αγγελίες
+- [ ] Ιστορικό μισθών (salary history tracking)
 
 ---
 
 <div align="center">
-  <b>Built for dominance by karidasd</b><br/>
-  <i>Take what's yours.</i>
+<b>Built by karidasd · No bullshit · No paywalls · No LinkedIn</b>
 </div>
