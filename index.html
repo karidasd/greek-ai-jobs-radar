@@ -34,7 +34,27 @@
                 </div>
             </section>
 
-            <section class="stack-section">
+            <section class="action-section" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px;">
+                <div class="card calc-card">
+                    <h2>🛑 Υπολογιστής Αδικίας</h2>
+                    <p>Βάλε τον τωρινό Καθαρό μισθό σου (μήνα):</p>
+                    <div style="display: flex; gap: 10px; margin-top: 15px;">
+                        <input type="number" id="user-salary" placeholder="π.χ. 1200" style="flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #374151; background: #1f2937; color: #f3f4f6;">
+                        <button id="calc-btn" style="background: #ef4444; color: white; border: none; padding: 10px 20px; border-radius: 6px; font-weight: bold; cursor: pointer;">Check</button>
+                    </div>
+                    <div id="calc-result" style="margin-top: 15px; font-weight: bold; font-size: 0.95rem;"></div>
+                </div>
+
+                <div class="card top-companies-card">
+                    <h2>🏢 Top Ελληνικές Εταιρείες</h2>
+                    <p>Ποιος προσλαμβάνει τώρα (Tech/AI):</p>
+                    <ul id="top-companies-list" style="list-style: none; padding: 0; margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+                        <!-- Companies injected here -->
+                    </ul>
+                </div>
+            </section>
+
+            <section class="stack-section" style="margin-top: 30px;">
                 <div class="section-header">
                     <h2>📈 Τεχνολογίες με τη Μεγαλύτερη Ζήτηση</h2>
                     <p>Τι ακριβώς ζητάει η παγκόσμια αγορά σήμερα.</p>
@@ -46,8 +66,8 @@
 
             <section class="jobs-section">
                 <div class="section-header">
-                    <h2>🔥 Live Αγγελίες (Τοπ 100)</h2>
-                    <p>Οι καλύτερες remote ευκαιρίες (με προτεραιότητα σε Ελλάδα και Υψηλούς Μισθούς).</p>
+                    <h2>🔥 Live Ελληνικές Αγγελίες</h2>
+                    <p>Οι καλύτερες tech ευκαιρίες αποκλειστικά από εταιρείες στην Ελλάδα.</p>
                 </div>
                 <div class="job-list" id="job-list">
                     <!-- Jobs injected here -->

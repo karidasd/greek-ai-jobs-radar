@@ -342,8 +342,13 @@ def analyze_jobs(jobs, previous_percentages):
     
     # FILTER: Only show jobs from Greece in the final Job Board
     greek_jobs = [j for j in valid_jobs_list if j['region'] == 'Greece']
+    
+    # Calculate Top Greek Companies by open roles
+    from collections import Counter
+    gr_company_counts = Counter([j['company'] for j in greek_jobs if j['company']])
+    top_greek_companies = [{"name": comp, "count": count} for comp, count in gr_company_counts.most_common(5)]
 
-    return categories_output, greek_jobs[:100], avg_salaries, avg_salaries_net
+    return categories_output, greek_jobs[:100], avg_salaries, avg_salaries_net, top_greek_companies
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -373,7 +378,7 @@ def main():
     
     print(f"Total jobs collected: {len(jobs)}")
     
-    categories_stats, top_jobs, avg_salaries, avg_salaries_net = analyze_jobs(jobs, previous_percentages)
+    categories_stats, top_jobs, avg_salaries, avg_salaries_net, top_greek_companies = analyze_jobs(jobs, previous_percentages)
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json_data = {
@@ -381,6 +386,7 @@ def main():
             "total_jobs_analyzed": len(jobs),
             "avg_salaries_eur": avg_salaries,
             "avg_salaries_net": avg_salaries_net,
+            "top_greek_companies": top_greek_companies,
             "categories": categories_stats,
             "latest_jobs": top_jobs
         }

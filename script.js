@@ -1,13 +1,20 @@
+let globalNetSalaries = {};
+
 document.addEventListener("DOMContentLoaded", async () => {
     try {
         // Append a timestamp to bypass aggressive browser caching
         const response = await fetch('data/skills.json?v=' + new Date().getTime());
         const data = await response.json();
         
+        globalNetSalaries = data.avg_salaries_net;
+
         renderStats(data);
         renderSalaries(data.avg_salaries_eur, data.avg_salaries_net);
+        renderTopCompanies(data.top_greek_companies);
         renderCategories(data.categories);
         renderJobs(data.latest_jobs);
+        
+        setupCalculator();
     } catch (error) {
         console.error("Error loading data:", error);
     }
@@ -156,5 +163,60 @@ function renderJobs(jobs) {
             </div>
         `;
         jobList.appendChild(jobEl);
+    });
+}
+
+function renderTopCompanies(companies) {
+    const list = document.getElementById('top-companies-list');
+    if (!companies || companies.length === 0) {
+        list.innerHTML = '<li>Δεν βρέθηκαν δεδομένα.</li>';
+        return;
+    }
+    
+    let html = '';
+    companies.forEach((comp, index) => {
+        let medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🏢';
+        html += `
+            <li style="display: flex; justify-content: space-between; background: rgba(59, 130, 246, 0.1); padding: 10px 15px; border-radius: 6px; border-left: 3px solid #3b82f6;">
+                <span style="font-weight: 600;">${medal} ${comp.name}</span>
+                <span style="color: #60a5fa; font-weight: bold;">${comp.count} Θέσεις</span>
+            </li>
+        `;
+    });
+    list.innerHTML = html;
+}
+
+function setupCalculator() {
+    const btn = document.getElementById('calc-btn');
+    const input = document.getElementById('user-salary');
+    const resultDiv = document.getElementById('calc-result');
+
+    btn.addEventListener('click', () => {
+        const salary = parseInt(input.value);
+        if (!salary || salary < 400 || salary > 50000) {
+            resultDiv.innerHTML = '<span style="color: #ef4444;">Βάλε έναν έγκυρο καθαρό μισθό (π.χ. 1500)</span>';
+            return;
+        }
+
+        const grNet = globalNetSalaries['Greece'] || 1900;
+        const euNet = globalNetSalaries['Europe & UK'] || 3300;
+
+        let diffGr = Math.round(((salary - grNet) / grNet) * 100);
+        let diffEu = Math.round(((salary - euNet) / euNet) * 100);
+
+        let msg = '';
+        if (diffGr < 0) {
+            msg += `<span style="color: #ef4444;">⚠️ Πληρώνεσαι ${Math.abs(diffGr)}% ΚΑΤΩ από τον Ελληνικό μέσο όρο Tech.</span><br/>`;
+        } else {
+            msg += `<span style="color: #10b981;">✅ Είσαι ${diffGr}% ΠΑΝΩ από τον Ελληνικό μέσο όρο.</span><br/>`;
+        }
+
+        if (diffEu < 0) {
+            msg += `<span style="color: #ef4444; margin-top: 5px; display: inline-block;">❌ Και ${Math.abs(diffEu)}% ΚΑΤΩ από την Ευρώπη (Remote). Ώρα για αλλαγή!</span>`;
+        } else {
+            msg += `<span style="color: #10b981; margin-top: 5px; display: inline-block;">🌍 Κερδίζεις ακόμα και την Ευρώπη!</span>`;
+        }
+
+        resultDiv.innerHTML = msg;
     });
 }
