@@ -1,4 +1,4 @@
-﻿import urllib.request
+import urllib.request
 import json
 import re
 import os
@@ -168,20 +168,31 @@ def fetch_jobs():
             )
             resp = urllib.request.urlopen(req).read().decode()
             data = json.loads(resp)
+            TECH_KEYWORDS = [
+                "data", "engineer", "developer", "software", "machine learning",
+                "ai ", "ml ", "analyst", "devops", "backend", "frontend", "full stack",
+                "fullstack", "python", "cloud", "infrastructure", "platform", "security",
+                "automation", "architect", "mobile", "ios", "android", "qa ", "sre",
+                "database", "bi ", "product manager", "scrum", "agile", "tech lead"
+            ]
             count = 0
             for j in data.get("results", []):
                 shortcode = j.get("shortcode")
                 if not shortcode:
                     continue
+                title_lower = j.get("title", "").lower()
+                dept_lower = j.get("department", "").lower()
+                # Only include tech-related roles
+                if not any(kw in title_lower or kw in dept_lower for kw in TECH_KEYWORDS):
+                    continue
                 url = f"https://apply.workable.com/{comp}/j/{shortcode}/"
                 loc_dict = j.get("location", {})
                 loc_str = f"{loc_dict.get('city', '')}, Greece".strip(", ")
-                # Use full title + department as description for skill matching
                 dept = j.get("department", "")
                 desc_text = f"{j.get('title', '')} {dept} {comp}"
                 add_job(j.get("title", ""), comp.capitalize(), url, desc_text, loc_str or "Greece")
                 count += 1
-            print(f"Workable ({comp}): {count} jobs")
+            print(f"Workable ({comp}): {count} tech jobs")
         except Exception as e:
             print(f"Workable {comp}: {e}")
 
