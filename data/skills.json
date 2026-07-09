@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-07-08 06:31",
-  "total_jobs_analyzed": 292,
+  "last_updated": "2026-07-09 07:49",
+  "total_jobs_analyzed": 293,
   "avg_salaries_eur": {
-    "Greece": 36240,
+    "Greece": 35800,
     "Europe & UK": 66216,
-    "North America": 139331,
+    "North America": 139399,
     "Worldwide": 146664
   },
   "avg_salaries_net": {
-    "Greece": 1812,
+    "Greece": 1790,
     "Europe & UK": 3310,
-    "North America": 8127,
+    "North America": 8131,
     "Worldwide": 8555
   },
   "top_greek_companies": [
@@ -20,14 +20,14 @@
       "url": "https://apply.workable.com/novibet/"
     },
     {
-      "name": "Orfium",
-      "count": 3,
-      "url": "https://apply.workable.com/orfium/"
-    },
-    {
       "name": "Blueground",
       "count": 2,
       "url": "https://apply.workable.com/blueground/"
+    },
+    {
+      "name": "Orfium",
+      "count": 2,
+      "url": "https://apply.workable.com/orfium/"
     },
     {
       "name": "Ανώνυμη Ελληνική Εταιρεία",
@@ -49,52 +49,52 @@
     "Programming Languages": [
       {
         "skill": "SQL",
-        "count": 85,
-        "percentage": 29.1,
+        "count": 86,
+        "percentage": 29.4,
         "trend": 0
       },
       {
         "skill": "Python",
-        "count": 80,
-        "percentage": 27.4,
+        "count": 81,
+        "percentage": 27.6,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 43,
-        "percentage": 14.7,
+        "count": 45,
+        "percentage": 15.4,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 32,
-        "percentage": 11.0,
+        "count": 33,
+        "percentage": 11.3,
         "trend": 0
       },
       {
         "skill": "Java",
         "count": 25,
-        "percentage": 8.6,
+        "percentage": 8.5,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 9,
-        "percentage": 3.1,
+        "count": 8,
+        "percentage": 2.7,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 162,
-        "percentage": 55.5,
+        "count": 163,
+        "percentage": 55.6,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 58,
-        "percentage": 19.9,
+        "count": 60,
+        "percentage": 20.5,
         "trend": 0
       },
       {
@@ -143,32 +143,32 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 116,
-        "percentage": 39.7,
+        "count": 118,
+        "percentage": 40.3,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 89,
-        "percentage": 30.5,
+        "count": 92,
+        "percentage": 31.4,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 36,
-        "percentage": 12.3,
+        "count": 38,
+        "percentage": 13.0,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 27,
-        "percentage": 9.2,
+        "count": 28,
+        "percentage": 9.6,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 27,
-        "percentage": 9.2,
+        "count": 28,
+        "percentage": 9.6,
         "trend": 0
       },
       {
@@ -179,14 +179,14 @@
       },
       {
         "skill": "Docker",
-        "count": 20,
-        "percentage": 6.8,
+        "count": 21,
+        "percentage": 7.2,
         "trend": 0
       },
       {
         "skill": "Tableau",
         "count": 18,
-        "percentage": 6.2,
+        "percentage": 6.1,
         "trend": 0
       },
       {
@@ -196,13 +196,13 @@
         "trend": 0
       },
       {
-        "skill": "Airflow",
-        "count": 16,
-        "percentage": 5.5,
+        "skill": "Power BI",
+        "count": 17,
+        "percentage": 5.8,
         "trend": 0
       },
       {
-        "skill": "Power BI",
+        "skill": "Airflow",
         "count": 16,
         "percentage": 5.5,
         "trend": 0
@@ -347,20 +347,6 @@
       "url": "https://apply.workable.com/orfium/j/7255DA9F2E/",
       "region": "Greece",
       "location_raw": "Colombo, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Product Manager",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/0D8455C85B/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
