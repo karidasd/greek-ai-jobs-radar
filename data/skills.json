@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-07-10 07:39",
-  "total_jobs_analyzed": 282,
+  "last_updated": "2026-07-11 06:17",
+  "total_jobs_analyzed": 290,
   "avg_salaries_eur": {
     "Greece": 38440,
     "Europe & UK": 66216,
-    "North America": 138841,
-    "Worldwide": 135471
+    "North America": 140722,
+    "Worldwide": 135914
   },
   "avg_salaries_net": {
     "Greece": 1922,
     "Europe & UK": 3310,
-    "North America": 8099,
-    "Worldwide": 7902
+    "North America": 8208,
+    "Worldwide": 7928
   },
   "top_greek_companies": [
     {
       "name": "Novibet",
-      "count": 3,
+      "count": 4,
       "url": "https://apply.workable.com/novibet/"
     },
     {
@@ -49,64 +49,64 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 81,
-        "percentage": 28.7,
+        "count": 83,
+        "percentage": 28.6,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 81,
-        "percentage": 28.7,
+        "count": 79,
+        "percentage": 27.2,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 47,
-        "percentage": 16.7,
+        "count": 45,
+        "percentage": 15.5,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 29,
-        "percentage": 10.3,
+        "count": 31,
+        "percentage": 10.7,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 23,
-        "percentage": 8.2,
+        "count": 24,
+        "percentage": 8.3,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 9,
-        "percentage": 3.2,
+        "count": 10,
+        "percentage": 3.4,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 160,
-        "percentage": 56.7,
+        "count": 164,
+        "percentage": 56.6,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 56,
-        "percentage": 19.9,
+        "count": 59,
+        "percentage": 20.3,
         "trend": 0
       },
       {
         "skill": "PyTorch",
         "count": 14,
-        "percentage": 5.0,
+        "percentage": 4.8,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
         "count": 9,
-        "percentage": 3.2,
+        "percentage": 3.1,
         "trend": 0
       },
       {
@@ -136,75 +136,75 @@
       {
         "skill": "Pandas",
         "count": 3,
-        "percentage": 1.1,
+        "percentage": 1.0,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 112,
-        "percentage": 39.7,
+        "count": 120,
+        "percentage": 41.4,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 88,
-        "percentage": 31.2,
+        "count": 90,
+        "percentage": 31.0,
         "trend": 0
       },
       {
         "skill": "Azure",
         "count": 40,
-        "percentage": 14.2,
+        "percentage": 13.8,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 29,
-        "percentage": 10.3,
+        "count": 32,
+        "percentage": 11.0,
         "trend": 0
       },
       {
         "skill": "GCP",
         "count": 28,
-        "percentage": 9.9,
+        "percentage": 9.7,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 23,
-        "percentage": 8.2,
+        "count": 24,
+        "percentage": 8.3,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 21,
-        "percentage": 7.4,
+        "count": 24,
+        "percentage": 8.3,
         "trend": 0
       },
       {
         "skill": "Snowflake",
         "count": 17,
-        "percentage": 6.0,
+        "percentage": 5.9,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 17,
-        "percentage": 6.0,
+        "count": 16,
+        "percentage": 5.5,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 17,
-        "percentage": 6.0,
+        "count": 16,
+        "percentage": 5.5,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 15,
-        "percentage": 5.3,
+        "percentage": 5.2,
         "trend": 0
       }
     ]
@@ -275,6 +275,20 @@
       "title": "Full-Stack Software Engineer",
       "company": "Blueground",
       "url": "https://apply.workable.com/blueground/j/3C3D8183F6/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/A942E2BD06/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
