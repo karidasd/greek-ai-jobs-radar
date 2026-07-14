@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-07-13 07:23",
-  "total_jobs_analyzed": 300,
+  "last_updated": "2026-07-14 06:13",
+  "total_jobs_analyzed": 298,
   "avg_salaries_eur": {
     "Greece": 38440,
     "Europe & UK": 54325,
-    "North America": 140760,
+    "North America": 136668,
     "Worldwide": 93745
   },
   "avg_salaries_net": {
     "Greece": 1922,
     "Europe & UK": 2716,
-    "North America": 8211,
+    "North America": 7972,
     "Worldwide": 5468
   },
   "top_greek_companies": [
@@ -49,52 +49,52 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 81,
-        "percentage": 27.0,
+        "count": 79,
+        "percentage": 26.5,
         "trend": 0
       },
       {
         "skill": "SQL",
         "count": 74,
-        "percentage": 24.7,
+        "percentage": 24.8,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 49,
-        "percentage": 16.3,
+        "count": 45,
+        "percentage": 15.1,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 42,
-        "percentage": 14.0,
+        "count": 41,
+        "percentage": 13.8,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 22,
-        "percentage": 7.3,
+        "count": 20,
+        "percentage": 6.7,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 10,
-        "percentage": 3.3,
+        "count": 8,
+        "percentage": 2.7,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 169,
-        "percentage": 56.3,
+        "count": 168,
+        "percentage": 56.4,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 59,
-        "percentage": 19.7,
+        "count": 57,
+        "percentage": 19.1,
         "trend": 0
       },
       {
@@ -129,82 +129,82 @@
       },
       {
         "skill": "Pandas",
-        "count": 3,
-        "percentage": 1.0,
+        "count": 2,
+        "percentage": 0.7,
         "trend": 0
       },
       {
         "skill": "NumPy",
-        "count": 3,
-        "percentage": 1.0,
+        "count": 2,
+        "percentage": 0.7,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 127,
-        "percentage": 42.3,
+        "count": 124,
+        "percentage": 41.6,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 95,
-        "percentage": 31.7,
+        "count": 96,
+        "percentage": 32.2,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 40,
-        "percentage": 13.3,
+        "count": 39,
+        "percentage": 13.1,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 30,
-        "percentage": 10.0,
+        "count": 28,
+        "percentage": 9.4,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 26,
-        "percentage": 8.7,
+        "count": 24,
+        "percentage": 8.1,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 24,
-        "percentage": 8.0,
-        "trend": 0
-      },
-      {
-        "skill": "Spark",
-        "count": 20,
-        "percentage": 6.7,
+        "percentage": 8.1,
         "trend": 0
       },
       {
         "skill": "Docker",
         "count": 19,
-        "percentage": 6.3,
+        "percentage": 6.4,
+        "trend": 0
+      },
+      {
+        "skill": "Spark",
+        "count": 19,
+        "percentage": 6.4,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 17,
-        "percentage": 5.7,
+        "count": 18,
+        "percentage": 6.0,
         "trend": 0
       },
       {
         "skill": "Power BI",
         "count": 16,
-        "percentage": 5.3,
+        "percentage": 5.4,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 13,
-        "percentage": 4.3,
+        "count": 12,
+        "percentage": 4.0,
         "trend": 0
       }
     ]
