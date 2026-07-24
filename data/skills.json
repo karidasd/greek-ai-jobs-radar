@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-23 06:32",
-  "total_jobs_analyzed": 279,
+  "last_updated": "2026-07-24 06:28",
+  "total_jobs_analyzed": 275,
   "avg_salaries_eur": {
     "Greece": 35400,
     "Europe & UK": 54325,
-    "North America": 151353,
-    "Worldwide": 95067
+    "North America": 152124,
+    "Worldwide": 100096
   },
   "avg_salaries_net": {
     "Greece": 1770,
     "Europe & UK": 2716,
-    "North America": 8828,
-    "Worldwide": 5545
+    "North America": 8873,
+    "Worldwide": 5838
   },
   "top_greek_companies": [
     {
@@ -54,64 +54,64 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 102,
-        "percentage": 36.6,
+        "count": 100,
+        "percentage": 36.4,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 63,
-        "percentage": 22.6,
+        "count": 61,
+        "percentage": 22.2,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 49,
-        "percentage": 17.6,
+        "count": 53,
+        "percentage": 19.3,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 38,
-        "percentage": 13.6,
+        "count": 37,
+        "percentage": 13.5,
         "trend": 0
       },
       {
         "skill": "C++",
         "count": 34,
-        "percentage": 12.2,
+        "percentage": 12.4,
         "trend": 0
       },
       {
         "skill": "Java",
         "count": 24,
-        "percentage": 8.6,
+        "percentage": 8.7,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 149,
-        "percentage": 53.4,
+        "count": 147,
+        "percentage": 53.5,
         "trend": 0
       },
       {
         "skill": "LLM",
         "count": 48,
-        "percentage": 17.2,
+        "percentage": 17.5,
         "trend": 0
       },
       {
         "skill": "PyTorch",
         "count": 12,
-        "percentage": 4.3,
+        "percentage": 4.4,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 12,
-        "percentage": 4.3,
+        "count": 11,
+        "percentage": 4.0,
         "trend": 0
       },
       {
@@ -122,8 +122,8 @@
       },
       {
         "skill": "Scikit-Learn",
-        "count": 6,
-        "percentage": 2.2,
+        "count": 5,
+        "percentage": 1.8,
         "trend": 0
       },
       {
@@ -134,8 +134,8 @@
       },
       {
         "skill": "Pandas",
-        "count": 2,
-        "percentage": 0.7,
+        "count": 3,
+        "percentage": 1.1,
         "trend": 0
       },
       {
@@ -148,68 +148,68 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 116,
-        "percentage": 41.6,
+        "count": 110,
+        "percentage": 40.0,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 79,
-        "percentage": 28.3,
+        "count": 74,
+        "percentage": 26.9,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 49,
-        "percentage": 17.6,
+        "count": 51,
+        "percentage": 18.5,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 37,
-        "percentage": 13.3,
+        "count": 34,
+        "percentage": 12.4,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 26,
-        "percentage": 9.3,
+        "count": 27,
+        "percentage": 9.8,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 23,
-        "percentage": 8.2,
+        "count": 25,
+        "percentage": 9.1,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 22,
-        "percentage": 7.9,
+        "count": 21,
+        "percentage": 7.6,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 21,
-        "percentage": 7.5,
+        "percentage": 7.6,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 11,
-        "percentage": 3.9,
+        "count": 10,
+        "percentage": 3.6,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 11,
-        "percentage": 3.9,
+        "count": 10,
+        "percentage": 3.6,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 11,
-        "percentage": 3.9,
+        "count": 10,
+        "percentage": 3.6,
         "trend": 0
       }
     ]
@@ -267,7 +267,7 @@
       "company": "Blueground",
       "url": "https://apply.workable.com/blueground/j/B02DA69C8F/",
       "region": "Greece",
-      "location_raw": "Athens, Greece",
+      "location_raw": "Barcelona, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
