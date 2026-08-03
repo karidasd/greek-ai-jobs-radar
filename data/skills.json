@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-02 06:36",
-  "total_jobs_analyzed": 269,
+  "last_updated": "2026-08-03 07:31",
+  "total_jobs_analyzed": 266,
   "avg_salaries_eur": {
     "Greece": 28050,
     "Europe & UK": 112778,
@@ -55,31 +55,31 @@
       {
         "skill": "Python",
         "count": 74,
-        "percentage": 27.5,
+        "percentage": 27.8,
         "trend": 0
       },
       {
         "skill": "SQL",
         "count": 60,
-        "percentage": 22.3,
+        "percentage": 22.6,
         "trend": 0
       },
       {
         "skill": "Go",
         "count": 41,
-        "percentage": 15.2,
+        "percentage": 15.4,
         "trend": 0
       },
       {
         "skill": "JavaScript",
         "count": 38,
-        "percentage": 14.1,
+        "percentage": 14.3,
         "trend": 0
       },
       {
         "skill": "Java",
         "count": 20,
-        "percentage": 7.4,
+        "percentage": 7.5,
         "trend": 0
       },
       {
@@ -92,26 +92,26 @@
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 148,
-        "percentage": 55.0,
+        "count": 147,
+        "percentage": 55.3,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 42,
-        "percentage": 15.6,
+        "count": 41,
+        "percentage": 15.4,
         "trend": 0
       },
       {
         "skill": "PyTorch",
         "count": 13,
-        "percentage": 4.8,
+        "percentage": 4.9,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
         "count": 10,
-        "percentage": 3.7,
+        "percentage": 3.8,
         "trend": 0
       },
       {
@@ -135,7 +135,7 @@
       {
         "skill": "NumPy",
         "count": 2,
-        "percentage": 0.7,
+        "percentage": 0.8,
         "trend": 0
       },
       {
@@ -149,31 +149,31 @@
       {
         "skill": "Git",
         "count": 106,
-        "percentage": 39.4,
+        "percentage": 39.8,
         "trend": 0
       },
       {
         "skill": "AWS",
         "count": 71,
-        "percentage": 26.4,
+        "percentage": 26.7,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
         "count": 28,
-        "percentage": 10.4,
+        "percentage": 10.5,
         "trend": 0
       },
       {
         "skill": "GCP",
         "count": 21,
-        "percentage": 7.8,
+        "percentage": 7.9,
         "trend": 0
       },
       {
         "skill": "Azure",
         "count": 21,
-        "percentage": 7.8,
+        "percentage": 7.9,
         "trend": 0
       },
       {
@@ -203,7 +203,7 @@
       {
         "skill": "Tableau",
         "count": 10,
-        "percentage": 3.7,
+        "percentage": 3.8,
         "trend": 0
       },
       {
