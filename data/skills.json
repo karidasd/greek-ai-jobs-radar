@@ -1,24 +1,19 @@
 {
-  "last_updated": "2026-08-06 06:34",
-  "total_jobs_analyzed": 269,
+  "last_updated": "2026-08-07 05:42",
+  "total_jobs_analyzed": 272,
   "avg_salaries_eur": {
-    "Greece": 25100,
+    "Greece": 35066,
     "Europe & UK": 116406,
-    "North America": 151416,
-    "Worldwide": 126646
+    "North America": 147861,
+    "Worldwide": 127106
   },
   "avg_salaries_net": {
-    "Greece": 1255,
+    "Greece": 1753,
     "Europe & UK": 5820,
-    "North America": 8832,
-    "Worldwide": 7387
+    "North America": 8625,
+    "Worldwide": 7414
   },
   "top_greek_companies": [
-    {
-      "name": "Orfium",
-      "count": 4,
-      "url": "https://apply.workable.com/orfium/"
-    },
     {
       "name": "Blueground",
       "count": 3,
@@ -26,8 +21,13 @@
     },
     {
       "name": "Novibet",
-      "count": 2,
+      "count": 3,
       "url": "https://apply.workable.com/novibet/"
+    },
+    {
+      "name": "Orfium",
+      "count": 3,
+      "url": "https://apply.workable.com/orfium/"
     },
     {
       "name": "Ανώνυμη Ελληνική Εταιρεία",
@@ -54,58 +54,58 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 82,
-        "percentage": 30.5,
+        "count": 78,
+        "percentage": 28.7,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 67,
-        "percentage": 24.9,
+        "count": 65,
+        "percentage": 23.9,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 44,
-        "percentage": 16.4,
+        "count": 45,
+        "percentage": 16.5,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 32,
-        "percentage": 11.9,
+        "count": 31,
+        "percentage": 11.4,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 19,
-        "percentage": 7.1,
+        "count": 17,
+        "percentage": 6.2,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 10,
-        "percentage": 3.7,
+        "count": 9,
+        "percentage": 3.3,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 147,
-        "percentage": 54.6,
+        "count": 149,
+        "percentage": 54.8,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 40,
-        "percentage": 14.9,
+        "count": 38,
+        "percentage": 14.0,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 14,
-        "percentage": 5.2,
+        "count": 13,
+        "percentage": 4.8,
         "trend": 0
       },
       {
@@ -148,68 +148,68 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 102,
-        "percentage": 37.9,
+        "count": 100,
+        "percentage": 36.8,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 69,
-        "percentage": 25.7,
+        "count": 66,
+        "percentage": 24.3,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 39,
-        "percentage": 14.5,
+        "count": 38,
+        "percentage": 14.0,
         "trend": 0
       },
       {
         "skill": "Azure",
         "count": 30,
-        "percentage": 11.2,
+        "percentage": 11.0,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 29,
-        "percentage": 10.8,
+        "count": 28,
+        "percentage": 10.3,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 22,
-        "percentage": 8.2,
+        "count": 21,
+        "percentage": 7.7,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 18,
-        "percentage": 6.7,
+        "count": 19,
+        "percentage": 7.0,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 18,
-        "percentage": 6.7,
+        "count": 17,
+        "percentage": 6.2,
         "trend": 0
       },
       {
-        "skill": "Snowflake",
+        "skill": "Power BI",
         "count": 13,
         "percentage": 4.8,
         "trend": 0
       },
       {
-        "skill": "Power BI",
+        "skill": "Snowflake",
         "count": 12,
-        "percentage": 4.5,
+        "percentage": 4.4,
         "trend": 0
       },
       {
         "skill": "Tableau",
         "count": 11,
-        "percentage": 4.1,
+        "percentage": 4.0,
         "trend": 0
       }
     ]
@@ -267,7 +267,7 @@
       "company": "Blueground",
       "url": "https://apply.workable.com/blueground/j/B02DA69C8F/",
       "region": "Greece",
-      "location_raw": "Barcelona, Greece",
+      "location_raw": "Athens, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
@@ -310,6 +310,20 @@
       "url": "https://apply.workable.com/epignosis/j/4A80E913C8/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Fraud Prevention Analyst (Mexico)",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/3295206931/",
+      "region": "Greece",
+      "location_raw": "Mexico City, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
@@ -378,20 +392,6 @@
       "title": "Data processing & Analyzing Associate - Cue sheet processing",
       "company": "Orfium",
       "url": "https://apply.workable.com/orfium/j/583E94B6F7/",
-      "region": "Greece",
-      "location_raw": "Colombo, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Data processing Associate - Audio Recognition Services (Entry Level)",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/8F103E18F3/",
       "region": "Greece",
       "location_raw": "Colombo, Greece",
       "salary_raw": null,
