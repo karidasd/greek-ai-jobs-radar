@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-08-07 05:42",
-  "total_jobs_analyzed": 272,
+  "last_updated": "2026-08-08 05:00",
+  "total_jobs_analyzed": 266,
   "avg_salaries_eur": {
     "Greece": 35066,
-    "Europe & UK": 116406,
-    "North America": 147861,
+    "Europe & UK": 112778,
+    "North America": 148624,
     "Worldwide": 127106
   },
   "avg_salaries_net": {
     "Greece": 1753,
-    "Europe & UK": 5820,
-    "North America": 8625,
+    "Europe & UK": 5638,
+    "North America": 8669,
     "Worldwide": 7414
   },
   "top_greek_companies": [
     {
+      "name": "Novibet",
+      "count": 4,
+      "url": "https://apply.workable.com/novibet/"
+    },
+    {
       "name": "Blueground",
       "count": 3,
       "url": "https://apply.workable.com/blueground/"
-    },
-    {
-      "name": "Novibet",
-      "count": 3,
-      "url": "https://apply.workable.com/novibet/"
     },
     {
       "name": "Orfium",
@@ -54,70 +54,70 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 78,
-        "percentage": 28.7,
+        "count": 75,
+        "percentage": 28.2,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 65,
-        "percentage": 23.9,
+        "count": 64,
+        "percentage": 24.1,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 45,
+        "count": 44,
         "percentage": 16.5,
         "trend": 0
       },
       {
         "skill": "JavaScript",
         "count": 31,
-        "percentage": 11.4,
+        "percentage": 11.7,
         "trend": 0
       },
       {
         "skill": "Java",
         "count": 17,
-        "percentage": 6.2,
+        "percentage": 6.4,
         "trend": 0
       },
       {
         "skill": "C++",
         "count": 9,
-        "percentage": 3.3,
+        "percentage": 3.4,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 149,
-        "percentage": 54.8,
+        "count": 145,
+        "percentage": 54.5,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 38,
-        "percentage": 14.0,
+        "count": 35,
+        "percentage": 13.2,
         "trend": 0
       },
       {
         "skill": "PyTorch",
         "count": 13,
-        "percentage": 4.8,
+        "percentage": 4.9,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 9,
-        "percentage": 3.3,
+        "count": 8,
+        "percentage": 3.0,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
-        "count": 6,
-        "percentage": 2.2,
+        "count": 5,
+        "percentage": 1.9,
         "trend": 0
       },
       {
@@ -135,7 +135,7 @@
       {
         "skill": "LangChain",
         "count": 2,
-        "percentage": 0.7,
+        "percentage": 0.8,
         "trend": 0
       },
       {
@@ -148,68 +148,68 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 100,
+        "count": 98,
         "percentage": 36.8,
         "trend": 0
       },
       {
         "skill": "AWS",
         "count": 66,
-        "percentage": 24.3,
+        "percentage": 24.8,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 38,
-        "percentage": 14.0,
+        "count": 39,
+        "percentage": 14.7,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 30,
-        "percentage": 11.0,
+        "count": 29,
+        "percentage": 10.9,
         "trend": 0
       },
       {
         "skill": "GCP",
         "count": 28,
-        "percentage": 10.3,
+        "percentage": 10.5,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 21,
-        "percentage": 7.7,
+        "count": 20,
+        "percentage": 7.5,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 19,
-        "percentage": 7.0,
+        "percentage": 7.1,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 17,
-        "percentage": 6.2,
+        "count": 15,
+        "percentage": 5.6,
         "trend": 0
       },
       {
         "skill": "Power BI",
         "count": 13,
-        "percentage": 4.8,
+        "percentage": 4.9,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 12,
-        "percentage": 4.4,
+        "count": 11,
+        "percentage": 4.1,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 11,
-        "percentage": 4.0,
+        "count": 10,
+        "percentage": 3.8,
         "trend": 0
       }
     ]
@@ -308,6 +308,20 @@
       "title": "Senior Product Manager",
       "company": "Epignosis",
       "url": "https://apply.workable.com/epignosis/j/4A80E913C8/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior Controlling Analyst",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/9745FA18CD/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
