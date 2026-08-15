@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-08-14 05:40",
-  "total_jobs_analyzed": 263,
+  "last_updated": "2026-08-15 04:34",
+  "total_jobs_analyzed": 268,
   "avg_salaries_eur": {
     "Greece": 35700,
     "Europe & UK": 70425,
-    "North America": 159335,
-    "Worldwide": 213230
+    "North America": 157160,
+    "Worldwide": 203671
   },
   "avg_salaries_net": {
     "Greece": 1785,
     "Europe & UK": 3521,
-    "North America": 9294,
-    "Worldwide": 12438
+    "North America": 9167,
+    "Worldwide": 11880
   },
   "top_greek_companies": [
     {
       "name": "Blueground",
-      "count": 3,
+      "count": 4,
       "url": "https://apply.workable.com/blueground/"
     },
     {
@@ -30,6 +30,11 @@
       "url": "https://apply.workable.com/orfium/"
     },
     {
+      "name": "Skroutz",
+      "count": 2,
+      "url": "https://apply.workable.com/skroutz/"
+    },
+    {
       "name": "Ανώνυμη Ελληνική Εταιρεία",
       "count": 1,
       "url": "https://www.google.com/search?q=%CE%91%CE%BD%CF%8E%CE%BD%CF%85%CE%BC%CE%B7%20%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE%20%CE%95%CF%84%CE%B1%CE%B9%CF%81%CE%B5%CE%AF%CE%B1%20careers%20greece"
@@ -38,11 +43,6 @@
       "name": "Athens Tech Startup",
       "count": 1,
       "url": "https://www.google.com/search?q=Athens%20Tech%20Startup%20careers%20greece"
-    },
-    {
-      "name": "Skroutz",
-      "count": 1,
-      "url": "https://apply.workable.com/skroutz/"
     },
     {
       "name": "Epignosis",
@@ -60,69 +60,63 @@
       {
         "skill": "Python",
         "count": 85,
-        "percentage": 32.3,
+        "percentage": 31.7,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 63,
-        "percentage": 24.0,
+        "count": 64,
+        "percentage": 23.9,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 46,
-        "percentage": 17.5,
+        "count": 42,
+        "percentage": 15.7,
         "trend": 0
       },
       {
         "skill": "JavaScript",
         "count": 20,
-        "percentage": 7.6,
+        "percentage": 7.5,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 19,
-        "percentage": 7.2,
+        "count": 18,
+        "percentage": 6.7,
         "trend": 0
       },
       {
         "skill": "C++",
         "count": 14,
-        "percentage": 5.3,
+        "percentage": 5.2,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 136,
-        "percentage": 51.7,
+        "count": 140,
+        "percentage": 52.2,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 46,
-        "percentage": 17.5,
+        "count": 49,
+        "percentage": 18.3,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 12,
-        "percentage": 4.6,
+        "count": 11,
+        "percentage": 4.1,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 9,
-        "percentage": 3.4,
-        "trend": 0
-      },
-      {
-        "skill": "Scikit-Learn",
-        "count": 5,
-        "percentage": 1.9,
+        "count": 8,
+        "percentage": 3.0,
         "trend": 0
       },
       {
@@ -138,83 +132,89 @@
         "trend": 0
       },
       {
-        "skill": "Pandas",
+        "skill": "Scikit-Learn",
         "count": 3,
         "percentage": 1.1,
         "trend": 0
       },
       {
-        "skill": "NumPy",
+        "skill": "Pandas",
         "count": 2,
-        "percentage": 0.8,
+        "percentage": 0.7,
+        "trend": 0
+      },
+      {
+        "skill": "NumPy",
+        "count": 1,
+        "percentage": 0.4,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 92,
-        "percentage": 35.0,
+        "count": 93,
+        "percentage": 34.7,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 56,
-        "percentage": 21.3,
+        "count": 61,
+        "percentage": 22.8,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 39,
-        "percentage": 14.8,
+        "count": 36,
+        "percentage": 13.4,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 35,
-        "percentage": 13.3,
+        "count": 34,
+        "percentage": 12.7,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 30,
-        "percentage": 11.4,
+        "count": 29,
+        "percentage": 10.8,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 18,
-        "percentage": 6.8,
+        "count": 17,
+        "percentage": 6.3,
         "trend": 0
       },
       {
         "skill": "Power BI",
         "count": 14,
-        "percentage": 5.3,
+        "percentage": 5.2,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 13,
-        "percentage": 4.9,
-        "trend": 0
-      },
-      {
-        "skill": "Snowflake",
         "count": 12,
-        "percentage": 4.6,
-        "trend": 0
-      },
-      {
-        "skill": "Tableau",
-        "count": 10,
-        "percentage": 3.8,
+        "percentage": 4.5,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 9,
-        "percentage": 3.4,
+        "count": 11,
+        "percentage": 4.1,
+        "trend": 0
+      },
+      {
+        "skill": "Snowflake",
+        "count": 11,
+        "percentage": 4.1,
+        "trend": 0
+      },
+      {
+        "skill": "Tableau",
+        "count": 11,
+        "percentage": 4.1,
         "trend": 0
       }
     ]
@@ -252,6 +252,20 @@
         "AWS"
       ],
       "_score": 8
+    },
+    {
+      "title": "Bi Engineer-Skroutz Last Mile (BE0826)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/CFF550F9FE/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
     },
     {
       "title": "Automation Senior Manager, Skroutz Warehouse (ASMSK 0626)",
@@ -299,6 +313,20 @@
       "title": "Full-Stack Software Engineer",
       "company": "Blueground",
       "url": "https://apply.workable.com/blueground/j/3C3D8183F6/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Software Engineer - Client-facing Apps",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/956628D318/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
