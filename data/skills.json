@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-19 04:40",
-  "total_jobs_analyzed": 279,
+  "last_updated": "2026-08-20 04:40",
+  "total_jobs_analyzed": 276,
   "avg_salaries_eur": {
     "Greece": 25100,
     "Europe & UK": 76162,
-    "North America": 143383,
-    "Worldwide": 116444
+    "North America": 150023,
+    "Worldwide": 111231
   },
   "avg_salaries_net": {
     "Greece": 1255,
     "Europe & UK": 3808,
-    "North America": 8364,
-    "Worldwide": 6792
+    "North America": 8751,
+    "Worldwide": 6488
   },
   "top_greek_companies": [
     {
@@ -20,14 +20,14 @@
       "url": "https://apply.workable.com/novibet/"
     },
     {
+      "name": "Orfium",
+      "count": 4,
+      "url": "https://apply.workable.com/orfium/"
+    },
+    {
       "name": "Blueground",
       "count": 3,
       "url": "https://apply.workable.com/blueground/"
-    },
-    {
-      "name": "Orfium",
-      "count": 3,
-      "url": "https://apply.workable.com/orfium/"
     },
     {
       "name": "Skroutz",
@@ -59,76 +59,76 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 81,
-        "percentage": 29.0,
+        "count": 74,
+        "percentage": 26.8,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 64,
-        "percentage": 22.9,
-        "trend": 0
-      },
-      {
-        "skill": "Go",
-        "count": 41,
-        "percentage": 14.7,
+        "count": 62,
+        "percentage": 22.5,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 30,
-        "percentage": 10.8,
+        "count": 37,
+        "percentage": 13.4,
+        "trend": 0
+      },
+      {
+        "skill": "Go",
+        "count": 37,
+        "percentage": 13.4,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 16,
-        "percentage": 5.7,
+        "count": 15,
+        "percentage": 5.4,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 13,
-        "percentage": 4.7,
+        "count": 11,
+        "percentage": 4.0,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 153,
-        "percentage": 54.8,
+        "count": 157,
+        "percentage": 56.9,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 49,
-        "percentage": 17.6,
+        "count": 46,
+        "percentage": 16.7,
         "trend": 0
       },
       {
         "skill": "PyTorch",
         "count": 11,
-        "percentage": 3.9,
+        "percentage": 4.0,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 9,
-        "percentage": 3.2,
+        "count": 8,
+        "percentage": 2.9,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 7,
-        "percentage": 2.5,
+        "count": 8,
+        "percentage": 2.9,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
-        "count": 6,
-        "percentage": 2.2,
+        "count": 5,
+        "percentage": 1.8,
         "trend": 0
       },
       {
@@ -138,65 +138,65 @@
         "trend": 0
       },
       {
-        "skill": "Pandas",
+        "skill": "NumPy",
         "count": 3,
         "percentage": 1.1,
         "trend": 0
       },
       {
-        "skill": "NumPy",
-        "count": 3,
-        "percentage": 1.1,
+        "skill": "Pandas",
+        "count": 2,
+        "percentage": 0.7,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 99,
-        "percentage": 35.5,
+        "count": 100,
+        "percentage": 36.2,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 74,
-        "percentage": 26.5,
-        "trend": 0
-      },
-      {
-        "skill": "Azure",
-        "count": 35,
-        "percentage": 12.5,
+        "count": 78,
+        "percentage": 28.3,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 34,
-        "percentage": 12.2,
+        "count": 32,
+        "percentage": 11.6,
+        "trend": 0
+      },
+      {
+        "skill": "Azure",
+        "count": 32,
+        "percentage": 11.6,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 26,
-        "percentage": 9.3,
+        "count": 23,
+        "percentage": 8.3,
         "trend": 0
       },
       {
-        "skill": "Docker",
+        "skill": "Snowflake",
         "count": 17,
-        "percentage": 6.1,
+        "percentage": 6.2,
         "trend": 0
       },
       {
         "skill": "Spark",
         "count": 16,
-        "percentage": 5.7,
+        "percentage": 5.8,
         "trend": 0
       },
       {
-        "skill": "Snowflake",
-        "count": 16,
-        "percentage": 5.7,
+        "skill": "Docker",
+        "count": 15,
+        "percentage": 5.4,
         "trend": 0
       },
       {
@@ -207,14 +207,14 @@
       },
       {
         "skill": "Airflow",
-        "count": 10,
-        "percentage": 3.6,
+        "count": 11,
+        "percentage": 4.0,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 10,
-        "percentage": 3.6,
+        "count": 9,
+        "percentage": 3.3,
         "trend": 0
       }
     ]
@@ -394,20 +394,6 @@
       "_score": 1
     },
     {
-      "title": "Data processing Associate - Cue sheet processing ( Entry Level )",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/4E590D9E69/",
-      "region": "Greece",
-      "location_raw": "Colombo, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
       "title": "Backend Software Engineer",
       "company": "Orfium",
       "url": "https://apply.workable.com/orfium/j/FA4E930843/",
@@ -425,6 +411,34 @@
       "title": "Data processing & Analyzing Associate - Cue sheet processing",
       "company": "Orfium",
       "url": "https://apply.workable.com/orfium/j/583E94B6F7/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Data processing Associate - Cue sheet processing",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/162EC6A886/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Support Analyst",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/B31270CF59/",
       "region": "Greece",
       "location_raw": "Colombo, Greece",
       "salary_raw": null,
