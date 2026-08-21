@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-08-20 04:40",
-  "total_jobs_analyzed": 276,
+  "last_updated": "2026-08-21 04:41",
+  "total_jobs_analyzed": 273,
   "avg_salaries_eur": {
     "Greece": 25100,
     "Europe & UK": 76162,
-    "North America": 150023,
+    "North America": 149565,
     "Worldwide": 111231
   },
   "avg_salaries_net": {
     "Greece": 1255,
     "Europe & UK": 3808,
-    "North America": 8751,
+    "North America": 8724,
     "Worldwide": 6488
   },
   "top_greek_companies": [
@@ -59,38 +59,38 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 74,
-        "percentage": 26.8,
+        "count": 70,
+        "percentage": 25.6,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 62,
-        "percentage": 22.5,
+        "count": 63,
+        "percentage": 23.1,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 37,
-        "percentage": 13.4,
+        "count": 41,
+        "percentage": 15.0,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 37,
-        "percentage": 13.4,
+        "count": 40,
+        "percentage": 14.7,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 15,
-        "percentage": 5.4,
+        "count": 12,
+        "percentage": 4.4,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 11,
-        "percentage": 4.0,
+        "count": 12,
+        "percentage": 4.4,
         "trend": 0
       }
     ],
@@ -98,49 +98,49 @@
       {
         "skill": "RAG",
         "count": 157,
-        "percentage": 56.9,
+        "percentage": 57.5,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 46,
-        "percentage": 16.7,
+        "count": 50,
+        "percentage": 18.3,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 11,
-        "percentage": 4.0,
-        "trend": 0
-      },
-      {
-        "skill": "TensorFlow",
-        "count": 8,
-        "percentage": 2.9,
+        "count": 10,
+        "percentage": 3.7,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 8,
-        "percentage": 2.9,
+        "count": 9,
+        "percentage": 3.3,
+        "trend": 0
+      },
+      {
+        "skill": "TensorFlow",
+        "count": 7,
+        "percentage": 2.6,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
-        "count": 5,
-        "percentage": 1.8,
-        "trend": 0
-      },
-      {
-        "skill": "Hugging Face",
-        "count": 3,
-        "percentage": 1.1,
+        "count": 4,
+        "percentage": 1.5,
         "trend": 0
       },
       {
         "skill": "NumPy",
         "count": 3,
         "percentage": 1.1,
+        "trend": 0
+      },
+      {
+        "skill": "Hugging Face",
+        "count": 2,
+        "percentage": 0.7,
         "trend": 0
       },
       {
@@ -153,62 +153,62 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 100,
-        "percentage": 36.2,
+        "count": 91,
+        "percentage": 33.3,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 78,
-        "percentage": 28.3,
-        "trend": 0
-      },
-      {
-        "skill": "GCP",
-        "count": 32,
-        "percentage": 11.6,
+        "count": 77,
+        "percentage": 28.2,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 32,
-        "percentage": 11.6,
+        "count": 30,
+        "percentage": 11.0,
+        "trend": 0
+      },
+      {
+        "skill": "GCP",
+        "count": 29,
+        "percentage": 10.6,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
         "count": 23,
-        "percentage": 8.3,
+        "percentage": 8.4,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 17,
-        "percentage": 6.2,
-        "trend": 0
-      },
-      {
-        "skill": "Spark",
-        "count": 16,
-        "percentage": 5.8,
-        "trend": 0
-      },
-      {
-        "skill": "Docker",
-        "count": 15,
-        "percentage": 5.4,
-        "trend": 0
-      },
-      {
-        "skill": "Power BI",
-        "count": 12,
-        "percentage": 4.3,
+        "count": 18,
+        "percentage": 6.6,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 11,
-        "percentage": 4.0,
+        "count": 14,
+        "percentage": 5.1,
+        "trend": 0
+      },
+      {
+        "skill": "Spark",
+        "count": 14,
+        "percentage": 5.1,
+        "trend": 0
+      },
+      {
+        "skill": "Docker",
+        "count": 12,
+        "percentage": 4.4,
+        "trend": 0
+      },
+      {
+        "skill": "Power BI",
+        "count": 10,
+        "percentage": 3.7,
         "trend": 0
       },
       {
@@ -254,7 +254,7 @@
       "_score": 8
     },
     {
-      "title": "Bi Engineer-Skroutz Last Mile (BE0826)",
+      "title": "BI Engineer-Skroutz Last Mile (BE0826)",
       "company": "Skroutz",
       "url": "https://apply.workable.com/skroutz/j/CFF550F9FE/",
       "region": "Greece",
