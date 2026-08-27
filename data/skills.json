@@ -1,38 +1,38 @@
 {
-  "last_updated": "2026-08-26 04:42",
-  "total_jobs_analyzed": 272,
+  "last_updated": "2026-08-27 15:03",
+  "total_jobs_analyzed": 443,
   "avg_salaries_eur": {
     "Greece": 25100,
-    "Europe & UK": 110575,
-    "North America": 153325,
-    "Worldwide": 187072
+    "Europe & UK": 91850,
+    "North America": 160340,
+    "Worldwide": 134048
   },
   "avg_salaries_net": {
     "Greece": 1255,
-    "Europe & UK": 5528,
-    "North America": 8943,
-    "Worldwide": 10912
+    "Europe & UK": 4592,
+    "North America": 9353,
+    "Worldwide": 7819
   },
   "top_greek_companies": [
+    {
+      "name": "Blueground",
+      "count": 4,
+      "url": "https://apply.workable.com/blueground/"
+    },
     {
       "name": "Novibet",
       "count": 4,
       "url": "https://apply.workable.com/novibet/"
     },
     {
-      "name": "Orfium",
-      "count": 4,
-      "url": "https://apply.workable.com/orfium/"
-    },
-    {
-      "name": "Blueground",
-      "count": 3,
-      "url": "https://apply.workable.com/blueground/"
-    },
-    {
       "name": "Skroutz",
       "count": 2,
       "url": "https://apply.workable.com/skroutz/"
+    },
+    {
+      "name": "Orfium",
+      "count": 2,
+      "url": "https://apply.workable.com/orfium/"
     },
     {
       "name": "Ανώνυμη Ελληνική Εταιρεία",
@@ -59,162 +59,162 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 120,
-        "percentage": 44.1,
+        "count": 151,
+        "percentage": 34.1,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 71,
-        "percentage": 26.1,
-        "trend": 0
-      },
-      {
-        "skill": "Go",
-        "count": 51,
-        "percentage": 18.8,
+        "count": 105,
+        "percentage": 23.7,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 38,
-        "percentage": 14.0,
+        "count": 83,
+        "percentage": 18.7,
+        "trend": 0
+      },
+      {
+        "skill": "Go",
+        "count": 81,
+        "percentage": 18.3,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 31,
-        "percentage": 11.4,
+        "count": 37,
+        "percentage": 8.4,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 21,
-        "percentage": 7.7,
+        "count": 30,
+        "percentage": 6.8,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 147,
-        "percentage": 54.0,
+        "count": 258,
+        "percentage": 58.2,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 52,
-        "percentage": 19.1,
+        "count": 76,
+        "percentage": 17.2,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 9,
-        "percentage": 3.3,
-        "trend": 0
-      },
-      {
-        "skill": "TensorFlow",
-        "count": 9,
-        "percentage": 3.3,
+        "count": 12,
+        "percentage": 2.7,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 5,
-        "percentage": 1.8,
+        "count": 12,
+        "percentage": 2.7,
+        "trend": 0
+      },
+      {
+        "skill": "TensorFlow",
+        "count": 10,
+        "percentage": 2.3,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
-        "count": 4,
-        "percentage": 1.5,
+        "count": 5,
+        "percentage": 1.1,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
         "count": 3,
-        "percentage": 1.1,
-        "trend": 0
-      },
-      {
-        "skill": "Pandas",
-        "count": 2,
         "percentage": 0.7,
         "trend": 0
       },
       {
         "skill": "NumPy",
         "count": 2,
-        "percentage": 0.7,
+        "percentage": 0.5,
+        "trend": 0
+      },
+      {
+        "skill": "Pandas",
+        "count": 1,
+        "percentage": 0.2,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 95,
-        "percentage": 34.9,
+        "count": 145,
+        "percentage": 32.7,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 77,
-        "percentage": 28.3,
+        "count": 139,
+        "percentage": 31.4,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 48,
-        "percentage": 17.6,
+        "count": 70,
+        "percentage": 15.8,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 27,
-        "percentage": 9.9,
-        "trend": 0
-      },
-      {
-        "skill": "Docker",
-        "count": 24,
-        "percentage": 8.8,
+        "count": 49,
+        "percentage": 11.1,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 23,
-        "percentage": 8.5,
+        "count": 47,
+        "percentage": 10.6,
+        "trend": 0
+      },
+      {
+        "skill": "Docker",
+        "count": 32,
+        "percentage": 7.2,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 22,
-        "percentage": 8.1,
+        "count": 27,
+        "percentage": 6.1,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 16,
-        "percentage": 5.9,
+        "count": 22,
+        "percentage": 5.0,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 15,
-        "percentage": 5.5,
-        "trend": 0
-      },
-      {
-        "skill": "Power BI",
-        "count": 15,
-        "percentage": 5.5,
+        "count": 21,
+        "percentage": 4.7,
         "trend": 0
       },
       {
         "skill": "Tableau",
         "count": 14,
-        "percentage": 5.1,
+        "percentage": 3.2,
+        "trend": 0
+      },
+      {
+        "skill": "Power BI",
+        "count": 14,
+        "percentage": 3.2,
         "trend": 0
       }
     ]
@@ -324,6 +324,20 @@
       "_score": 1
     },
     {
+      "title": "Software Engineer - Client-facing Apps",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/956628D318/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
       "title": "Senior Product Manager",
       "company": "Epignosis",
       "url": "https://apply.workable.com/epignosis/j/4A80E913C8/",
@@ -399,34 +413,6 @@
       "url": "https://apply.workable.com/orfium/j/FA4E930843/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Data processing & Analyzing Associate - Cue sheet processing",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/583E94B6F7/",
-      "region": "Greece",
-      "location_raw": "Colombo, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Data processing Associate - Cue sheet processing",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/162EC6A886/",
-      "region": "Greece",
-      "location_raw": "Colombo, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
