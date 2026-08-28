@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-27 15:03",
-  "total_jobs_analyzed": 443,
+  "last_updated": "2026-08-28 16:26",
+  "total_jobs_analyzed": 448,
   "avg_salaries_eur": {
     "Greece": 25100,
-    "Europe & UK": 91850,
-    "North America": 160340,
-    "Worldwide": 134048
+    "Europe & UK": 85800,
+    "North America": 161242,
+    "Worldwide": 186020
   },
   "avg_salaries_net": {
     "Greece": 1255,
-    "Europe & UK": 4592,
-    "North America": 9353,
-    "Worldwide": 7819
+    "Europe & UK": 4290,
+    "North America": 9405,
+    "Worldwide": 10851
   },
   "top_greek_companies": [
     {
@@ -23,6 +23,11 @@
       "name": "Novibet",
       "count": 4,
       "url": "https://apply.workable.com/novibet/"
+    },
+    {
+      "name": "Epignosis",
+      "count": 3,
+      "url": "https://apply.workable.com/epignosis/"
     },
     {
       "name": "Skroutz",
@@ -45,11 +50,6 @@
       "url": "https://www.google.com/search?q=Athens%20Tech%20Startup%20careers%20greece"
     },
     {
-      "name": "Epignosis",
-      "count": 1,
-      "url": "https://apply.workable.com/epignosis/"
-    },
-    {
       "name": "Spotawheel",
       "count": 1,
       "url": "https://apply.workable.com/spotawheel/"
@@ -59,148 +59,148 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 151,
-        "percentage": 34.1,
+        "count": 147,
+        "percentage": 32.8,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 105,
-        "percentage": 23.7,
+        "count": 109,
+        "percentage": 24.3,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 83,
-        "percentage": 18.7,
+        "count": 85,
+        "percentage": 19.0,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 81,
-        "percentage": 18.3,
+        "count": 79,
+        "percentage": 17.6,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 37,
-        "percentage": 8.4,
+        "count": 38,
+        "percentage": 8.5,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 30,
-        "percentage": 6.8,
+        "count": 32,
+        "percentage": 7.1,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 258,
-        "percentage": 58.2,
+        "count": 260,
+        "percentage": 58.0,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 76,
+        "count": 77,
         "percentage": 17.2,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 12,
-        "percentage": 2.7,
-        "trend": 0
-      },
-      {
-        "skill": "LangChain",
-        "count": 12,
-        "percentage": 2.7,
+        "count": 13,
+        "percentage": 2.9,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
         "count": 10,
-        "percentage": 2.3,
+        "percentage": 2.2,
+        "trend": 0
+      },
+      {
+        "skill": "LangChain",
+        "count": 10,
+        "percentage": 2.2,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
-        "count": 5,
-        "percentage": 1.1,
+        "count": 6,
+        "percentage": 1.3,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
-        "count": 3,
-        "percentage": 0.7,
+        "count": 4,
+        "percentage": 0.9,
+        "trend": 0
+      },
+      {
+        "skill": "Pandas",
+        "count": 2,
+        "percentage": 0.4,
         "trend": 0
       },
       {
         "skill": "NumPy",
         "count": 2,
-        "percentage": 0.5,
-        "trend": 0
-      },
-      {
-        "skill": "Pandas",
-        "count": 1,
-        "percentage": 0.2,
+        "percentage": 0.4,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
-        "skill": "Git",
-        "count": 145,
-        "percentage": 32.7,
+        "skill": "AWS",
+        "count": 142,
+        "percentage": 31.7,
         "trend": 0
       },
       {
-        "skill": "AWS",
-        "count": 139,
-        "percentage": 31.4,
+        "skill": "Git",
+        "count": 142,
+        "percentage": 31.7,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 70,
+        "count": 71,
         "percentage": 15.8,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 49,
-        "percentage": 11.1,
+        "count": 48,
+        "percentage": 10.7,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 47,
-        "percentage": 10.6,
+        "count": 46,
+        "percentage": 10.3,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 32,
-        "percentage": 7.2,
+        "count": 33,
+        "percentage": 7.4,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 27,
-        "percentage": 6.1,
-        "trend": 0
-      },
-      {
-        "skill": "Airflow",
-        "count": 22,
-        "percentage": 5.0,
+        "count": 30,
+        "percentage": 6.7,
         "trend": 0
       },
       {
         "skill": "Spark",
+        "count": 22,
+        "percentage": 4.9,
+        "trend": 0
+      },
+      {
+        "skill": "Airflow",
         "count": 21,
         "percentage": 4.7,
         "trend": 0
@@ -208,13 +208,13 @@
       {
         "skill": "Tableau",
         "count": 14,
-        "percentage": 3.2,
+        "percentage": 3.1,
         "trend": 0
       },
       {
         "skill": "Power BI",
         "count": 14,
-        "percentage": 3.2,
+        "percentage": 3.1,
         "trend": 0
       }
     ]
@@ -327,6 +327,34 @@
       "title": "Software Engineer - Client-facing Apps",
       "company": "Blueground",
       "url": "https://apply.workable.com/blueground/j/956628D318/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Security Engineer",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/8EF70F7087/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior QA Automation Engineer",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/76991535C6/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
