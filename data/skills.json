@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-01 09:16",
-  "total_jobs_analyzed": 453,
+  "last_updated": "2026-09-02 08:35",
+  "total_jobs_analyzed": 465,
   "avg_salaries_eur": {
     "Greece": 34283,
     "Europe & UK": 114118,
-    "North America": 154531,
-    "Worldwide": 163170
+    "North America": 151451,
+    "Worldwide": 169181
   },
   "avg_salaries_net": {
     "Greece": 1714,
     "Europe & UK": 5705,
-    "North America": 9014,
-    "Worldwide": 9518
+    "North America": 8834,
+    "Worldwide": 9868
   },
   "top_greek_companies": [
     {
@@ -30,11 +30,6 @@
       "url": "https://apply.workable.com/epignosis/"
     },
     {
-      "name": "Orfium",
-      "count": 2,
-      "url": "https://apply.workable.com/orfium/"
-    },
-    {
       "name": "Ανώνυμη Ελληνική Εταιρεία",
       "count": 1,
       "url": "https://www.google.com/search?q=%CE%91%CE%BD%CF%8E%CE%BD%CF%85%CE%BC%CE%B7%20%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE%20%CE%95%CF%84%CE%B1%CE%B9%CF%81%CE%B5%CE%AF%CE%B1%20careers%20greece"
@@ -50,6 +45,11 @@
       "url": "https://apply.workable.com/blueground/"
     },
     {
+      "name": "Orfium",
+      "count": 1,
+      "url": "https://apply.workable.com/orfium/"
+    },
+    {
       "name": "Spotawheel",
       "count": 1,
       "url": "https://apply.workable.com/spotawheel/"
@@ -59,76 +59,76 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 157,
-        "percentage": 34.7,
+        "count": 153,
+        "percentage": 32.9,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 120,
-        "percentage": 26.5,
+        "count": 132,
+        "percentage": 28.4,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 78,
-        "percentage": 17.2,
+        "count": 77,
+        "percentage": 16.6,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 76,
-        "percentage": 16.8,
-        "trend": 0
-      },
-      {
-        "skill": "C++",
-        "count": 42,
-        "percentage": 9.3,
+        "count": 74,
+        "percentage": 15.9,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 32,
-        "percentage": 7.1,
+        "count": 31,
+        "percentage": 6.7,
+        "trend": 0
+      },
+      {
+        "skill": "C++",
+        "count": 25,
+        "percentage": 5.4,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 271,
-        "percentage": 59.8,
+        "count": 287,
+        "percentage": 61.7,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 82,
-        "percentage": 18.1,
+        "count": 85,
+        "percentage": 18.3,
         "trend": 0
       },
       {
         "skill": "PyTorch",
         "count": 15,
-        "percentage": 3.3,
+        "percentage": 3.2,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 13,
-        "percentage": 2.9,
+        "count": 12,
+        "percentage": 2.6,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 9,
-        "percentage": 2.0,
+        "count": 10,
+        "percentage": 2.2,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
         "count": 9,
-        "percentage": 2.0,
+        "percentage": 1.9,
         "trend": 0
       },
       {
@@ -140,7 +140,7 @@
       {
         "skill": "Pandas",
         "count": 3,
-        "percentage": 0.7,
+        "percentage": 0.6,
         "trend": 0
       },
       {
@@ -154,67 +154,67 @@
       {
         "skill": "Git",
         "count": 159,
-        "percentage": 35.1,
+        "percentage": 34.2,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 140,
-        "percentage": 30.9,
+        "count": 136,
+        "percentage": 29.2,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 75,
-        "percentage": 16.6,
+        "count": 64,
+        "percentage": 13.8,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 49,
-        "percentage": 10.8,
-        "trend": 0
-      },
-      {
-        "skill": "GCP",
-        "count": 46,
-        "percentage": 10.2,
-        "trend": 0
-      },
-      {
-        "skill": "Docker",
-        "count": 40,
+        "count": 41,
         "percentage": 8.8,
         "trend": 0
       },
       {
-        "skill": "Snowflake",
-        "count": 34,
-        "percentage": 7.5,
+        "skill": "GCP",
+        "count": 40,
+        "percentage": 8.6,
         "trend": 0
       },
       {
-        "skill": "Spark",
-        "count": 25,
-        "percentage": 5.5,
+        "skill": "Snowflake",
+        "count": 37,
+        "percentage": 8.0,
+        "trend": 0
+      },
+      {
+        "skill": "Docker",
+        "count": 35,
+        "percentage": 7.5,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 23,
-        "percentage": 5.1,
+        "percentage": 4.9,
+        "trend": 0
+      },
+      {
+        "skill": "Spark",
+        "count": 23,
+        "percentage": 4.9,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 14,
-        "percentage": 3.1,
+        "count": 18,
+        "percentage": 3.9,
         "trend": 0
       },
       {
         "skill": "Power BI",
         "count": 14,
-        "percentage": 3.1,
+        "percentage": 3.0,
         "trend": 0
       }
     ]
@@ -352,6 +352,20 @@
       "_score": 1
     },
     {
+      "title": "Machine Learning Engineer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/9B9E06734A/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
       "title": "Senior Controlling Analyst",
       "company": "Novibet",
       "url": "https://apply.workable.com/novibet/j/9745FA18CD/",
@@ -394,39 +408,11 @@
       "_score": 1
     },
     {
-      "title": "Frontend Developer",
-      "company": "Novibet",
-      "url": "https://apply.workable.com/novibet/j/A942E2BD06/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
       "title": "Backend Software Engineer",
       "company": "Orfium",
       "url": "https://apply.workable.com/orfium/j/FA4E930843/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Support Analyst",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/B31270CF59/",
-      "region": "Greece",
-      "location_raw": "Colombo, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
