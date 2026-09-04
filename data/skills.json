@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-09-03 08:44",
-  "total_jobs_analyzed": 461,
+  "last_updated": "2026-09-04 08:39",
+  "total_jobs_analyzed": 455,
   "avg_salaries_eur": {
     "Greece": 34283,
-    "Europe & UK": 114118,
-    "North America": 155591,
+    "Europe & UK": 111673,
+    "North America": 148253,
     "Worldwide": 169181
   },
   "avg_salaries_net": {
     "Greece": 1714,
-    "Europe & UK": 5705,
-    "North America": 9076,
+    "Europe & UK": 5583,
+    "North America": 8648,
     "Worldwide": 9868
   },
   "top_greek_companies": [
     {
       "name": "Novibet",
-      "count": 4,
+      "count": 5,
       "url": "https://apply.workable.com/novibet/"
     },
     {
@@ -59,52 +59,52 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 148,
-        "percentage": 32.1,
+        "count": 137,
+        "percentage": 30.1,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 127,
-        "percentage": 27.5,
+        "count": 129,
+        "percentage": 28.4,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 78,
+        "count": 77,
         "percentage": 16.9,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 72,
-        "percentage": 15.6,
+        "count": 76,
+        "percentage": 16.7,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 32,
-        "percentage": 6.9,
+        "count": 33,
+        "percentage": 7.3,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 27,
-        "percentage": 5.9,
+        "count": 23,
+        "percentage": 5.1,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 284,
-        "percentage": 61.6,
+        "count": 286,
+        "percentage": 62.9,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 83,
-        "percentage": 18.0,
+        "count": 80,
+        "percentage": 17.6,
         "trend": 0
       },
       {
@@ -115,106 +115,106 @@
       },
       {
         "skill": "TensorFlow",
-        "count": 12,
-        "percentage": 2.6,
+        "count": 11,
+        "percentage": 2.4,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 9,
-        "percentage": 2.0,
+        "count": 10,
+        "percentage": 2.2,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
-        "count": 9,
-        "percentage": 2.0,
+        "count": 8,
+        "percentage": 1.8,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
-        "count": 5,
-        "percentage": 1.1,
+        "count": 6,
+        "percentage": 1.3,
         "trend": 0
       },
       {
         "skill": "Pandas",
-        "count": 3,
-        "percentage": 0.7,
+        "count": 4,
+        "percentage": 0.9,
         "trend": 0
       },
       {
         "skill": "NumPy",
-        "count": 2,
-        "percentage": 0.4,
+        "count": 3,
+        "percentage": 0.7,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 158,
-        "percentage": 34.3,
+        "count": 150,
+        "percentage": 33.0,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 131,
-        "percentage": 28.4,
+        "count": 127,
+        "percentage": 27.9,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 65,
-        "percentage": 14.1,
+        "count": 61,
+        "percentage": 13.4,
+        "trend": 0
+      },
+      {
+        "skill": "GCP",
+        "count": 43,
+        "percentage": 9.5,
         "trend": 0
       },
       {
         "skill": "Azure",
         "count": 42,
-        "percentage": 9.1,
-        "trend": 0
-      },
-      {
-        "skill": "GCP",
-        "count": 41,
-        "percentage": 8.9,
+        "percentage": 9.2,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 38,
-        "percentage": 8.2,
+        "count": 39,
+        "percentage": 8.6,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 34,
-        "percentage": 7.4,
+        "count": 36,
+        "percentage": 7.9,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 24,
-        "percentage": 5.2,
+        "percentage": 5.3,
         "trend": 0
       },
       {
         "skill": "Spark",
         "count": 23,
-        "percentage": 5.0,
+        "percentage": 5.1,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 18,
-        "percentage": 3.9,
+        "count": 19,
+        "percentage": 4.2,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 14,
-        "percentage": 3.0,
+        "count": 15,
+        "percentage": 3.3,
         "trend": 0
       }
     ]
@@ -397,6 +397,20 @@
       "title": "Cloud Security Specialist",
       "company": "Novibet",
       "url": "https://apply.workable.com/novibet/j/B9D3D920E3/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/A942E2BD06/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
