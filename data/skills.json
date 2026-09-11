@@ -1,32 +1,32 @@
 {
-  "last_updated": "2026-09-10 08:48",
-  "total_jobs_analyzed": 466,
+  "last_updated": "2026-09-11 08:45",
+  "total_jobs_analyzed": 468,
   "avg_salaries_eur": {
     "Greece": 39462,
     "Europe & UK": 119377,
-    "North America": 143853,
-    "Worldwide": 183680
+    "North America": 142866,
+    "Worldwide": 188330
   },
   "avg_salaries_net": {
     "Greece": 1973,
     "Europe & UK": 5968,
-    "North America": 8391,
-    "Worldwide": 10714
+    "North America": 8333,
+    "Worldwide": 10985
   },
   "top_greek_companies": [
     {
       "name": "Novibet",
-      "count": 4,
+      "count": 5,
       "url": "https://apply.workable.com/novibet/"
     },
     {
       "name": "Skroutz",
-      "count": 2,
+      "count": 3,
       "url": "https://apply.workable.com/skroutz/"
     },
     {
       "name": "Epignosis",
-      "count": 2,
+      "count": 3,
       "url": "https://apply.workable.com/epignosis/"
     },
     {
@@ -59,64 +59,64 @@
     "Programming Languages": [
       {
         "skill": "SQL",
-        "count": 158,
-        "percentage": 33.9,
+        "count": 157,
+        "percentage": 33.5,
         "trend": 0
       },
       {
         "skill": "Python",
-        "count": 157,
-        "percentage": 33.7,
-        "trend": 0
-      },
-      {
-        "skill": "JavaScript",
-        "count": 76,
-        "percentage": 16.3,
+        "count": 156,
+        "percentage": 33.3,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 76,
-        "percentage": 16.3,
+        "count": 78,
+        "percentage": 16.7,
+        "trend": 0
+      },
+      {
+        "skill": "JavaScript",
+        "count": 75,
+        "percentage": 16.0,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 37,
-        "percentage": 7.9,
+        "count": 39,
+        "percentage": 8.3,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 26,
-        "percentage": 5.6,
+        "count": 24,
+        "percentage": 5.1,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 283,
-        "percentage": 60.7,
+        "count": 279,
+        "percentage": 59.6,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 93,
-        "percentage": 20.0,
+        "count": 90,
+        "percentage": 19.2,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 19,
-        "percentage": 4.1,
+        "count": 18,
+        "percentage": 3.8,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 13,
-        "percentage": 2.8,
+        "count": 12,
+        "percentage": 2.6,
         "trend": 0
       },
       {
@@ -127,8 +127,8 @@
       },
       {
         "skill": "LangChain",
-        "count": 8,
-        "percentage": 1.7,
+        "count": 7,
+        "percentage": 1.5,
         "trend": 0
       },
       {
@@ -153,62 +153,62 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 154,
-        "percentage": 33.0,
+        "count": 153,
+        "percentage": 32.7,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 140,
-        "percentage": 30.0,
+        "count": 139,
+        "percentage": 29.7,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 76,
-        "percentage": 16.3,
+        "count": 73,
+        "percentage": 15.6,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 50,
-        "percentage": 10.7,
+        "count": 49,
+        "percentage": 10.5,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 48,
-        "percentage": 10.3,
+        "count": 47,
+        "percentage": 10.0,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 44,
-        "percentage": 9.4,
+        "count": 42,
+        "percentage": 9.0,
         "trend": 0
       },
       {
         "skill": "Snowflake",
         "count": 38,
-        "percentage": 8.2,
+        "percentage": 8.1,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 33,
-        "percentage": 7.1,
+        "count": 32,
+        "percentage": 6.8,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 26,
-        "percentage": 5.6,
+        "count": 25,
+        "percentage": 5.3,
         "trend": 0
       },
       {
         "skill": "Tableau",
         "count": 24,
-        "percentage": 5.2,
+        "percentage": 5.1,
         "trend": 0
       },
       {
@@ -254,6 +254,20 @@
       "_score": 8
     },
     {
+      "title": "Senior CRM & Automation Specialist (SCAS 0926)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/8640DC52CA/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
       "title": "Business Analyst-Skroutz Last Mile(BA0926)",
       "company": "Skroutz",
       "url": "https://apply.workable.com/skroutz/j/DB1A13AC0A/",
@@ -285,6 +299,20 @@
       "title": "Senior Software Engineer, iOS",
       "company": "Blueground",
       "url": "https://apply.workable.com/blueground/j/B02DA69C8F/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior Cloud Engineer",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/9ED99A8425/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
@@ -371,6 +399,20 @@
       "url": "https://apply.workable.com/novibet/j/B9D3D920E3/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Junior DevOps Engineer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/14B7A4B32A/",
+      "region": "Greece",
+      "location_raw": "Naxxar, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
