@@ -1,19 +1,39 @@
 {
-  "last_updated": "2026-09-14 09:41",
-  "total_jobs_analyzed": 466,
+  "last_updated": "2026-09-15 09:17",
+  "total_jobs_analyzed": 481,
   "avg_salaries_eur": {
-    "Greece": 35066,
-    "Europe & UK": 136615,
-    "North America": 145698,
-    "Worldwide": 138483
+    "Greece": 25100,
+    "Europe & UK": 132413,
+    "North America": 146998,
+    "Worldwide": 127592
   },
   "avg_salaries_net": {
-    "Greece": 1753,
-    "Europe & UK": 6830,
-    "North America": 8499,
-    "Worldwide": 8078
+    "Greece": 1255,
+    "Europe & UK": 6620,
+    "North America": 8574,
+    "Worldwide": 7442
   },
   "top_greek_companies": [
+    {
+      "name": "Novibet",
+      "count": 4,
+      "url": "https://apply.workable.com/novibet/"
+    },
+    {
+      "name": "Skroutz",
+      "count": 3,
+      "url": "https://apply.workable.com/skroutz/"
+    },
+    {
+      "name": "Epignosis",
+      "count": 3,
+      "url": "https://apply.workable.com/epignosis/"
+    },
+    {
+      "name": "Orfium",
+      "count": 2,
+      "url": "https://apply.workable.com/orfium/"
+    },
     {
       "name": "Ανώνυμη Ελληνική Εταιρεία",
       "count": 1,
@@ -25,6 +45,11 @@
       "url": "https://www.google.com/search?q=Athens%20Tech%20Startup%20careers%20greece"
     },
     {
+      "name": "Blueground",
+      "count": 1,
+      "url": "https://apply.workable.com/blueground/"
+    },
+    {
       "name": "Spotawheel",
       "count": 1,
       "url": "https://apply.workable.com/spotawheel/"
@@ -34,162 +59,162 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 174,
-        "percentage": 37.3,
+        "count": 179,
+        "percentage": 37.2,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 169,
-        "percentage": 36.3,
+        "count": 168,
+        "percentage": 34.9,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 81,
-        "percentage": 17.4,
+        "count": 82,
+        "percentage": 17.0,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 76,
-        "percentage": 16.3,
+        "count": 75,
+        "percentage": 15.6,
         "trend": 0
       },
       {
         "skill": "Java",
         "count": 42,
-        "percentage": 9.0,
+        "percentage": 8.7,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 26,
-        "percentage": 5.6,
+        "count": 25,
+        "percentage": 5.2,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 288,
-        "percentage": 61.8,
+        "count": 289,
+        "percentage": 60.1,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 107,
-        "percentage": 23.0,
+        "count": 110,
+        "percentage": 22.9,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 19,
-        "percentage": 4.1,
-        "trend": 0
-      },
-      {
-        "skill": "TensorFlow",
-        "count": 12,
-        "percentage": 2.6,
+        "count": 20,
+        "percentage": 4.2,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
+        "count": 12,
+        "percentage": 2.5,
+        "trend": 0
+      },
+      {
+        "skill": "TensorFlow",
         "count": 11,
-        "percentage": 2.4,
+        "percentage": 2.3,
         "trend": 0
       },
       {
         "skill": "LangChain",
+        "count": 11,
+        "percentage": 2.3,
+        "trend": 0
+      },
+      {
+        "skill": "Hugging Face",
         "count": 10,
         "percentage": 2.1,
         "trend": 0
       },
       {
-        "skill": "Hugging Face",
-        "count": 8,
-        "percentage": 1.7,
-        "trend": 0
-      },
-      {
         "skill": "Pandas",
-        "count": 5,
-        "percentage": 1.1,
+        "count": 6,
+        "percentage": 1.2,
         "trend": 0
       },
       {
         "skill": "NumPy",
-        "count": 3,
-        "percentage": 0.6,
+        "count": 4,
+        "percentage": 0.8,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 162,
-        "percentage": 34.8,
+        "count": 164,
+        "percentage": 34.1,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 154,
-        "percentage": 33.0,
+        "count": 153,
+        "percentage": 31.8,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 84,
-        "percentage": 18.0,
+        "count": 82,
+        "percentage": 17.0,
         "trend": 0
       },
       {
         "skill": "GCP",
         "count": 61,
-        "percentage": 13.1,
+        "percentage": 12.7,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 58,
-        "percentage": 12.4,
+        "count": 60,
+        "percentage": 12.5,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 51,
-        "percentage": 10.9,
+        "count": 48,
+        "percentage": 10.0,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 39,
-        "percentage": 8.4,
+        "count": 37,
+        "percentage": 7.7,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 32,
+        "count": 33,
         "percentage": 6.9,
-        "trend": 0
-      },
-      {
-        "skill": "Tableau",
-        "count": 27,
-        "percentage": 5.8,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 26,
-        "percentage": 5.6,
+        "percentage": 5.4,
+        "trend": 0
+      },
+      {
+        "skill": "Tableau",
+        "count": 25,
+        "percentage": 5.2,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 18,
-        "percentage": 3.9,
+        "count": 15,
+        "percentage": 3.1,
         "trend": 0
       }
     ]
@@ -229,11 +254,207 @@
       "_score": 8
     },
     {
+      "title": "Senior CRM & Automation Specialist (SCAS 0926)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/8640DC52CA/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Business Analyst-Skroutz Last Mile(BA0926)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/DB1A13AC0A/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Business Intelligence Engineer -Skroutz Last Mile (BIE0826)",
+      "company": "Skroutz",
+      "url": "https://apply.workable.com/skroutz/j/CFF550F9FE/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior Software Engineer, iOS",
+      "company": "Blueground",
+      "url": "https://apply.workable.com/blueground/j/B02DA69C8F/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior Cloud Engineer",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/9ED99A8425/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior QA Automation Engineer",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/76991535C6/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Data Engineer",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/E38DB16625/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/9B9E06734A/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior Controlling Analyst",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/9745FA18CD/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Cloud Security Specialist",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/B9D3D920E3/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Senior DevOps Engineer (Naxxar, Malta)",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/1A2FE4F020/",
+      "region": "Greece",
+      "location_raw": "Naxxar, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "IT Support Engineer",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/E2BC549623/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Backend Software Engineer",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/FA4E930843/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
       "title": "FP&A Senior Analyst",
       "company": "Spotawheel",
       "url": "https://apply.workable.com/spotawheel/j/45DEC51471/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Service Delivery Engineer/ Front-End Developer",
+      "company": "Persado",
+      "url": "https://apply.workable.com/persado/j/63732377BF/",
+      "region": "Greece",
+      "location_raw": "New York, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
