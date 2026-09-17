@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-09-16 09:10",
-  "total_jobs_analyzed": 481,
+  "last_updated": "2026-09-17 09:18",
+  "total_jobs_analyzed": 488,
   "avg_salaries_eur": {
     "Greece": 25100,
     "Europe & UK": 129747,
-    "North America": 146510,
-    "Worldwide": 129898
+    "North America": 149948,
+    "Worldwide": 128242
   },
   "avg_salaries_net": {
     "Greece": 1255,
     "Europe & UK": 6487,
-    "North America": 8546,
-    "Worldwide": 7577
+    "North America": 8746,
+    "Worldwide": 7480
   },
   "top_greek_companies": [
+    {
+      "name": "Novibet",
+      "count": 5,
+      "url": "https://apply.workable.com/novibet/"
+    },
     {
       "name": "Epignosis",
       "count": 4,
       "url": "https://apply.workable.com/epignosis/"
-    },
-    {
-      "name": "Novibet",
-      "count": 4,
-      "url": "https://apply.workable.com/novibet/"
     },
     {
       "name": "Skroutz",
@@ -60,87 +60,87 @@
       {
         "skill": "Python",
         "count": 176,
-        "percentage": 36.6,
+        "percentage": 36.1,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 166,
-        "percentage": 34.5,
+        "count": 171,
+        "percentage": 35.0,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 79,
-        "percentage": 16.4,
+        "count": 85,
+        "percentage": 17.4,
         "trend": 0
       },
       {
         "skill": "Go",
         "count": 73,
-        "percentage": 15.2,
+        "percentage": 15.0,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 41,
-        "percentage": 8.5,
+        "count": 44,
+        "percentage": 9.0,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 22,
-        "percentage": 4.6,
+        "count": 23,
+        "percentage": 4.7,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 286,
-        "percentage": 59.5,
+        "count": 294,
+        "percentage": 60.2,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 110,
-        "percentage": 22.9,
+        "count": 116,
+        "percentage": 23.8,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 19,
-        "percentage": 4.0,
-        "trend": 0
-      },
-      {
-        "skill": "Scikit-Learn",
-        "count": 12,
-        "percentage": 2.5,
-        "trend": 0
-      },
-      {
-        "skill": "TensorFlow",
-        "count": 10,
-        "percentage": 2.1,
+        "count": 20,
+        "percentage": 4.1,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 10,
-        "percentage": 2.1,
+        "count": 13,
+        "percentage": 2.7,
+        "trend": 0
+      },
+      {
+        "skill": "Scikit-Learn",
+        "count": 13,
+        "percentage": 2.7,
+        "trend": 0
+      },
+      {
+        "skill": "TensorFlow",
+        "count": 11,
+        "percentage": 2.3,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
         "count": 9,
-        "percentage": 1.9,
+        "percentage": 1.8,
         "trend": 0
       },
       {
         "skill": "Pandas",
-        "count": 6,
-        "percentage": 1.2,
+        "count": 7,
+        "percentage": 1.4,
         "trend": 0
       },
       {
@@ -153,62 +153,62 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 164,
-        "percentage": 34.1,
+        "count": 156,
+        "percentage": 32.0,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 149,
-        "percentage": 31.0,
+        "count": 150,
+        "percentage": 30.7,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 77,
-        "percentage": 16.0,
+        "count": 80,
+        "percentage": 16.4,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 56,
-        "percentage": 11.6,
+        "count": 53,
+        "percentage": 10.9,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 55,
-        "percentage": 11.4,
+        "count": 53,
+        "percentage": 10.9,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 46,
+        "count": 47,
         "percentage": 9.6,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 38,
-        "percentage": 7.9,
+        "count": 35,
+        "percentage": 7.2,
         "trend": 0
       },
       {
         "skill": "Spark",
         "count": 34,
-        "percentage": 7.1,
+        "percentage": 7.0,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 25,
-        "percentage": 5.2,
+        "percentage": 5.1,
         "trend": 0
       },
       {
         "skill": "Tableau",
         "count": 25,
-        "percentage": 5.2,
+        "percentage": 5.1,
         "trend": 0
       },
       {
@@ -366,6 +366,34 @@
       "_score": 1
     },
     {
+      "title": "DevOps Engineer (Naxxar, Malta)",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/CC6B532234/",
+      "region": "Greece",
+      "location_raw": "Naxxar, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Site Reliability Engineer",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/7D8ECD39C2/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
       "title": "Machine Learning Engineer",
       "company": "Novibet",
       "url": "https://apply.workable.com/novibet/j/9B9E06734A/",
@@ -397,20 +425,6 @@
       "title": "Software Development Team Leader",
       "company": "Novibet",
       "url": "https://apply.workable.com/novibet/j/88F8F56C6A/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Site Reliability Engineer",
-      "company": "Novibet",
-      "url": "https://apply.workable.com/novibet/j/7D8ECD39C2/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
