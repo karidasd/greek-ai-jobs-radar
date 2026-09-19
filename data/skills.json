@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-18 08:53",
-  "total_jobs_analyzed": 496,
+  "last_updated": "2026-09-19 08:40",
+  "total_jobs_analyzed": 505,
   "avg_salaries_eur": {
     "Greece": 25100,
     "Europe & UK": 141091,
-    "North America": 149569,
-    "Worldwide": 128792
+    "North America": 144947,
+    "Worldwide": 149492
   },
   "avg_salaries_net": {
     "Greece": 1255,
     "Europe & UK": 7054,
-    "North America": 8724,
-    "Worldwide": 7512
+    "North America": 8455,
+    "Worldwide": 8720
   },
   "top_greek_companies": [
     {
@@ -59,52 +59,52 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 175,
-        "percentage": 35.3,
+        "count": 177,
+        "percentage": 35.0,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 171,
-        "percentage": 34.5,
+        "count": 170,
+        "percentage": 33.7,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 86,
-        "percentage": 17.3,
+        "count": 85,
+        "percentage": 16.8,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 76,
-        "percentage": 15.3,
+        "count": 75,
+        "percentage": 14.9,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 46,
-        "percentage": 9.3,
+        "count": 43,
+        "percentage": 8.5,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 24,
-        "percentage": 4.8,
+        "count": 23,
+        "percentage": 4.6,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 299,
-        "percentage": 60.3,
+        "count": 295,
+        "percentage": 58.4,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 116,
-        "percentage": 23.4,
+        "count": 115,
+        "percentage": 22.8,
         "trend": 0
       },
       {
@@ -153,68 +153,68 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 157,
-        "percentage": 31.7,
+        "count": 156,
+        "percentage": 30.9,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 155,
-        "percentage": 31.2,
+        "count": 148,
+        "percentage": 29.3,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 85,
-        "percentage": 17.1,
+        "count": 81,
+        "percentage": 16.0,
         "trend": 0
       },
       {
         "skill": "Azure",
         "count": 56,
-        "percentage": 11.3,
+        "percentage": 11.1,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 54,
-        "percentage": 10.9,
+        "count": 53,
+        "percentage": 10.5,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 48,
-        "percentage": 9.7,
+        "count": 47,
+        "percentage": 9.3,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 37,
+        "count": 38,
         "percentage": 7.5,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 32,
-        "percentage": 6.5,
+        "count": 31,
+        "percentage": 6.1,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 25,
-        "percentage": 5.0,
+        "count": 28,
+        "percentage": 5.5,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 24,
-        "percentage": 4.8,
+        "count": 23,
+        "percentage": 4.6,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 14,
-        "percentage": 2.8,
+        "count": 16,
+        "percentage": 3.2,
         "trend": 0
       }
     ]
