@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-09-25 09:28",
-  "total_jobs_analyzed": 505,
+  "last_updated": "2026-09-26 09:14",
+  "total_jobs_analyzed": 502,
   "avg_salaries_eur": {
     "Greece": 25100,
     "Europe & UK": 98443,
-    "North America": 144272,
-    "Worldwide": 103620
+    "North America": 146015,
+    "Worldwide": 108978
   },
   "avg_salaries_net": {
     "Greece": 1255,
     "Europe & UK": 4922,
-    "North America": 8415,
-    "Worldwide": 6044
+    "North America": 8517,
+    "Worldwide": 6357
   },
   "top_greek_companies": [
     {
       "name": "Epignosis",
-      "count": 4,
+      "count": 5,
       "url": "https://apply.workable.com/epignosis/"
     },
     {
@@ -25,14 +25,14 @@
       "url": "https://apply.workable.com/novibet/"
     },
     {
-      "name": "Orfium",
-      "count": 3,
-      "url": "https://apply.workable.com/orfium/"
-    },
-    {
       "name": "Skroutz",
       "count": 2,
       "url": "https://apply.workable.com/skroutz/"
+    },
+    {
+      "name": "Orfium",
+      "count": 2,
+      "url": "https://apply.workable.com/orfium/"
     },
     {
       "name": "Ανώνυμη Ελληνική Εταιρεία",
@@ -59,38 +59,38 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 179,
-        "percentage": 35.4,
+        "count": 177,
+        "percentage": 35.3,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 143,
-        "percentage": 28.3,
+        "count": 141,
+        "percentage": 28.1,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 91,
-        "percentage": 18.0,
+        "count": 93,
+        "percentage": 18.5,
         "trend": 0
       },
       {
         "skill": "Go",
         "count": 79,
-        "percentage": 15.6,
+        "percentage": 15.7,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 38,
-        "percentage": 7.5,
+        "count": 37,
+        "percentage": 7.4,
         "trend": 0
       },
       {
         "skill": "Java",
         "count": 34,
-        "percentage": 6.7,
+        "percentage": 6.8,
         "trend": 0
       }
     ],
@@ -98,35 +98,35 @@
       {
         "skill": "RAG",
         "count": 286,
-        "percentage": 56.6,
+        "percentage": 57.0,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 91,
-        "percentage": 18.0,
+        "count": 89,
+        "percentage": 17.7,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 20,
-        "percentage": 4.0,
+        "count": 19,
+        "percentage": 3.8,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 14,
-        "percentage": 2.8,
-        "trend": 0
-      },
-      {
-        "skill": "Scikit-Learn",
-        "count": 11,
-        "percentage": 2.2,
+        "count": 13,
+        "percentage": 2.6,
         "trend": 0
       },
       {
         "skill": "LangChain",
+        "count": 10,
+        "percentage": 2.0,
+        "trend": 0
+      },
+      {
+        "skill": "Scikit-Learn",
         "count": 10,
         "percentage": 2.0,
         "trend": 0
@@ -153,62 +153,62 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 156,
-        "percentage": 30.9,
+        "count": 158,
+        "percentage": 31.5,
         "trend": 0
       },
       {
         "skill": "AWS",
         "count": 144,
-        "percentage": 28.5,
+        "percentage": 28.7,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 85,
-        "percentage": 16.8,
+        "count": 87,
+        "percentage": 17.3,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 52,
-        "percentage": 10.3,
+        "count": 51,
+        "percentage": 10.2,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 48,
-        "percentage": 9.5,
+        "count": 49,
+        "percentage": 9.8,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 44,
-        "percentage": 8.7,
+        "count": 43,
+        "percentage": 8.6,
         "trend": 0
       },
       {
         "skill": "Snowflake",
         "count": 38,
-        "percentage": 7.5,
+        "percentage": 7.6,
         "trend": 0
       },
       {
         "skill": "Spark",
         "count": 37,
-        "percentage": 7.3,
+        "percentage": 7.4,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 29,
-        "percentage": 5.7,
+        "count": 28,
+        "percentage": 5.6,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 26,
-        "percentage": 5.1,
+        "percentage": 5.2,
         "trend": 0
       },
       {
@@ -285,6 +285,20 @@
       "title": "Senior Software Engineer, iOS",
       "company": "Blueground",
       "url": "https://apply.workable.com/blueground/j/B02DA69C8F/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Generalist, Product-Minded Software Engineer (Junior - Mid level)",
+      "company": "Epignosis",
+      "url": "https://apply.workable.com/epignosis/j/2F9375BEB9/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
@@ -427,20 +441,6 @@
       "url": "https://apply.workable.com/orfium/j/E2BC549623/",
       "region": "Greece",
       "location_raw": "Colombo, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Backend Software Engineer",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/FA4E930843/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
