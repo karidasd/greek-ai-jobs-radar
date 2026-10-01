@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-30 10:21",
-  "total_jobs_analyzed": 502,
+  "last_updated": "2026-10-01 10:48",
+  "total_jobs_analyzed": 255,
   "avg_salaries_eur": {
-    "Greece": 38875,
-    "Europe & UK": 104602,
-    "North America": 136815,
-    "Worldwide": 133784
+    "Greece": 34283,
+    "Europe & UK": 101965,
+    "North America": 131560,
+    "Worldwide": 156264
   },
   "avg_salaries_net": {
-    "Greece": 1943,
-    "Europe & UK": 5230,
-    "North America": 7980,
-    "Worldwide": 7804
+    "Greece": 1714,
+    "Europe & UK": 5098,
+    "North America": 7674,
+    "Worldwide": 9115
   },
   "top_greek_companies": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "Novibet",
-      "count": 3,
+      "count": 4,
       "url": "https://apply.workable.com/novibet/"
     },
     {
@@ -59,162 +59,162 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 181,
-        "percentage": 36.1,
+        "count": 70,
+        "percentage": 27.5,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 142,
-        "percentage": 28.3,
+        "count": 68,
+        "percentage": 26.7,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 102,
-        "percentage": 20.3,
+        "count": 65,
+        "percentage": 25.5,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 87,
-        "percentage": 17.3,
-        "trend": 0
-      },
-      {
-        "skill": "C++",
-        "count": 36,
-        "percentage": 7.2,
+        "count": 40,
+        "percentage": 15.7,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 28,
-        "percentage": 5.6,
+        "count": 16,
+        "percentage": 6.3,
+        "trend": 0
+      },
+      {
+        "skill": "C++",
+        "count": 15,
+        "percentage": 5.9,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 305,
-        "percentage": 60.8,
+        "count": 176,
+        "percentage": 69.0,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 84,
-        "percentage": 16.7,
+        "count": 49,
+        "percentage": 19.2,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 19,
-        "percentage": 3.8,
+        "count": 7,
+        "percentage": 2.7,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 12,
-        "percentage": 2.4,
+        "count": 7,
+        "percentage": 2.7,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 9,
-        "percentage": 1.8,
-        "trend": 0
-      },
-      {
-        "skill": "Scikit-Learn",
-        "count": 9,
-        "percentage": 1.8,
+        "count": 5,
+        "percentage": 2.0,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
-        "count": 6,
-        "percentage": 1.2,
+        "count": 2,
+        "percentage": 0.8,
+        "trend": 0
+      },
+      {
+        "skill": "Scikit-Learn",
+        "count": 2,
+        "percentage": 0.8,
         "trend": 0
       },
       {
         "skill": "Pandas",
-        "count": 5,
-        "percentage": 1.0,
+        "count": 0,
+        "percentage": 0.0,
         "trend": 0
       },
       {
         "skill": "NumPy",
-        "count": 3,
-        "percentage": 0.6,
+        "count": 0,
+        "percentage": 0.0,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
-        "skill": "Git",
-        "count": 161,
-        "percentage": 32.1,
+        "skill": "AWS",
+        "count": 70,
+        "percentage": 27.5,
         "trend": 0
       },
       {
-        "skill": "AWS",
-        "count": 150,
-        "percentage": 29.9,
+        "skill": "Git",
+        "count": 70,
+        "percentage": 27.5,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 96,
-        "percentage": 19.1,
-        "trend": 0
-      },
-      {
-        "skill": "GCP",
-        "count": 47,
-        "percentage": 9.4,
-        "trend": 0
-      },
-      {
-        "skill": "Azure",
-        "count": 46,
-        "percentage": 9.2,
+        "count": 39,
+        "percentage": 15.3,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 44,
-        "percentage": 8.8,
+        "count": 18,
+        "percentage": 7.1,
+        "trend": 0
+      },
+      {
+        "skill": "GCP",
+        "count": 18,
+        "percentage": 7.1,
+        "trend": 0
+      },
+      {
+        "skill": "Azure",
+        "count": 17,
+        "percentage": 6.7,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 43,
-        "percentage": 8.6,
-        "trend": 0
-      },
-      {
-        "skill": "Spark",
-        "count": 35,
-        "percentage": 7.0,
+        "count": 17,
+        "percentage": 6.7,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 31,
-        "percentage": 6.2,
+        "count": 11,
+        "percentage": 4.3,
         "trend": 0
       },
       {
-        "skill": "Tableau",
-        "count": 26,
-        "percentage": 5.2,
+        "skill": "Spark",
+        "count": 10,
+        "percentage": 3.9,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 14,
-        "percentage": 2.8,
+        "count": 6,
+        "percentage": 2.4,
+        "trend": 0
+      },
+      {
+        "skill": "Tableau",
+        "count": 5,
+        "percentage": 2.0,
         "trend": 0
       }
     ]
@@ -397,6 +397,20 @@
       "title": "Machine Learning Engineer",
       "company": "Novibet",
       "url": "https://apply.workable.com/novibet/j/9B9E06734A/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Software Development Team Leader",
+      "company": "Novibet",
+      "url": "https://apply.workable.com/novibet/j/88F8F56C6A/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
