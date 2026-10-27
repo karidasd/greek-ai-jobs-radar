@@ -1,28 +1,23 @@
 {
-  "last_updated": "2026-10-26 09:54",
-  "total_jobs_analyzed": 431,
+  "last_updated": "2026-10-27 09:41",
+  "total_jobs_analyzed": 425,
   "avg_salaries_eur": {
     "Greece": 25100,
     "Europe & UK": 133219,
-    "North America": 153384,
-    "Worldwide": 109226
+    "North America": 155611,
+    "Worldwide": 106388
   },
   "avg_salaries_net": {
     "Greece": 1255,
     "Europe & UK": 6660,
-    "North America": 8947,
-    "Worldwide": 6371
+    "North America": 9077,
+    "Worldwide": 6205
   },
   "top_greek_companies": [
     {
       "name": "Epignosis",
-      "count": 6,
+      "count": 5,
       "url": "https://apply.workable.com/epignosis/"
-    },
-    {
-      "name": "Novibet",
-      "count": 2,
-      "url": "https://apply.workable.com/novibet/"
     },
     {
       "name": "Orfium",
@@ -53,82 +48,87 @@
       "name": "Blueground",
       "count": 1,
       "url": "https://apply.workable.com/blueground/"
+    },
+    {
+      "name": "Novibet",
+      "count": 1,
+      "url": "https://apply.workable.com/novibet/"
     }
   ],
   "categories": {
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 156,
-        "percentage": 36.2,
+        "count": 155,
+        "percentage": 36.5,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 107,
-        "percentage": 24.8,
-        "trend": 0
-      },
-      {
-        "skill": "JavaScript",
-        "count": 87,
-        "percentage": 20.2,
+        "count": 101,
+        "percentage": 23.8,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 82,
-        "percentage": 19.0,
+        "count": 89,
+        "percentage": 20.9,
+        "trend": 0
+      },
+      {
+        "skill": "JavaScript",
+        "count": 85,
+        "percentage": 20.0,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 36,
-        "percentage": 8.4,
+        "count": 34,
+        "percentage": 8.0,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 31,
-        "percentage": 7.2,
+        "count": 33,
+        "percentage": 7.8,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 271,
-        "percentage": 62.9,
+        "count": 267,
+        "percentage": 62.8,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 77,
-        "percentage": 17.9,
+        "count": 75,
+        "percentage": 17.6,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 17,
-        "percentage": 3.9,
+        "count": 15,
+        "percentage": 3.5,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 12,
-        "percentage": 2.8,
+        "count": 11,
+        "percentage": 2.6,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
-        "count": 10,
-        "percentage": 2.3,
+        "count": 9,
+        "percentage": 2.1,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 7,
-        "percentage": 1.6,
+        "count": 8,
+        "percentage": 1.9,
         "trend": 0
       },
       {
@@ -139,82 +139,82 @@
       },
       {
         "skill": "Pandas",
-        "count": 2,
-        "percentage": 0.5,
+        "count": 1,
+        "percentage": 0.2,
         "trend": 0
       },
       {
         "skill": "NumPy",
-        "count": 1,
-        "percentage": 0.2,
+        "count": 0,
+        "percentage": 0.0,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
-        "skill": "Git",
-        "count": 143,
-        "percentage": 33.2,
-        "trend": 0
-      },
-      {
         "skill": "AWS",
-        "count": 138,
+        "count": 136,
         "percentage": 32.0,
         "trend": 0
       },
       {
-        "skill": "Kubernetes",
-        "count": 96,
-        "percentage": 22.3,
+        "skill": "Git",
+        "count": 133,
+        "percentage": 31.3,
         "trend": 0
       },
       {
-        "skill": "GCP",
-        "count": 48,
-        "percentage": 11.1,
+        "skill": "Kubernetes",
+        "count": 91,
+        "percentage": 21.4,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 47,
-        "percentage": 10.9,
+        "count": 46,
+        "percentage": 10.8,
+        "trend": 0
+      },
+      {
+        "skill": "GCP",
+        "count": 44,
+        "percentage": 10.4,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 39,
-        "percentage": 9.0,
+        "count": 34,
+        "percentage": 8.0,
         "trend": 0
       },
       {
         "skill": "Spark",
         "count": 33,
-        "percentage": 7.7,
-        "trend": 0
-      },
-      {
-        "skill": "Snowflake",
-        "count": 23,
-        "percentage": 5.3,
+        "percentage": 7.8,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 20,
-        "percentage": 4.6,
+        "percentage": 4.7,
+        "trend": 0
+      },
+      {
+        "skill": "Snowflake",
+        "count": 20,
+        "percentage": 4.7,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 13,
-        "percentage": 3.0,
+        "count": 15,
+        "percentage": 3.5,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 8,
-        "percentage": 1.9,
+        "count": 9,
+        "percentage": 2.1,
         "trend": 0
       }
     ]
@@ -310,20 +310,6 @@
       "_score": 1
     },
     {
-      "title": "Senior QA Automation Engineer",
-      "company": "Epignosis",
-      "url": "https://apply.workable.com/epignosis/j/76991535C6/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
       "title": "Senior Software Engineer",
       "company": "Epignosis",
       "url": "https://apply.workable.com/epignosis/j/7D027E513D/",
@@ -371,20 +357,6 @@
       "url": "https://apply.workable.com/novibet/j/CC6B532234/",
       "region": "Greece",
       "location_raw": "Naxxar, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Site Reliability Engineer",
-      "company": "Novibet",
-      "url": "https://apply.workable.com/novibet/j/7D8ECD39C2/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
