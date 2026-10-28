@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-27 09:41",
-  "total_jobs_analyzed": 425,
+  "last_updated": "2026-10-28 10:25",
+  "total_jobs_analyzed": 413,
   "avg_salaries_eur": {
     "Greece": 25100,
-    "Europe & UK": 133219,
-    "North America": 155611,
-    "Worldwide": 106388
+    "Europe & UK": 133985,
+    "North America": 156252,
+    "Worldwide": 116988
   },
   "avg_salaries_net": {
     "Greece": 1255,
-    "Europe & UK": 6660,
-    "North America": 9077,
-    "Worldwide": 6205
+    "Europe & UK": 6699,
+    "North America": 9114,
+    "Worldwide": 6824
   },
   "top_greek_companies": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "name": "Orfium",
-      "count": 2,
+      "count": 5,
       "url": "https://apply.workable.com/orfium/"
     },
     {
@@ -59,88 +59,88 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 155,
-        "percentage": 36.5,
+        "count": 153,
+        "percentage": 37.0,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 101,
-        "percentage": 23.8,
-        "trend": 0
-      },
-      {
-        "skill": "Go",
-        "count": 89,
-        "percentage": 20.9,
+        "count": 109,
+        "percentage": 26.4,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 85,
-        "percentage": 20.0,
+        "count": 86,
+        "percentage": 20.8,
+        "trend": 0
+      },
+      {
+        "skill": "Go",
+        "count": 86,
+        "percentage": 20.8,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 34,
-        "percentage": 8.0,
+        "count": 38,
+        "percentage": 9.2,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 33,
-        "percentage": 7.8,
+        "count": 30,
+        "percentage": 7.3,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 267,
-        "percentage": 62.8,
+        "count": 252,
+        "percentage": 61.0,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 75,
-        "percentage": 17.6,
+        "count": 70,
+        "percentage": 16.9,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 15,
-        "percentage": 3.5,
+        "count": 12,
+        "percentage": 2.9,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 11,
-        "percentage": 2.6,
+        "count": 9,
+        "percentage": 2.2,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
-        "count": 9,
-        "percentage": 2.1,
-        "trend": 0
-      },
-      {
-        "skill": "LangChain",
         "count": 8,
         "percentage": 1.9,
         "trend": 0
       },
       {
-        "skill": "Scikit-Learn",
+        "skill": "LangChain",
         "count": 6,
-        "percentage": 1.4,
+        "percentage": 1.5,
+        "trend": 0
+      },
+      {
+        "skill": "Scikit-Learn",
+        "count": 3,
+        "percentage": 0.7,
         "trend": 0
       },
       {
         "skill": "Pandas",
-        "count": 1,
-        "percentage": 0.2,
+        "count": 0,
+        "percentage": 0.0,
         "trend": 0
       },
       {
@@ -152,69 +152,69 @@
     ],
     "Cloud & MLOps": [
       {
-        "skill": "AWS",
-        "count": 136,
-        "percentage": 32.0,
+        "skill": "Git",
+        "count": 127,
+        "percentage": 30.8,
         "trend": 0
       },
       {
-        "skill": "Git",
-        "count": 133,
-        "percentage": 31.3,
+        "skill": "AWS",
+        "count": 125,
+        "percentage": 30.3,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 91,
-        "percentage": 21.4,
+        "count": 88,
+        "percentage": 21.3,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 46,
-        "percentage": 10.8,
+        "count": 40,
+        "percentage": 9.7,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 44,
-        "percentage": 10.4,
+        "count": 39,
+        "percentage": 9.4,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 34,
-        "percentage": 8.0,
+        "count": 30,
+        "percentage": 7.3,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 33,
-        "percentage": 7.8,
-        "trend": 0
-      },
-      {
-        "skill": "Airflow",
-        "count": 20,
-        "percentage": 4.7,
+        "count": 25,
+        "percentage": 6.1,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 20,
-        "percentage": 4.7,
+        "count": 25,
+        "percentage": 6.1,
+        "trend": 0
+      },
+      {
+        "skill": "Airflow",
+        "count": 16,
+        "percentage": 3.9,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 15,
-        "percentage": 3.5,
+        "count": 13,
+        "percentage": 3.1,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 9,
-        "percentage": 2.1,
+        "count": 8,
+        "percentage": 1.9,
         "trend": 0
       }
     ]
@@ -357,6 +357,48 @@
       "url": "https://apply.workable.com/novibet/j/CC6B532234/",
       "region": "Greece",
       "location_raw": "Naxxar, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Backend Software Engineer",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/F7A1843DBA/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "IT Security Specialist",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/A06AC2F93D/",
+      "region": "Greece",
+      "location_raw": "Colombo, Greece",
+      "salary_raw": null,
+      "salary_eur": null,
+      "salary_net_mo": null,
+      "skills": [
+        "Tech"
+      ],
+      "_score": 1
+    },
+    {
+      "title": "Software Engineer - Data Plaform",
+      "company": "Orfium",
+      "url": "https://apply.workable.com/orfium/j/3FFA847559/",
+      "region": "Greece",
+      "location_raw": "Athens, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
