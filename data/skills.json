@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-08 11:07",
-  "total_jobs_analyzed": 302,
+  "last_updated": "2026-11-09 12:39",
+  "total_jobs_analyzed": 300,
   "avg_salaries_eur": {
     "Greece": 25100,
-    "Europe & UK": 122007,
-    "North America": 154402,
-    "Worldwide": 110706
+    "Europe & UK": 193050,
+    "North America": 164259,
+    "Worldwide": 123740
   },
   "avg_salaries_net": {
     "Greece": 1255,
-    "Europe & UK": 6100,
-    "North America": 9006,
-    "Worldwide": 6457
+    "Europe & UK": 9652,
+    "North America": 9581,
+    "Worldwide": 7218
   },
   "top_greek_companies": [
     {
@@ -45,11 +45,6 @@
       "url": "https://apply.workable.com/skroutz/"
     },
     {
-      "name": "Blueground",
-      "count": 1,
-      "url": "https://apply.workable.com/blueground/"
-    },
-    {
       "name": "Novibet",
       "count": 1,
       "url": "https://apply.workable.com/novibet/"
@@ -59,58 +54,58 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 99,
-        "percentage": 32.8,
+        "count": 85,
+        "percentage": 28.3,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 72,
-        "percentage": 23.8,
+        "count": 61,
+        "percentage": 20.3,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 43,
-        "percentage": 14.2,
+        "count": 45,
+        "percentage": 15.0,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 33,
-        "percentage": 10.9,
+        "count": 34,
+        "percentage": 11.3,
         "trend": 0
       },
       {
         "skill": "Java",
         "count": 11,
-        "percentage": 3.6,
+        "percentage": 3.7,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 10,
-        "percentage": 3.3,
+        "count": 11,
+        "percentage": 3.7,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 124,
-        "percentage": 41.1,
+        "count": 122,
+        "percentage": 40.7,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 85,
-        "percentage": 28.1,
+        "count": 96,
+        "percentage": 32.0,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 14,
-        "percentage": 4.6,
+        "count": 17,
+        "percentage": 5.7,
         "trend": 0
       },
       {
@@ -121,14 +116,14 @@
       },
       {
         "skill": "Pandas",
-        "count": 9,
-        "percentage": 3.0,
+        "count": 7,
+        "percentage": 2.3,
         "trend": 0
       },
       {
-        "skill": "NumPy",
-        "count": 5,
-        "percentage": 1.7,
+        "skill": "TensorFlow",
+        "count": 4,
+        "percentage": 1.3,
         "trend": 0
       },
       {
@@ -138,29 +133,29 @@
         "trend": 0
       },
       {
-        "skill": "TensorFlow",
-        "count": 3,
-        "percentage": 1.0,
+        "skill": "NumPy",
+        "count": 4,
+        "percentage": 1.3,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 2,
-        "percentage": 0.7,
+        "count": 1,
+        "percentage": 0.3,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 138,
-        "percentage": 45.7,
+        "count": 141,
+        "percentage": 47.0,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 72,
-        "percentage": 23.8,
+        "count": 63,
+        "percentage": 21.0,
         "trend": 0
       },
       {
@@ -171,50 +166,50 @@
       },
       {
         "skill": "Spark",
-        "count": 19,
-        "percentage": 6.3,
+        "count": 18,
+        "percentage": 6.0,
         "trend": 0
       },
       {
         "skill": "Snowflake",
         "count": 17,
-        "percentage": 5.6,
+        "percentage": 5.7,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 16,
-        "percentage": 5.3,
+        "count": 15,
+        "percentage": 5.0,
+        "trend": 0
+      },
+      {
+        "skill": "Azure",
+        "count": 15,
+        "percentage": 5.0,
         "trend": 0
       },
       {
         "skill": "Docker",
         "count": 14,
-        "percentage": 4.6,
-        "trend": 0
-      },
-      {
-        "skill": "Azure",
-        "count": 14,
-        "percentage": 4.6,
-        "trend": 0
-      },
-      {
-        "skill": "Tableau",
-        "count": 9,
-        "percentage": 3.0,
+        "percentage": 4.7,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 7,
-        "percentage": 2.3,
+        "count": 5,
+        "percentage": 1.7,
+        "trend": 0
+      },
+      {
+        "skill": "Tableau",
+        "count": 5,
+        "percentage": 1.7,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 2,
-        "percentage": 0.7,
+        "count": 4,
+        "percentage": 1.3,
         "trend": 0
       }
     ]
@@ -257,20 +252,6 @@
       "title": "Business Intelligence Engineer - Skroutz Last Mile (BIE1026)",
       "company": "Skroutz",
       "url": "https://apply.workable.com/skroutz/j/00C85BAC46/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Senior Software Engineer, iOS",
-      "company": "Blueground",
-      "url": "https://apply.workable.com/blueground/j/B02DA69C8F/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
