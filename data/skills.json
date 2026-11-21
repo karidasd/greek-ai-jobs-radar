@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-11-20 12:37",
-  "total_jobs_analyzed": 289,
+  "last_updated": "2026-11-21 12:17",
+  "total_jobs_analyzed": 191,
   "avg_salaries_eur": {
     "Greece": 25100,
-    "Europe & UK": 119653,
-    "North America": 129822,
-    "Worldwide": 115773
+    "Europe & UK": 120184,
+    "North America": 134448,
+    "Worldwide": 70000
   },
   "avg_salaries_net": {
     "Greece": 1255,
-    "Europe & UK": 5982,
-    "North America": 7572,
-    "Worldwide": 6753
+    "Europe & UK": 6009,
+    "North America": 7842,
+    "Worldwide": 4083
   },
   "top_greek_companies": [
     {
       "name": "Orfium",
-      "count": 4,
+      "count": 3,
       "url": "https://apply.workable.com/orfium/"
     },
     {
@@ -54,162 +54,162 @@
     "Programming Languages": [
       {
         "skill": "SQL",
-        "count": 98,
-        "percentage": 33.9,
+        "count": 78,
+        "percentage": 40.8,
         "trend": 0
       },
       {
         "skill": "Python",
-        "count": 96,
-        "percentage": 33.2,
-        "trend": 0
-      },
-      {
-        "skill": "Go",
-        "count": 54,
-        "percentage": 18.7,
+        "count": 77,
+        "percentage": 40.3,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 50,
-        "percentage": 17.3,
+        "count": 37,
+        "percentage": 19.4,
+        "trend": 0
+      },
+      {
+        "skill": "Go",
+        "count": 34,
+        "percentage": 17.8,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 19,
-        "percentage": 6.6,
+        "count": 14,
+        "percentage": 7.3,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 11,
-        "percentage": 3.8,
+        "count": 10,
+        "percentage": 5.2,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 171,
-        "percentage": 59.2,
+        "count": 106,
+        "percentage": 55.5,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 52,
-        "percentage": 18.0,
+        "count": 39,
+        "percentage": 20.4,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 9,
-        "percentage": 3.1,
+        "count": 10,
+        "percentage": 5.2,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 8,
-        "percentage": 2.8,
+        "count": 9,
+        "percentage": 4.7,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
         "count": 6,
-        "percentage": 2.1,
-        "trend": 0
-      },
-      {
-        "skill": "Pandas",
-        "count": 5,
-        "percentage": 1.7,
-        "trend": 0
-      },
-      {
-        "skill": "LangChain",
-        "count": 3,
-        "percentage": 1.0,
+        "percentage": 3.1,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
         "count": 3,
+        "percentage": 1.6,
+        "trend": 0
+      },
+      {
+        "skill": "LangChain",
+        "count": 2,
+        "percentage": 1.0,
+        "trend": 0
+      },
+      {
+        "skill": "Pandas",
+        "count": 2,
         "percentage": 1.0,
         "trend": 0
       },
       {
         "skill": "NumPy",
-        "count": 2,
-        "percentage": 0.7,
+        "count": 0,
+        "percentage": 0.0,
         "trend": 0
       }
     ],
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 96,
-        "percentage": 33.2,
+        "count": 64,
+        "percentage": 33.5,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 80,
+        "count": 53,
         "percentage": 27.7,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 30,
-        "percentage": 10.4,
-        "trend": 0
-      },
-      {
-        "skill": "GCP",
-        "count": 25,
-        "percentage": 8.7,
-        "trend": 0
-      },
-      {
-        "skill": "Azure",
-        "count": 24,
-        "percentage": 8.3,
+        "count": 19,
+        "percentage": 9.9,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 19,
-        "percentage": 6.6,
+        "count": 18,
+        "percentage": 9.4,
         "trend": 0
       },
       {
-        "skill": "Snowflake",
+        "skill": "Azure",
+        "count": 18,
+        "percentage": 9.4,
+        "trend": 0
+      },
+      {
+        "skill": "GCP",
         "count": 16,
-        "percentage": 5.5,
-        "trend": 0
-      },
-      {
-        "skill": "Spark",
-        "count": 13,
-        "percentage": 4.5,
+        "percentage": 8.4,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 12,
-        "percentage": 4.2,
+        "percentage": 6.3,
+        "trend": 0
+      },
+      {
+        "skill": "Spark",
+        "count": 12,
+        "percentage": 6.3,
+        "trend": 0
+      },
+      {
+        "skill": "Snowflake",
+        "count": 10,
+        "percentage": 5.2,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 6,
-        "percentage": 2.1,
+        "count": 7,
+        "percentage": 3.7,
         "trend": 0
       },
       {
         "skill": "Power BI",
         "count": 6,
-        "percentage": 2.1,
+        "percentage": 3.1,
         "trend": 0
       }
     ]
@@ -336,20 +336,6 @@
       "title": "Product Manager",
       "company": "Orfium",
       "url": "https://apply.workable.com/orfium/j/0D8455C85B/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Mid Devops Engineer",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/AEE808723D/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
