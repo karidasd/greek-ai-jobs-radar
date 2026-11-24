@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-23 14:12",
-  "total_jobs_analyzed": 197,
+  "last_updated": "2026-11-24 14:39",
+  "total_jobs_analyzed": 279,
   "avg_salaries_eur": {
-    "Greece": 25100,
-    "Europe & UK": 131917,
-    "North America": 148309,
-    "Worldwide": 138000
+    "Greece": 37712,
+    "Europe & UK": 129138,
+    "North America": 150468,
+    "Worldwide": 151226
   },
   "avg_salaries_net": {
-    "Greece": 1255,
-    "Europe & UK": 6595,
-    "North America": 8651,
-    "Worldwide": 8050
+    "Greece": 1885,
+    "Europe & UK": 6456,
+    "North America": 8777,
+    "Worldwide": 8821
   },
   "top_greek_companies": [
     {
@@ -20,14 +20,14 @@
       "url": "https://apply.workable.com/orfium/"
     },
     {
-      "name": "Welcomepickups",
-      "count": 3,
-      "url": "https://apply.workable.com/welcomepickups/"
-    },
-    {
       "name": "Epignosis",
       "count": 2,
       "url": "https://apply.workable.com/epignosis/"
+    },
+    {
+      "name": "Welcomepickups",
+      "count": 2,
+      "url": "https://apply.workable.com/welcomepickups/"
     },
     {
       "name": "Ανώνυμη Ελληνική Εταιρεία",
@@ -54,88 +54,88 @@
     "Programming Languages": [
       {
         "skill": "Python",
-        "count": 82,
-        "percentage": 41.6,
+        "count": 98,
+        "percentage": 35.1,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 76,
-        "percentage": 38.6,
+        "count": 75,
+        "percentage": 26.9,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 40,
-        "percentage": 20.3,
+        "count": 58,
+        "percentage": 20.8,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 38,
-        "percentage": 19.3,
+        "count": 42,
+        "percentage": 15.1,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 13,
-        "percentage": 6.6,
+        "count": 17,
+        "percentage": 6.1,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 9,
-        "percentage": 4.6,
+        "count": 8,
+        "percentage": 2.9,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 126,
-        "percentage": 64.0,
+        "count": 168,
+        "percentage": 60.2,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 53,
-        "percentage": 26.9,
+        "count": 59,
+        "percentage": 21.1,
         "trend": 0
       },
       {
         "skill": "PyTorch",
-        "count": 14,
-        "percentage": 7.1,
+        "count": 13,
+        "percentage": 4.7,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
         "count": 10,
-        "percentage": 5.1,
+        "percentage": 3.6,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
-        "count": 8,
-        "percentage": 4.1,
+        "count": 7,
+        "percentage": 2.5,
         "trend": 0
       },
       {
         "skill": "LangChain",
-        "count": 4,
-        "percentage": 2.0,
+        "count": 5,
+        "percentage": 1.8,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
-        "count": 3,
-        "percentage": 1.5,
+        "count": 4,
+        "percentage": 1.4,
         "trend": 0
       },
       {
         "skill": "Pandas",
-        "count": 3,
-        "percentage": 1.5,
+        "count": 1,
+        "percentage": 0.4,
         "trend": 0
       },
       {
@@ -147,69 +147,69 @@
     ],
     "Cloud & MLOps": [
       {
-        "skill": "AWS",
-        "count": 66,
-        "percentage": 33.5,
+        "skill": "Git",
+        "count": 88,
+        "percentage": 31.5,
         "trend": 0
       },
       {
-        "skill": "Git",
-        "count": 56,
-        "percentage": 28.4,
+        "skill": "AWS",
+        "count": 86,
+        "percentage": 30.8,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 26,
-        "percentage": 13.2,
+        "count": 32,
+        "percentage": 11.5,
         "trend": 0
       },
       {
-        "skill": "Docker",
-        "count": 15,
-        "percentage": 7.6,
+        "skill": "GCP",
+        "count": 25,
+        "percentage": 9.0,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 15,
-        "percentage": 7.6,
+        "count": 24,
+        "percentage": 8.6,
+        "trend": 0
+      },
+      {
+        "skill": "Docker",
+        "count": 23,
+        "percentage": 8.2,
+        "trend": 0
+      },
+      {
+        "skill": "Snowflake",
+        "count": 18,
+        "percentage": 6.5,
+        "trend": 0
+      },
+      {
+        "skill": "Spark",
+        "count": 16,
+        "percentage": 5.7,
         "trend": 0
       },
       {
         "skill": "Airflow",
         "count": 15,
-        "percentage": 7.6,
-        "trend": 0
-      },
-      {
-        "skill": "GCP",
-        "count": 14,
-        "percentage": 7.1,
-        "trend": 0
-      },
-      {
-        "skill": "Spark",
-        "count": 14,
-        "percentage": 7.1,
-        "trend": 0
-      },
-      {
-        "skill": "Snowflake",
-        "count": 14,
-        "percentage": 7.1,
+        "percentage": 5.4,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 10,
-        "percentage": 5.1,
+        "count": 12,
+        "percentage": 4.3,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 5,
-        "percentage": 2.5,
+        "count": 8,
+        "percentage": 2.9,
         "trend": 0
       }
     ]
@@ -350,20 +350,6 @@
       "title": "Senior Full-Stack Software Engineer",
       "company": "Welcomepickups",
       "url": "https://apply.workable.com/welcomepickups/j/5CCDB1D795/",
-      "region": "Greece",
-      "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Senior Product Growth Analyst",
-      "company": "Welcomepickups",
-      "url": "https://apply.workable.com/welcomepickups/j/87E3695187/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
       "salary_raw": null,
