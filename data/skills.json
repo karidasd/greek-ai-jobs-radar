@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-11-25 13:59",
-  "total_jobs_analyzed": 258,
+  "last_updated": "2026-11-26 13:39",
+  "total_jobs_analyzed": 265,
   "avg_salaries_eur": {
     "Greece": 32733,
-    "Europe & UK": 128365,
-    "North America": 144609,
-    "Worldwide": 153026
+    "Europe & UK": 129285,
+    "North America": 145513,
+    "Worldwide": 124526
   },
   "avg_salaries_net": {
     "Greece": 1636,
-    "Europe & UK": 6418,
-    "North America": 8435,
-    "Worldwide": 8926
+    "Europe & UK": 6464,
+    "North America": 8488,
+    "Worldwide": 7264
   },
   "top_greek_companies": [
-    {
-      "name": "Orfium",
-      "count": 3,
-      "url": "https://apply.workable.com/orfium/"
-    },
     {
       "name": "Epignosis",
       "count": 2,
       "url": "https://apply.workable.com/epignosis/"
+    },
+    {
+      "name": "Orfium",
+      "count": 2,
+      "url": "https://apply.workable.com/orfium/"
     },
     {
       "name": "Welcomepickups",
@@ -55,81 +55,81 @@
       {
         "skill": "Python",
         "count": 127,
-        "percentage": 49.2,
+        "percentage": 47.9,
         "trend": 0
       },
       {
         "skill": "SQL",
-        "count": 78,
-        "percentage": 30.2,
+        "count": 84,
+        "percentage": 31.7,
         "trend": 0
       },
       {
         "skill": "Go",
-        "count": 60,
-        "percentage": 23.3,
+        "count": 55,
+        "percentage": 20.8,
         "trend": 0
       },
       {
         "skill": "JavaScript",
-        "count": 33,
-        "percentage": 12.8,
+        "count": 47,
+        "percentage": 17.7,
         "trend": 0
       },
       {
         "skill": "C++",
-        "count": 25,
-        "percentage": 9.7,
+        "count": 29,
+        "percentage": 10.9,
         "trend": 0
       },
       {
         "skill": "Java",
-        "count": 19,
-        "percentage": 7.4,
+        "count": 22,
+        "percentage": 8.3,
         "trend": 0
       }
     ],
     "AI & Machine Learning": [
       {
         "skill": "RAG",
-        "count": 146,
-        "percentage": 56.6,
+        "count": 148,
+        "percentage": 55.8,
         "trend": 0
       },
       {
         "skill": "LLM",
-        "count": 39,
-        "percentage": 15.1,
+        "count": 43,
+        "percentage": 16.2,
         "trend": 0
       },
       {
         "skill": "PyTorch",
         "count": 10,
-        "percentage": 3.9,
+        "percentage": 3.8,
         "trend": 0
       },
       {
         "skill": "TensorFlow",
-        "count": 9,
-        "percentage": 3.5,
+        "count": 8,
+        "percentage": 3.0,
+        "trend": 0
+      },
+      {
+        "skill": "LangChain",
+        "count": 4,
+        "percentage": 1.5,
         "trend": 0
       },
       {
         "skill": "Scikit-Learn",
         "count": 4,
-        "percentage": 1.6,
-        "trend": 0
-      },
-      {
-        "skill": "LangChain",
-        "count": 3,
-        "percentage": 1.2,
+        "percentage": 1.5,
         "trend": 0
       },
       {
         "skill": "Hugging Face",
-        "count": 3,
-        "percentage": 1.2,
+        "count": 2,
+        "percentage": 0.8,
         "trend": 0
       },
       {
@@ -148,68 +148,68 @@
     "Cloud & MLOps": [
       {
         "skill": "Git",
-        "count": 84,
-        "percentage": 32.6,
+        "count": 100,
+        "percentage": 37.7,
         "trend": 0
       },
       {
         "skill": "AWS",
-        "count": 73,
-        "percentage": 28.3,
+        "count": 72,
+        "percentage": 27.2,
         "trend": 0
       },
       {
         "skill": "Kubernetes",
-        "count": 56,
-        "percentage": 21.7,
+        "count": 55,
+        "percentage": 20.8,
         "trend": 0
       },
       {
         "skill": "Docker",
-        "count": 31,
-        "percentage": 12.0,
+        "count": 29,
+        "percentage": 10.9,
         "trend": 0
       },
       {
         "skill": "GCP",
-        "count": 30,
-        "percentage": 11.6,
+        "count": 29,
+        "percentage": 10.9,
         "trend": 0
       },
       {
         "skill": "Azure",
-        "count": 22,
-        "percentage": 8.5,
+        "count": 26,
+        "percentage": 9.8,
         "trend": 0
       },
       {
         "skill": "Spark",
-        "count": 18,
-        "percentage": 7.0,
+        "count": 21,
+        "percentage": 7.9,
         "trend": 0
       },
       {
         "skill": "Snowflake",
-        "count": 16,
-        "percentage": 6.2,
+        "count": 21,
+        "percentage": 7.9,
         "trend": 0
       },
       {
         "skill": "Airflow",
-        "count": 15,
-        "percentage": 5.8,
+        "count": 17,
+        "percentage": 6.4,
         "trend": 0
       },
       {
         "skill": "Tableau",
-        "count": 12,
-        "percentage": 4.7,
+        "count": 16,
+        "percentage": 6.0,
         "trend": 0
       },
       {
         "skill": "Power BI",
-        "count": 6,
-        "percentage": 2.3,
+        "count": 8,
+        "percentage": 3.0,
         "trend": 0
       }
     ]
@@ -296,20 +296,6 @@
       "url": "https://apply.workable.com/novibet/j/B4034687BF/",
       "region": "Greece",
       "location_raw": "Athens, Greece",
-      "salary_raw": null,
-      "salary_eur": null,
-      "salary_net_mo": null,
-      "skills": [
-        "Tech"
-      ],
-      "_score": 1
-    },
-    {
-      "title": "Backend Software Engineer",
-      "company": "Orfium",
-      "url": "https://apply.workable.com/orfium/j/F7A1843DBA/",
-      "region": "Greece",
-      "location_raw": "Colombo, Greece",
       "salary_raw": null,
       "salary_eur": null,
       "salary_net_mo": null,
